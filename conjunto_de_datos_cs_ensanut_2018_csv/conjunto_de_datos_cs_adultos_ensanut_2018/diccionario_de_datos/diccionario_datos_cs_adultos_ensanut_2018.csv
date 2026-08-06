@@ -1,0 +1,562 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Número de Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…14
+Pregunta 1.1 ¿Alguna vez le ha dicho un médico/dietista/nutriólogo que tiene o tuvo obesidad?,1,C,p1_1,p1_1,"1,2"
+Pregunta 1.2 ¿Qué edad tenía cuando le diagnosticaron obesidad?,3,C,p1_2,,"001-093,888,999"
+Pregunta 1.3  ¿Siguió algún tratamiento para controlar su peso?,1,C,p1_3,p1_3,"1,2"
+"Pregunta 1.4 Ahora le voy a mostrar unas figuras corporales, por favor, dígame qué figura siente que más se parece a usted en este momento.",1,C,p1_4,,1...9
+Pregunta 1.5  ¿Cuál es su peso habitual sin ropa y zapatos?,3,C,p1_5,,"030-190,999"
+Pregunta 1.6 ¿Considera que su peso actual es...,1,C,p1_6,p1_6,"1-3,8, 9"
+"Pregunta 1.7 Durante los últimos 12 meses, ¿ha perdido o ganado peso?",1,C,p1_7,p1_7,"1-4,9"
+Pregunta 1.8  ¿Cuántos kilos fueron los que ganó (perdió)?,2,C,p1_8,,"01-98,99"
+Pregunta 1.9 ¿Esta pérdida de peso fue intencional?,1,C,p1_9,p1_9,"1,2"
+Pregunta 1.10.1  ¿Las acciones que tomó para perder peso fueron... disminuir el tamaño de las porciones?,1,C,p1_10_1,p1_10_1,"0,1"
+Pregunta 1.10.2  ¿Las acciones que tomó para perder peso fueron... aumentar la actividad física?,1,C,p1_10_2,p1_10_2,"0,1"
+Pregunta 1.10.3  ¿Las acciones que tomó para perder peso fueron… seguir las recomendaciones de un profesional de la salud?,1,C,p1_10_3,p1_10_3,"0,1"
+Pregunta 1.10.4  ¿Las acciones que tomó para perder peso fueron... tomar medicamentos para perder peso?,1,C,p1_10_4,p1_10_4,"0,1"
+Pregunta 1.10.5  ¿Las acciones que tomó para perder peso fueron… eliminar el consumo de refrescos?,1,C,p1_10_5,p1_10_5,"0,1"
+"Pregunta 1.10.6  ¿Las acciones que tomó para perder peso fueron… aumentar el consumo de vegetales y alimentos ricos en fibra  (por ejemplo, cereales integrales)?",1,C,p1_10_6,p1_10_6,"0,1"
+Pregunta 1.10.7  ¿Las acciones que tomó para perder peso fueron... realizar algún tipo de ejercicio?,1,C,p1_10_7,p1_10_7,"0,1"
+Pregunta 1.10.8  ¿Las acciones que tomó para perder peso fueron... tomar mucha agua?,1,C,p1_10_8,p1_10_8,"0,1"
+Pregunta 1.10.9  ¿Las acciones que tomó para perder peso fueron... Otra forma (especifica),1,C,p1_10_9,p1_10_9,"0,1"
+Pregunta 1.10.10  ¿Las acciones que tomó para perder peso fueron... No responde,1,C,p1_10_10,p1_10_10,"0,1"
+Pregunta 2.1.1 Durante la última semana… ¿sentía como si no pudiera quitarse de encima la tristeza?,1,C,p2_1_1,p2_1_1,1...4
+Pregunta 2.1.2 Durante la última semana... ¿le costaba concentrarse en lo que estaba haciendo?,1,C,p2_1_2,p2_1_2,1...4
+Pregunta 2.1.3 Durante la última semana… ¿se sintió deprimido(a)?,1,C,p2_1_3,p2_1_3,1...4
+Pregunta 2.1.4 Durante la última semana... ¿le parecía que todo lo que hacía era un esfuerzo?,1,C,p2_1_4,p2_1_4,1...4
+Pregunta 2.1.5 Durante la última semana… ¿no durmió bien?,1,C,p2_1_5,p2_1_5,1...4
+Pregunta 2.1.6 Durante la última semana... ¿disfrutó de la vida?,1,C,p2_1_6,p2_1_6,1...4
+Pregunta 2.1.7 Durante la última semana… ¿se sintió triste?,1,C,p2_1_7,p2_1_7,1...4
+Pregunta 2.2  ¿Usted no puede caminar más de seis minutos sin sentir fatiga?,1,C,p2_2,p2_2,"1,2"
+Pregunta 3.1  ¿Algún médico le ha dicho que tiene diabetes (o alta el azúcar en la sangre)?,1,C,p3_1,p3_1,1...3
+Pregunta 3.2 Qué edad tenía usted cuando el médico le dijo que tenía diabetes (o alta el azúcar en la sangre)?,2,C,p3_2,,"05-96,99"
+"Pregunta 3.3  En los últimos 12 meses, ¿cuántas veces y con qué frecuencia acudió al médico para controlar su diabetes (o azúcar alta en la sangre)?",1,C,p3_3,p3_3,1..5
+Pregunta 3.3V Veces,2,C,p3_3v,,01…24
+"Pregunta 3.4 ¿En dónde se atiende, usualmente, para controlar su diabetes (o azúcar alta en la sangre)?",2,C,p3_4,p3_4,01...14
+Pregunta 3.5D  ¿Hace cuánto tiempo fue la última ocasión en la que acudió con un profesional de la salud para tratar su diabetes? Días,2,C,p3_5d,,00-31
+Pregunta 3.5M  ¿Hace cuánto tiempo fue la última ocasión en la que acudió con un profesional de la salud para tratar su diabetes? Meses,2,C,p3_5m,,00-12
+Pregunta 3.5A  ¿Hace cuánto tiempo fue la última ocasión en la que acudió con un profesional de la salud para tratar su diabetes? Años,2,C,p3_5a,,00-68
+"Pregunta 3.6  En esa última ocasión, ¿en dónde se atendió?",2,C,p3_6,p3_6,01...14
+"Pregunta 3.7.1 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona… ¿revisó sus niveles de glucosa?",1,C,p3_7_1,p3_7_1,"1,2,9"
+"Pregunta 3.7.2  En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le tomó la tensión arterial?",1,C,p3_7_2,p3_7_2,"1,2,9"
+"Pregunta 3.7.3   En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿lo(a) pesó?",1,C,p3_7_3,p3_7_3,"1,2,9"
+"Pregunta 3.7.4 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le pidió quitarse el calzado y le revisó los pies?",1,C,p3_7_4,p3_7_4,"1,2,9"
+"Pregunta 3.7.5 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le hizo sugerencias sobre su forma de alimentarse?",1,C,p3_7_5,p3_7_5,"1,2,9"
+"Pregunta 3.7.6  En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le hizo sugerencias sobre cómo aumentar su actividad física (caminar, correr, etcétera)?",1,C,p3_7_6,p3_7_6,"1,2,9"
+"Pregunta 3.7.7 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿lo invitó a participar en algún Grupo de ayuda mutua para el control de su diabetes?",1,C,p3_7_7,p3_7_7,"1,2,9"
+"Pregunta 3.7.8  En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le solicitó que acudiera a revisión de la vista?",1,C,p3_7_8,p3_7_8,"1,2,9"
+"Pregunta 3.7.9 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le solicitó que acudiera a revisión con un dentista?",1,C,p3_7_9,p3_7_9,"1,2,9"
+"Pregunta 3.7.10  En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le solicitó exámenes de laboratorio en muestras de sangre?",1,C,p3_7_10,p3_7_10,"1,2,9"
+"Pregunta 3.7.11  En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le solicitó exámenes de laboratorio en muestras de orina?",1,C,p3_7_11,p3_7_11,"1,2,9"
+"Pregunta 3.7.12 En esa última ocasión, en el lugar en donde lo(a) atendieron, alguna persona... ¿le dio explicaciones sobre los medicamentos que le recetó?",1,C,p3_7_12,p3_7_12,"1,2,9"
+Pregunta 3.8  ¿Actualmente toma pastillas o le aplican insulina para controlar su azúcar?,1,C,p3_8,p3_8,1...4
+Pregunta 3.9M  ¿Cuánto tiempo tiene tomando pastillas para controlar su azúcar?  Meses,2,C,p3_9m,,"00-11,99"
+Pregunta 3.9A  ¿Cuánto tiempo tiene tomando pastillas para controlar su azúcar?  Años,2,C,p3_9a,,"00-80,99"
+Pregunta 3.10M  ¿Hace cuánto tiempo inició el tratamiento con insulina?  Meses,2,C,p3_10m,,"00-11,99"
+Pregunta 3.10A  ¿Hace cuánto tiempo inició el tratamiento con insulina?  Años,2,C,p3_10a,,"00-18,99"
+Pregunta 3.11 ¿Se aplica insulina todos los días?,1,C,p3_11,p3_11,"1,2"
+Pregunta 3.12 ¿Cuántas veces al día se aplica insulina?,2,C,p3_12,,01…05
+"Pregunta 3.13.1  Actualmente, ¿qué otro tratamiento lleva para controlar su azúcar?  Plan de alimentación (dieta recomendada por personal de salud)",1,C,p3_13_1,p3_13_1,"0,1"
+"Pregunta 3.13.2 Actualmente, ¿qué otro tratamiento lleva para controlar su azúcar? Plan de ejercicio físico",1,C,p3_13_2,p3_13_2,"0,1"
+"Pregunta 3.13.3 Actualmente, ¿qué otro tratamiento lleva para controlar su azúcar? Medicina alternativa",1,C,p3_13_3,p3_13_3,"0,1"
+"Pregunta 3.13.4 Actualmente, ¿qué otro tratamiento lleva para controlar su azúcar? Otros",1,C,p3_13_4,p3_13_4,"0,1"
+"Pregunta 3.13.5 Actualmente, ¿qué otro tratamiento lleva para controlar su azúcar? Ninguno",1,C,p3_13_5,p3_13_5,"0,1"
+"Pregunta 3.14.1  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Tiras reactivas en orina",1,C,p3_14_1,p3_14_1,"0,1"
+"Pregunta 3.15.1 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 1",2,C,p3_15_1,,01...12
+"Pregunta 3.14.2  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Tiras reactivas en sangre",1,C,p3_14_2,p3_14_2,"0,1"
+"Pregunta 3.15.2 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 2",2,C,p3_15_2,,01...12
+"Pregunta 3.14.3  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Examen general de orina",1,C,p3_14_3,p3_14_3,"0,1"
+"Pregunta 3.15.3 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 3",2,C,p3_15_3,,01...12
+"Pregunta 3.14.4  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Determinación de glucosa en sangre venosa",1,C,p3_14_4,p3_14_4,"0,1"
+"Pregunta 3.15.4 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 4",2,C,p3_15_4,,01...12
+"Pregunta 3.14.5  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Determinación de hemoglobina glucosilada",1,C,p3_14_5,p3_14_5,"0,1"
+"Pregunta 3.15.5 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 5",2,C,p3_15_5,,01...12
+"Pregunta 3.14.6  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Examen para medir el nivel de  proteínas en la orina (microalbuminuria)",1,C,p3_14_6,p3_14_6,"0,1"
+"Pregunta 3.15.6 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 6",2,C,p3_15_6,,01...12
+"Pregunta 3.14.7  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Medición de glucosa en sangre capilar en casa",1,C,p3_14_7,p3_14_7,"0,1"
+"Pregunta 3.15.7 Durante los últimos 12 meses, ¿Cuántas veces se realizó esta prueba? Examen 7",2,C,p3_15_7,,01...12
+"Pregunta 3.14.8  Durante los últimos 12 meses, ¿qué exámenes le hizo u ordenó su médico para vigilar su azúcar? Ninguno",1,C,p3_14_8,p3_14_8,"0,1"
+"Pregunta 3.16.1 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Revisión de la vista",2,C,p3_16_1,p3_16_1,"0,1"
+"Pregunta 3.16.2 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Toma una aspirina diario",1,C,p3_16_2,p3_16_2,"0,1"
+"Pregunta 3.16.3 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Revisión de pies",1,C,p3_16_3,p3_16_3,"0,1"
+"Pregunta 3.16.4 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Examen general de orina",1,C,p3_16_4,p3_16_4,"0,1"
+"Pregunta 3.16.5 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Microalbuminuria (con recolección  de orina de 24 horas)",1,C,p3_16_5,p3_16_5,"0,1"
+"Pregunta 3.16.6 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Medición de la presión arterial",1,C,p3_16_6,p3_16_6,"0,1"
+"Pregunta 3.16.7 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Aplicación de vacuna contra influenza",1,C,p3_16_7,p3_16_7,"0,1"
+"Pregunta 3.16.8 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Aplicación de vacuna contra neumococo",1,C,p3_16_8,p3_16_8,"0,1"
+"Pregunta 3.16.9 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Medición del colesterol y los triglicéridos",1,C,p3_16_9,p3_16_9,"0,1"
+"Pregunta 3.16.10 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Toma un medicamento para disminuir  la concentración de colesterol (pravastatina,  atovastatina, simvastatina, rosuvastatina)",1,C,p3_16_10,p3_16_10,"0,1"
+"Pregunta 3.16.11 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Toma un medicamento para el control de su presión arterial (enalapril, captopril,  tenormin, diurético)",1,C,p3_16_11,p3_16_11,"0,1"
+"Pregunta 3.16.12 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Dejó de fumar",1,C,p3_16_12,p3_16_12,"0,1"
+"Pregunta 3.16.13 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Revisión dental",1,C,p3_16_13,p3_16_13,"0,1"
+"Pregunta 3.16.14 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Recibió educación sobre  su enfermedad",1,C,p3_16_14,p3_16_14,"0,1"
+"Pregunta 3.16.15 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Electrocardiograma",1,C,p3_16_15,p3_16_15,"0,1"
+"Pregunta 3.16.16 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Evita calzado que pueda lesionar  sus pies",1,C,p3_16_16,p3_16_16,"0,1"
+"Pregunta 3.16.17 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Acude a algún grupo de ayuda mutua",1,C,p3_16_17,p3_16_17,"0,1"
+"Pregunta 3.16.18 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? Otro (especifica)",1,C,p3_16_18,p3_16_18,"0,1"
+"Pregunta 3.16.19 Debido a la diabetes, ¿qué medidas preventivas ha seguido para evitar complicaciones en el último año? No realiza ninguna medida preventiva",1,C,p3_16_19,p3_16_19,"0,1"
+"Pregunta 3.17 En general,¿cada cuándo revisa sus pies en búsqueda de lesiones en la piel o en las uñas?",1,C,p3_17,p3_17,1...5
+Pregunta 3.18.1  ¿Debido a la diabetes… ha tenido úlceras en piernas o pies?,1,C,p3_18_1,p3_18_1,"1,2"
+Pregunta 3.18.2  ¿Debido a la diabetes…le han amputado alguna parte del cuerpo?,1,C,p3_18_2,p3_18_2,"1,2"
+Pregunta 3.18.3  ¿Debido a la diabetes… le ha disminuido la visión?,1,C,p3_18_3,p3_18_3,"1,2"
+Pregunta 3.18.4  ¿Debido a la diabetes… ha perdido la vista?,1,C,p3_18_4,p3_18_4,"1,2"
+Pregunta 3.18.5  ¿Debido a la diabetes… le han hecho diálisis?,1,C,p3_18_5,p3_18_5,"1,2"
+Pregunta 3.18.6  ¿Debido a la diabetes… ha sufrido de un infarto al corazón?,1,C,p3_18_6,p3_18_6,"1,2"
+Pregunta 3.18.7  ¿Debido a la diabetes… ha tenido un infarto cerebral?,1,C,p3_18_7,p3_18_7,"1,2"
+Pregunta 3.18.8  ¿Debido a la diabetes… sufrió de un coma diabético?,1,C,p3_18_8,p3_18_8,"1,2"
+"Pregunta 3.18.9  ¿Debido a la diabetes… se le ha bajado el azúcar hasta el punto de tener un episodio de aparición súbita de sudoración, confusión o pérdida de conocimiento, que requirió ayuda de una tercera persona para su resolución?",1,C,p3_18_9,p3_18_9,"1,2"
+Pregunta 4.1 ¿Algún médico le ha dicho que tiene la presión alta?,1,C,p4_1,p4_1,"1,2"
+Pregunta 4.2M ¿Hace cuánto tiempo le dijo su médico que tiene la presión alta? Meses,2,C,p4_2m,,"00-11, 88, 99"
+Pregunta 4.2A ¿Hace cuánto tiempo le dijo su médico que tiene la presión alta? Años,2,C,p4_2a,,"00-84, 88, 99"
+Pregunta 4.3 ¿Estaba embarazada cuando le dijeron que su presión estaba alta?,1,C,p4_3,p4_3,"1,2"
+Pregunta 4.4 ¿Actualmente toma alguna medicina (pastillas) para controlar su presión alta?,1,C,p4_4,p4_4,"1,2"
+Pregunta 4.5M  ¿Cuánto tiempo tiene tomando este medicamento?  Meses,2,C,p4_5m,,"00-11,99"
+Pregunta 4.5A  ¿Cuánto tiempo tiene tomando este medicamento?  Años,2,C,p4_5a,,"00-72,99"
+"Pregunta 4.6  En los últimos 12 meses, ¿cuántas veces acudió al médico para controlar su hipertensión (sin contar las visitas al servicio de urgencias)?",2,C,p4_6,,"00-12,99"
+Pregunta 4.7 ¿En dónde se atiende principalmente para controlar su presión alta?,2,C,p4_7,p4_7,01...14
+"Pregunta 4.8.1  Actualmente, ¿qué otro tratamiento lleva para controlar su presión alta?  Plan de alimentación (dieta recomendada  por personal de salud)",1,C,p4_8_1,p4_8_1,"0,1"
+"Pregunta 4.8.2  Actualmente, ¿qué otro tratamiento lleva para controlar su presión alta? Realiza algún ejercicio físico",1,C,p4_8_2,p4_8_2,"0,1"
+"Pregunta 4.8.3    Actualmente, ¿qué otro tratamiento lleva para controlar su presión alta? Disminución en el consumo de sal",1,C,p4_8_3,p4_8_3,"0,1"
+"Pregunta 4.8.4   Actualmente, ¿qué otro tratamiento lleva para controlar su presión alta? Medicina alternativa",1,C,p4_8_4,p4_8_4,"0,1"
+"Pregunta 4.8.5   Actualmente, ¿qué otro tratamiento lleva para controlar su presión alta? Ninguno",1,C,p4_8_5,p4_8_5,"0,1"
+"Pregunta 4.9  En los últimos 12 meses, ¿cada cuándo le tomaron la presión?",1,C,p4_9,p4_9,1...5
+Pregunta 4.9.1 ¿Cuántas veces?,2,C,p4_9_1,,01...10
+Pregunta 4.10.1  ¿Debido a la hipertensión… ha sufrido daño en la retina?,1,C,p4_10_1,p4_10_1,"1,2"
+Pregunta 4.10.2  ¿Debido a la hipertensión… le han hecho diálisis?,1,C,p4_10_2,p4_10_2,"1,2"
+Pregunta 4.10.3  ¿Debido a la hipertensión… ha sufrido de un infarto al corazón?,1,C,p4_10_3,p4_10_3,"1,2"
+Pregunta 4.10.4  ¿Debido a la hipertensión… ha tenido un infarto o embolia cerebral?,1,C,p4_10_4,p4_10_4,"1,2"
+Pregunta 4.10.5  ¿Debido a la hipertensión… ha acudido a un servicio de urgencias en el último año?,1,C,p4_10_5,p4_10_5,"1,2"
+Pregunta 4.10.5V ¿Cuántas veces?,2,C,p4_10_5v,,01...10
+Pregunta 4.10.6  ¿Debido a la hipertensión… ha estado hospitalizado por más de 24 horas en el último año?,1,C,p4_10_6,p4_10_6,"1,2"
+Pregunta 4.10.6V ¿Cuántas veces?,2,C,p4_10_6v,,01...10
+Pregunta 4.10.6C ¿Cuántos días en total en el último año?,2,C,p4_10_6c,,01-45
+"Pregunta 5.1 ¿Ha tenido alguna vez un dolor fuerte en el pecho, sudoración, con falta de aire o gran malestar que durara media hora o más?",1,C,p5_1,p5_1,"1,2"
+Pregunta 5.2.1  ¿Le ha dicho el médico que usted tiene (o tuvo) … un infarto o ataque al corazón?,1,C,p5_2_1,p5_2_1,"1,2"
+"Pregunta 5.2.2  ¿Le ha dicho el médico que usted tiene (o tuvo) … angina de pecho (dolor o molestia en el pecho, que desaparece regularmente de forma espontánea      con el reposo o con medicinas)?",1,C,p5_2_2,p5_2_2,"1,2"
+"Pregunta 5.2.3  ¿Le ha dicho el médico que usted tiene (o tuvo) … insuficiencia cardiaca (debilitamiento de la capacidad de bombeo del corazón, que provoca edema en pies,      tobillos y piernas, cansancio y falta de aire)?",1,C,p5_2_3,p5_2_3,"1,2"
+Pregunta 5.3 ¿Lo hospitalizaron para atender el infarto que presentó?,1,C,p5_3,p5_3,"1,2"
+Pregunta 5.4 ¿A qué edad tuvo el primer infarto?,3,C,p5_4,,"001-093, 888, 999"
+Pregunta 5.5 ¿Actualmente está tomando algún medicamento por el infarto?,1,C,p5_5,p5_5,"1,2"
+"Pregunta 5.6  ¿Le ha dicho su médico, si ha tenido una embolia o un infarto cerebral?",1,C,p5_6,p5_6,"1,2,9"
+Pregunta 5.7 ¿Lo(a) hospitalizaron por esta razón?,1,C,p5_7,p5_7,"1,2"
+"Pregunta 6.1.1  ¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón, como… infección de vías urinarias en más de una ocasión?",1,C,p6_1_1,p6_1_1,"1,2"
+"Pregunta 6.1.2  ¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón, como… cálculos renales?",1,C,p6_1_2,p6_1_2,"1,2"
+"Pregunta 6.1.3  ¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón, como… insuficiencia renal?",1,C,p6_1_3,p6_1_3,"1,2"
+Pregunta 6.2.1  ¿El tipo de tratamiento que tiene para su enfermedad renal es… dieta sin sal?,1,C,p6_2_1,p6_2_1,"1,2"
+Pregunta 6.2.2  ¿El tipo de tratamiento que tiene para su enfermedad renal es…medicamentos?,1,C,p6_2_2,p6_2_2,"1,2"
+Pregunta 6.2.3  ¿El tipo de tratamiento que tiene para su enfermedad renal es…diálisis?,1,C,p6_2_3,p6_2_3,"1,2"
+Pregunta 6.2.4  ¿El tipo de tratamiento que tiene para su enfermedad renal es…hemodiálisis?,1,C,p6_2_4,p6_2_4,"1,2"
+Pregunta 6.2.5  ¿El tipo de tratamiento que tiene para su enfermedad renal es… medicina alternativa?,1,C,p6_2_5,p6_2_5,"1,2"
+Pregunta 6.2.6  ¿El tipo de tratamiento que tiene para su enfermedad renal es… Otro (especifica),1,C,p6_2_6,p6_2_6,"1,2"
+Pregunta 6.2.7  ¿El tipo de tratamiento que tiene para su enfermedad renal es… Ninguno,1,C,p6_2_7,p6_2_7,"1,2"
+Pregunta 6.3 ¿Le han medido alguna vez la concentración de colesterol y triglicéridos?,1,C,p6_3,p6_3,"1,2,9"
+Pregunta 6.4 ¿Algún médico le ha dicho que tiene el colesterol alto?,1,C,p6_4,p6_4,"1,2"
+Pregunta 6.5.1  Mencione las acciones que actualmente toma para el control del colesterol. Medicamento,1,C,p6_5_1,p6_5_1,"0,1"
+Pregunta 6.5.2  Mencione las acciones que actualmente toma para el control del colesterol. Dieta,1,C,p6_5_2,p6_5_2,"0,1"
+Pregunta 6.5.3  Mencione las acciones que actualmente toma para el control del colesterol. Aumento de actividad física,1,C,p6_5_3,p6_5_3,"0,1"
+Pregunta 6.5.4  Mencione las acciones que actualmente toma para el control del colesterol. Ninguna,1,C,p6_5_4,p6_5_4,"0,1"
+Pregunta 6.6 ¿Algún médico le ha dicho que tiene los triglicéridos altos?,1,C,p6_6,p6_6,"1,2"
+Pregunta 6.7.1 ¿Qué tratamiento ha recibido para los triglicéridos altos? Medicamento,1,C,p6_7_1,p6_7_1,"0,1"
+Pregunta 6.7.2 ¿Qué tratamiento ha recibido para los triglicéridos altos? Dieta,1,C,p6_7_2,p6_7_2,"0,1"
+Pregunta 6.7.3 ¿Qué tratamiento ha recibido para los triglicéridos altos? Aumento de actividad física,1,C,p6_7_3,p6_7_3,"0,1"
+Pregunta 6.7.4 ¿Qué tratamiento ha recibido para los triglicéridos altos? Ninguno,1,C,p6_7_4,p6_7_4,"0,1"
+Pregunta 6.8.1 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Modificó su alimentación,1,C,p6_8_1,p6_8_1,"0,1"
+Pregunta 6.8.2 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Aumentó la actividad física,1,C,p6_8_2,p6_8_2,"0,1"
+"Pregunta 6.8.3 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Toma alguno de los medicamentos  siguientes: (pravastatina, atorvastatina,  simvastatina, rosuvastatina, pitavastatina,  ezetimibe)",1,C,p6_8_3,p6_8_3,"0,1"
+"Pregunta 6.8.4 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Toma alguno de los medicamentos  siguientes: bezafibrato, fenofibrato, gemfibrozil, ciprofibrato",1,C,p6_8_4,p6_8_4,"0,1"
+Pregunta 6.8.5 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Otros,1,C,p6_8_5,p6_8_5,"0,1"
+Pregunta 6.8.6 Mencione las acciones que actualmente toma para el control del colesterol y/o los triglicéridos. Ninguno,1,C,p6_8_6,p6_8_6,"0,1"
+"Pregunta 6.9  ¿Me puede mostrar todas las medicinas que ha estado usted tomando durante las últimas dos semanas para controlar su (diabetes, hipertensión, enfermedad cardiovascular, o triglicéridos o colesterol altos)?",1,C,p6_9,p6_9,1...3
+Pregunta 7.1 Familiar - Padre,1,C,p7_1,,1
+Pregunta 7.2 Familiar - Madre,1,C,p7_2,,1
+Pregunta 7.3 Familiar - Hermano(a),1,C,p7_3,,1
+Pregunta 7.1.1  ¿Su (FAMILIAR) tiene o tuvo diabetes o azúcar alta en la sangre? Padre,1,C,p7_1_1,p7_1_1,"1,2,9"
+Pregunta 7.2.1 ¿Su (FAMILIAR)  tiene o tuvo hipertensión o presión alta? Padre,1,C,p7_2_1,p7_2_1,"1,2,9"
+Pregunta 7.3.1 ¿Su (FAMILIAR)  tuvo un infarto? Padre,1,C,p7_3_1,p7_3_1,"1,2,9"
+Pregunta 7.4.1 ¿A qué edad su (FAMILIAR) tuvo su primer infarto? Padre,1,C,p7_4_1,p7_4_1,"1,2,9"
+Pregunta 7.5.1 ¿Su (FAMILIAR) tuvo valores altos de colesterol y/o triglicéridos? Padre,1,C,p7_5_1,p7_5_1,"1,2,9"
+Pregunta 7.1.2  ¿Su (FAMILIAR) tiene o tuvo diabetes o azúcar alta en la sangre? Madre,1,C,p7_1_2,p7_1_2,"1,2,9"
+Pregunta 7.2.2 ¿Su (FAMILIAR)  tiene o tuvo hipertensión o presión alta? Madre,1,C,p7_2_2,p7_2_2,"1,2,9"
+Pregunta 7.3.2 ¿Su (FAMILIAR)  tuvo un infarto? Madre,1,C,p7_3_2,p7_3_2,"1,2,9"
+Pregunta 7.4.2 ¿A qué edad su (FAMILIAR) tuvo su primer infarto? Madre,1,C,p7_4_2,p7_4_2,"1,2,9"
+Pregunta 7.5.2 ¿Su (FAMILIAR) tuvo valores altos de colesterol y/o triglicéridos? Madre,1,C,p7_5_2,p7_5_2,"1,2,9"
+Pregunta 7.1.3  ¿Su (FAMILIAR) tiene o tuvo diabetes o azúcar alta en la sangre? Hermano (a),1,C,p7_1_3,p7_1_3,"1,2,9"
+Pregunta 7.2.3 ¿Su (FAMILIAR)  tiene o tuvo hipertensión o presión alta? Hermano (a),1,C,p7_2_3,p7_2_3,"1,2,9"
+Pregunta 7.3.3 ¿Su (FAMILIAR)  tuvo un infarto? Hermano (a),1,C,p7_3_3,p7_3_3,"1,2,9"
+Pregunta 7.4.3 ¿A qué edad su (FAMILIAR) tuvo su primer infarto? Hermano (a),1,C,p7_4_3,p7_4_3,"1,2,9"
+Pregunta 7.5.3 ¿Su (FAMILIAR) tuvo valores altos de colesterol y/o triglicéridos? Hermano (a),1,C,p7_5_3,p7_5_3,"1,2,9"
+Pregunta 8.1 ¿A qué edad tuvo su primera relación sexual?,2,C,p8_1,,"00-48,88,99"
+"Pregunta 8.2.1  La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Condón o preservativo masculino",1,C,p8_2_1,p8_2_1,"0,1"
+"Pregunta 8.2.2 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Condón femenino",1,C,p8_2_2,p8_2_2,"0,1"
+"Pregunta 8.2.3 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Pastillas de anticoncepción de emergencia  o del día siguiente",1,C,p8_2_3,p8_2_3,"0,1"
+"Pregunta 8.2.4 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Pastillas o píldoras",1,C,p8_2_4,p8_2_4,"0,1"
+"Pregunta 8.2.5 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Inyecciones",1,C,p8_2_5,p8_2_5,"0,1"
+"Pregunta 8.2.6 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Parche anticonceptivo",1,C,p8_2_6,p8_2_6,"0,1"
+"Pregunta 8.2.7 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Dispositivo, DIU o aparato",1,C,p8_2_7,p8_2_7,"0,1"
+"Pregunta 8.2.8 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Implantes, tubos o norplant",1,C,p8_2_8,p8_2_8,"0,1"
+"Pregunta 8.2.9 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Óvulos, jaleas, espuma o diafragma",1,C,p8_2_9,p8_2_9,"0,1"
+"Pregunta 8.2.10  La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Ritmo, calendario, termómetro, Billings",1,C,p8_2_10,p8_2_10,"0,1"
+"Pregunta 8.2.11 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Retiro o coito interrumpido",1,C,p8_2_11,p8_2_11,"0,1"
+"Pregunta 8.2.12 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Otro (especifica)",1,C,p8_2_12,p8_2_12,"0,1"
+"Pregunta 8.2.13 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? Nada",1,C,p8_2_13,p8_2_13,"0,1"
+"Pregunta 8.2.14 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? No responde",1,C,p8_2_14,p8_2_14,"0,1"
+"Pregunta 8.2.15 La primera vez que tuvo relaciones sexuales, ¿qué hicieron o qué usaron usted o su pareja para evitar un embarazo o  una infección de transmisión sexual? No recuerda",1,C,p8_2_15,p8_2_15,"0,1"
+"Pregunta 8.3.1 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Condón o preservativo masculino",1,C,p8_3_1,p8_3_1,"0,1"
+"Pregunta 8.3.2 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Condón femenino",1,C,p8_3_2,p8_3_2,"0,1"
+"Pregunta 8.3.3 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Pastillas de anticoncepción de emergencia  o del día siguiente",1,C,p8_3_3,p8_3_3,"0,1"
+"Pregunta 8.3.4 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Pastillas o píldoras",1,C,p8_3_4,p8_3_4,"0,1"
+"Pregunta 8.3.5  En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Inyecciones",1,C,p8_3_5,p8_3_5,"0,1"
+"Pregunta 8.3.6 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Parche anticonceptivo",1,C,p8_3_6,p8_3_6,"0,1"
+"Pregunta 8.3.7 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Dispositivo, DIU o aparato",1,C,p8_3_7,p8_3_7,"0,1"
+"Pregunta 8.3.8 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Implantes, tubos o norplant",1,C,p8_3_8,p8_3_8,"0,1"
+"Pregunta 8.3.9 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Óvulos, jaleas, espuma o diafragma",1,C,p8_3_9,p8_3_9,"0,1"
+"Pregunta 8.3.10 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Operación femenina, OTB o ligadura  de trompas",1,C,p8_3_10,p8_3_10,"0,1"
+"Pregunta 8.3.11 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Operación masculina o vasectomía",1,C,p8_3_11,p8_3_11,"0,1"
+"Pregunta 8.3.12 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Ritmo, calendario, termómetro, Billings",1,C,p8_3_12,p8_3_12,"0,1"
+"Pregunta 8.3.13 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Retiro o coito interrumpido",1,C,p8_3_13,p8_3_13,"0,1"
+"Pregunta 8.3.14 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Otro (especifica)",1,C,p8_3_14,p8_3_14,"0,1"
+"Pregunta 8.3.15  En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? Nada",1,C,p8_3_15,p8_3_15,"0,1"
+"Pregunta 8.3.16 En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? No responde",1,C,p8_3_16,p8_3_16,"0,1"
+"Pregunta 8.3.17  En su última relación sexual, ¿qué hicieron usted o su pareja para evitar un embarazo o una  infección de transmisión sexual? No recuerda",1,C,p8_3_17,p8_3_17,"0,1"
+Pregunta 8.4 ¿Y además utilizaron condón masculino?,1,C,p8_4,p8_4,"1-2,9"
+Pregunta 8.5  ¿A qué edad tuvo su primera regla o menstruación?,2,C,p8_5,,"00-25,88,99"
+Pregunta 8.6M ¿Hace cuánto tiempo fue su última regla o menstruación? Meses,2,C,p8_6m,,"00-11,96,97,99"
+Pregunta 8.6A ¿Hace cuánto tiempo fue su última regla o menstruación? Años,2,C,p8_6a,,"00-20,96,97,99"
+Pregunta 8.7  ¿Cuál fue la razón por la que usted dejó de reglar?,1,C,p8_7,p8_7,1...9
+Pregunta 8.8  ¿Alguna vez ha estado embarazada?,1,C,p8_8,p8_8,"1,2,8"
+Pregunta 8.9 ¿Está actualmente embarazada?,1,C,p8_9,p8_9,"1,2,8"
+Pregunta 8.10 ¿Cuántos embarazos en total ha tenido?,2,C,p8_10,,01...16
+Pregunta 8.11.1  De estos embarazos ¿cuántos han sido…  abortos?,2,C,p8_11_1,,00-06
+Pregunta 8.11.2  De estos embarazos ¿cuántos han sido…  nacidos muertos?,2,C,p8_11_2,,00-09
+Pregunta 8.11.3  De estos embarazos ¿cuántos han sido…  nacidos vivos?,2,C,p8_11_3,,00-20
+Pregunta 8.11.4 ¿Cuántos han fallecido... antes de cumplir un año de edad?,2,C,p8_11_4,,00-04
+Pregunta 8.11.5 ¿Cuántos han fallecido... después de cumplir un año de edad?,2,C,p8_11_5,,00-17
+"Pregunta 8.13  En total, ¿cuántas veces la revisaron durante su último embarazo?",2,C,p8_13,,00-20
+Pregunta 8.14.1 ¿Quién la revisó la mayoría de las veces durante su embarazo? Médico,1,C,p8_14_1,p8_14_1,"0,1"
+Pregunta 8.14.2  ¿Quién la revisó la mayoría de las veces durante su embarazo? Enfermera(o),1,C,p8_14_2,p8_14_2,"0,1"
+"Pregunta 8.14.3  ¿Quién la revisó la mayoría de las veces durante su embarazo? Promotor(a), auxiliar o asistente de salud",1,C,p8_14_3,p8_14_3,"0,1"
+Pregunta 8.14.4  ¿Quién la revisó la mayoría de las veces durante su embarazo? Partera profesional técnica,1,C,p8_14_4,p8_14_4,"0,1"
+Pregunta 8.14.5 ¿Quién la revisó la mayoría de las veces durante su embarazo? Partera tradicional o empírica,1,C,p8_14_5,p8_14_5,"0,1"
+Pregunta 8.14.6 ¿Quién la revisó la mayoría de las veces durante su embarazo? Otro personal de salud,1,C,p8_14_6,p8_14_6,"0,1"
+Pregunta 8.14.7 ¿Quién la revisó la mayoría de las veces durante su embarazo? No recuerda,1,C,p8_14_7,p8_14_7,"0,1"
+Pregunta 8.15 ¿En qué institución o lugar la revisaron la mayoría de las veces durante este embarazo?,2,C,p8_15,p8_15,"01-13,99"
+Pregunta 8.16 ¿Cuántos meses de embarazo tenía cuando la revisaron por primera vez?,2,C,p8_16,,"01-09,88,99"
+"Pregunta 8.17.1  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez… la midieron (talla)?",1,C,p8_17_1,p8_17_1,"1,2,9"
+"Pregunta 8.17.2  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...la pesaron?",1,C,p8_17_2,p8_17_2,"1,2,9"
+"Pregunta 8.17.3  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le tomaron la presión arterial?",1,C,p8_17_3,p8_17_3,"1,2,9"
+"Pregunta 8.17.4  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le realizaron examen(es) general(es) de orina?",1,C,p8_17_4,p8_17_4,"1,2,9"
+"Pregunta 8.17.5  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le realizaron examen(es) de sangre?",1,C,p8_17_5,p8_17_5,"1,2,9"
+"Pregunta 8.17.6  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez... le midieron su nivel de azúcar en sangre?",1,C,p8_17_6,p8_17_6,"1,2,9"
+"Pregunta 8.17.7  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le realizaron la prueba de detección de Sífilis (VDRL)?",1,C,p8_17_7,p8_17_7,"1,2,9"
+"Pregunta 8.17.8  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le realizaron la prueba para detectar Virus de Inmunodeficiencia Humana (VIH)?",1,C,p8_17_8,p8_17_8,"1,2,9"
+"Pregunta 8.17.9  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez... le hicieron un ultrasonido?",1,C,p8_17_9,p8_17_9,"1,2,9"
+"Pregunta 8.17.10  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...la vacunaron contra el Tétanos?",1,C,p8_17_10,p8_17_10,"1,2,9"
+"Pregunta 8.17.11  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le mandaron ácido fólico?",1,C,p8_17_11,p8_17_11,"1,2,9"
+"Pregunta 8.17.12  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le mandaron vitaminas, hierro, o algún suplemento alimenticio?",1,C,p8_17_12,p8_17_12,"1,2,9"
+"Pregunta 8.17.13  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le ofrecieron algún servicio de detección o atención para la salud mental (ansiedad, depresión)?",1,C,p8_17_13,p8_17_13,"1,2,9"
+"Pregunta 8.17.14  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le ofrecieron algún método anticonceptivo para cuando terminara su embarazo?",1,C,p8_17_14,p8_17_14,"1,2,9"
+"Pregunta 8.17.15  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le enseñaron o explicaron cómo dar a su bebé leche materna?",1,C,p8_17_15,p8_17_15,"1,2,9"
+"Pregunta 8.17.16  Durante el embarazo, cuando visitó al médico, enfermera o algún otro personal de salud, ¿al menos una vez...le midieron la panza (fondo uterino)?",1,C,p8_17_16,p8_17_16,"1,2,9"
+Pregunta 8.18  ¿Quién la atendió de su parto?,1,C,p8_18,p8_18,"1-7,9"
+Pregunta 8.19  ¿En dónde la atendieron de su parto?,2,C,p8_19,p8_19,"01-13,99"
+Pregunta 8.20.1  ¿Tuvo alguna complicación durante...  el embarazo?,1,C,p8_20_1,p8_20_1,"1,2"
+Pregunta 8.20.2  ¿Tuvo alguna complicación durante...  el parto?,1,C,p8_20_2,p8_20_2,"1,2"
+"Pregunta 8.21.1  Durante su último embarazo o parto, ¿le dijeron que tuvo… la presión alta?",1,C,p8_21_1,p8_21_1,"1,2,9"
+"Pregunta 8.21.2  Durante su último embarazo o parto, ¿le dijeron que tuvo...amenaza de aborto?",1,C,p8_21_2,p8_21_2,"1,2,9"
+"Pregunta 8.21.3  Durante su último embarazo o parto, ¿le dijeron que tuvo...azúcar alta en sangre o diabetes?",1,C,p8_21_3,p8_21_3,"1,2,9"
+"Pregunta 8.21.4  Durante su último embarazo o parto, ¿le dijeron que tuvo...anemia?",1,C,p8_21_4,p8_21_4,"1,2,9"
+"Pregunta 8.21.5  Durante su último embarazo o parto, ¿le dijeron que tuvo...una infección urinaria?",1,C,p8_21_5,p8_21_5,"1,2,9"
+"Pregunta 8.21.6  Durante su último embarazo o parto, ¿le dijeron que tuvo... una infección de transmisión sexual?",1,C,p8_21_6,p8_21_6,"1,2,9"
+"Pregunta 8.21.7  Durante su último embarazo o parto, ¿le dijeron que tuvo...infección por VIH o SIDA?",1,C,p8_21_7,p8_21_7,"1,2,9"
+"Pregunta 8.21.8  Durante su último embarazo o parto, ¿le dijeron que tuvo...alguna otra enfermedad o padecimiento?",1,C,p8_21_8,p8_21_8,"1,2,9"
+"Pregunta 8.21.9  Durante su último embarazo o parto, ¿le dijeron que tuvo... preeclampsia o eclampsia?",1,C,p8_21_9,p8_21_9,"1,2,9"
+"Pregunta 8.21.10  Durante su último embarazo o parto, ¿le dijeron que tuvo...sangrado vaginal abundante o hemorragia?",1,C,p8_21_10,p8_21_10,"1,2,9"
+"Pregunta 8.21.11  Durante su último embarazo o parto, ¿le dijeron que tuvo...parto obstruido?",1,C,p8_21_11,p8_21_11,"1,2,9"
+"Pregunta 8.21.12  Durante su último embarazo o parto, ¿le dijeron que tuvo... mala posición del bebé?",1,C,p8_21_12,p8_21_12,"1,2,9"
+"Pregunta 8.21.13  Durante su último embarazo o parto, ¿le dijeron que tuvo...parto prematuro?",1,C,p8_21_13,p8_21_13,"1,2,9"
+"Pregunta 8.21.14  Durante su último embarazo o parto, ¿le dijeron que complicaciones debido a una      enfermedad que ya tenía? (como diabetes, presión alta, etc.)",1,C,p8_21_14,p8_21_14,"1,2,9"
+Pregunta 8.22 ¿Su último parto fue …,1,C,p8_22,p8_22,1...3
+"Pregunta 8.23  Inmediatamente después del nacimiento, ¿le pusieron a su último(a) hijo(a) directamente sobre la piel desnuda de su pecho?",1,C,p8_23,p8_23,"1,2,9"
+Pregunta 8.24.1 ¿Cuánto pesó al nacer su hijo(a)? Kilos,1,C,p8_24_1,,"0-5,9"
+Pregunta 8.24.2 ¿Cuánto pesó al nacer su hijo(a)? Gramos,3,C,p8_24_2,,"000-998,999"
+Pregunta 8.24.3 CRUZA EL CÓDIGO DE LA FUENTE DE INFORMACIÓN,1,C,p8_24_3,p8_24_3,"1,2,9"
+Pregunta 8.25.1 ¿Cuántos meses amamantó a su hijo(a)?  Tiempo,2,C,p8_25_1,,"00-84,88,99"
+Pregunta 8.25.2 ¿Cuántos meses amamantó a su hijo(a)?  Periodo,1,C,p8_25_2,p8_25_2,"0,1,2,8,9"
+"Pregunta 8.26.1 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre… signos y síntomas de hemorragia?",1,C,p8_26_1,p8_26_1,"1,2,9"
+"Pregunta 8.26.2 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre… signos y síntomas de la preeclampsia, eclampsia? (es decir, la presión alta durante el embarazo o poco después del parto)",1,C,p8_26_2,p8_26_2,"1,2,9"
+"Pregunta 8.26.3 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…signos y síntomas de infecciones?",1,C,p8_26_3,p8_26_3,"1,2,9"
+"Pregunta 8.26.4 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…signos y síntomas de trombosis o coágulos?",1,C,p8_26_4,p8_26_4,"1,2,9"
+"Pregunta 8.26.5 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…nutrición?",1,C,p8_26_5,p8_26_5,"1,2,9"
+"Pregunta 8.26.6 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…lactancia materna?",1,C,p8_26_6,p8_26_6,"1,2,9"
+"Pregunta 8.26.7 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…higiene, sobre todo lavado de manos?",1,C,p8_26_7,p8_26_7,"1,2,9"
+"Pregunta 8.26.8 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…métodos anticonceptivos?",1,C,p8_26_8,p8_26_8,"1,2,9"
+"Pregunta 8.26.9 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…signos y síntomas de la depresión post natal o post parto?",1,C,p8_26_9,p8_26_9,"1,2,9"
+"Pregunta 8.26.10 En la primera semana después del parto de su último(a) hijo(a), ¿algún profesional de la salud le dio información sobre…la importancia de que el bebé duerma boca arriba?",1,C,p8_26_10,p8_26_10,"1,2,9"
+"Pregunta 8.27 Después del nacimiento de su hijo(a), ¿le proporcionaron un método anticonceptivo antes de salir del hospital o del lugar donde la atendieron?",1,C,p8_27,p8_27,"1,2,9"
+Pregunta 8.28  ¿Qué método anticonceptivo le proporcionaron?,2,C,p8_28,p8_28,"01-13,99"
+"Pregunta 8.29.1  En los últimos 12 meses, ¿ha recibido consulta médica para atenderse o recibir tratamiento para…  Virus del Papiloma Humano (VPH)?",1,C,p8_29_1,p8_29_1,"1,2,8"
+"Pregunta 8.29.2  En los últimos 12 meses, ¿ha recibido consulta médica para atenderse o recibir tratamiento para… verrugas genitales?",1,C,p8_29_2,p8_29_2,"1,2,8"
+"Pregunta 8.29.3  En los últimos 12 meses, ¿ha recibido consulta médica para atenderse o recibir tratamiento para...gonorrea?",1,C,p8_29_3,p8_29_3,"1,2,8"
+"Pregunta 8.29.4  En los últimos 12 meses, ¿ha recibido consulta médica para atenderse o recibir tratamiento para...sífilis?",1,C,p8_29_4,p8_29_4,"1,2,8"
+"Pregunta 8.29.5  En los últimos 12 meses, ¿ha recibido consulta médica para atenderse o recibir tratamiento para...Virus de Inmunodeficiencia Humana (VIH)?",1,C,p8_29_5,p8_29_5,"1,2,8"
+Pregunta 8.30  ¿Le han realizado una prueba para detectar Virus de Inmunodeficiencia humana (VIH)?,1,C,p8_30,p8_30,"1,2,8"
+Pregunta 8.31 ¿Conoce el resultado de la prueba?,1,C,p8_31,p8_31,"1,2,8"
+"Pregunta 8.32 En los últimos 12 meses, ¿ha tomado ácido fólico?",1,C,p8_32,p8_32,"1,2,9"
+"Pregunta 9.1 ¿Me puede mostrar su Cartilla Nacional de Salud (Hombre o Mujer de 20 a 59 años), el documento probatorio o comprobante en el que le registran las vacunas que le han aplicado?",1,C,p9_1,p9_1,1...5
+Pregunta 9.2  ¿Por qué no tiene la cartilla?,1,C,p9_2,p9_2,"1-6,9"
+Pregunta 9.3  ¿Por qué no tiene información registrada en su cartilla?,1,C,p9_3,p9_3,"1,2,9"
+"Pregunta 9.4 Desde sus 20 años de edad, ¿le han aplicado la vacuna contra el Sarampión y la Rubéola (SR)? ( para personas entre 20 a 39 años)",1,C,p9_4,p9_4,"1,2,9"
+Pregunta 9.5 ¿Cuántas veces se la han aplicado?,1,C,p9_5,,1...9
+"Pregunta 9.6  En los últimos 10 años, ¿le han aplicado la vacuna contra el Tétanos?",1,C,p9_6,p9_6,"1,2,9"
+Pregunta 9.7  ¿Cuántas veces se la han aplicado?,1,C,p9_7,,1...9
+"Pregunta 9.8  A partir de septiembre del año pasado y hasta el día de hoy, ¿le han aplicado la vacuna contra la Influenza?",1,C,p9_8,p9_8,"1,2,8,9"
+"Pregunta 9.9.A1 Sarampión y Rubéola (SR), Sin antecedente vacunal, Primera, Al primer contacto",1,C,p9_9_a1,p9_9_a1,"1,2"
+Pregunta 9.9.B1D Día de fecha de aplicación,2,C,p9_9_b1d,,01...31
+Pregunta 9.9.B1M Mes de fecha de aplicación,2,C,p9_9_b1m,,01...12
+Pregunta 9.9.B1A Año de fecha de aplicación,4,C,p9_9_b1a,,1980-2019
+Pregunta 9.9.C1 Institución que aplicó la vacuna,2,C,p9_9_c1,p9_9_c1,"01-12,99"
+"Pregunta 9.9.A2 Sarampión y Rubéola (SR), Sin antecedente vacunal, Segunda, 4 semanas después de la primera",1,C,p9_9_a2,p9_9_a2,"1,2"
+Pregunta 9.9.B2D Día de fecha de aplicación,2,C,p9_9_b2d,,01...31
+Pregunta 9.9.B2M Mes de fecha de aplicación,2,C,p9_9_b2m,,01...12
+Pregunta 9.9.B2A Año de fecha de aplicación,4,C,p9_9_b2a,,1991-2018
+Pregunta 9.9.C2 Institución que aplicó la vacuna,2,C,p9_9_c2,p9_9_c2,"01-12,99"
+"Pregunta 9.9.A3 Sarampión y Rubéola (SR), Con esquema incompleto, Dosis única, Al primer contacto",1,C,p9_9_a3,p9_9_a3,"1,2"
+Pregunta 9.9.B3D Día de fecha de aplicación,2,C,p9_9_b3d,,01...31
+Pregunta 9.9.B3M Mes de fecha de aplicación,2,C,p9_9_b3m,,01...12
+Pregunta 9.9.B3A Año de fecha de aplicación,4,C,p9_9_b3a,,1991-2019
+Pregunta 9.9.C3 Institución que aplicó la vacuna,2,C,p9_9_c3,p9_9_c3,"01-12,99"
+"Pregunta 9.10.A1  Td (Tétanos y Difteria), Con esquema completo, Refuerzo, Cada 10 años",1,C,p9_10_a1,p9_10_a1,"1,2"
+Pregunta 9.10.B1D Día de fecha de aplicación,2,C,p9_10_b1d,,01...31
+Pregunta 9.10.B1M Mes de fecha de aplicación,2,C,p9_10_b1m,,01...12
+Pregunta 9.10.B1A Año de fecha de aplicación,4,C,p9_10_b1a,,1991-2019
+Pregunta 9.10.C1 Institución que aplicó la vacuna,2,C,p9_10_c1,p9_10_c1,"01-12,99"
+"Pregunta 9.10.A2  Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Primera, Dosis inicial",1,C,p9_10_a2,p9_10_a2,"1,2"
+Pregunta 9.10.B2D Día de fecha de aplicación,2,C,p9_10_b2d,,01...31
+Pregunta 9.10.B2M Mes de fecha de aplicación,2,C,p9_10_b2m,,01...12
+Pregunta 9.10.B2A Año de fecha de aplicación,4,C,p9_10_b2a,,1992-2019
+Pregunta 9.10.C2 Institución que aplicó la vacuna,2,C,p9_10_c2,p9_10_c2,"01-12,99"
+"Pregunta 9.10.A3  Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Segunda,  1 mes después de la primera dosis",1,C,p9_10_a3,p9_10_a3,"1,2"
+Pregunta 9.10.B3D Día de fecha de aplicación,2,C,p9_10_b3d,,01...31
+Pregunta 9.10.B3M Mes de fecha de aplicación,2,C,p9_10_b3m,,01...12
+Pregunta 9.10.B3A Año de fecha de aplicación,4,C,p9_10_b3a,,1993-2019
+Pregunta 9.10.C3 Institución que aplicó la vacuna,2,C,p9_10_c3,p9_10_c3,"01-12,99"
+"Pregunta 9.10.A4  Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Tercera,  12 meses posteriores a la primera dosis",1,C,p9_10_a4,p9_10_a4,"1,2"
+Pregunta 9.10.B4D Día de fecha de aplicación,2,C,p9_10_b4d,,01...31
+Pregunta 9.10.B4M Mes de fecha de aplicación,2,C,p9_10_b4m,,01...12
+Pregunta 9.10.B4A Año de fecha de aplicación,4,C,p9_10_b4a,,1996-2019
+Pregunta 9.10.C4 Institución que aplicó la vacuna,2,C,p9_10_c4,p9_10_c4,"01-12,99"
+"Pregunta 9.11.A1 Tdpa, Única...A partir de la semana 20 del embarazo",1,C,p9_11_a1,p9_11_a1,"1,2"
+Pregunta 9.11.B1D Día de fecha de aplicación,2,C,p9_11_b1d,,01...31
+Pregunta 9.11.B1M Mes de fecha de aplicación,2,C,p9_11_b1m,,01...12
+Pregunta 9.11.B1A Año de fecha de aplicación,4,C,p9_11_b1a,,1989-2019
+Pregunta 9.11.C1 Institución que aplicó la vacuna,2,C,p9_11_c1,p9_11_c1,01...12
+"Pregunta 9.12.A1 Influenza Estacional, Personas con factores de riesgo, Anual",1,C,p9_12_a1,p9_12_a1,"1,2"
+Pregunta 9.12.B1D Día de fecha de aplicación,2,C,p9_12_b1d,,01...31
+Pregunta 9.12.B1M Mes de fecha de aplicación,2,C,p9_12_b1m,,01...12
+Pregunta 9.12.B1A Año de fecha de aplicación,4,C,p9_12_b1a,,2000-2019
+Pregunta 9.12.C1 Institución que aplicó la vacuna,2,C,p9_12_c1,p9_12_c1,"01-12,99"
+"Pregunta 9.12.A2  Influenza Estacional, Embarazadas, Única, Cualquier trimestre del embarazo",1,C,p9_12_a2,p9_12_a2,"1,2"
+Pregunta 9.12.B2D Día de fecha de aplicación,2,C,p9_12_b2d,,01...31
+Pregunta 9.12.B2M Mes de fecha de aplicación,2,C,p9_12_b2m,,01...12
+Pregunta 9.12.B2A Año de fecha de aplicación,4,C,p9_12_b2a,,2000-2019
+Pregunta 9.12.C2 Institución que aplicó la vacuna,2,C,p9_12_c2,p9_12_c2,01...12
+Pregunta 9.13 Otras vacunas,1,C,p9_13,p9_13,"1,2"
+"Pregunta 9.14  ¿Me puede mostrar su Cartilla Nacional de Salud del Adulto Mayor, el documento probatorio o comprobante en el que le registran las vacunas que le han aplicado?",1,C,p9_14,p9_14,1...5
+Pregunta 9.15  ¿Por qué no tiene la cartilla?,1,C,p9_15,p9_15,"1-6,9"
+Pregunta 9.16 ¿Por qué no tiene información registrada en su cartilla?,1,C,p9_16,p9_16,"1,2,9"
+Pregunta 9.17  ¿Le han aplicado la vacuna contra el Neumococo?,1,C,p9_17,p9_17,"1,2,9"
+Pregunta 9.18 ¿Cuántas veces le han aplicado la vacuna contra Neumococo?,1,C,p9_18,,1...9
+Pregunta 9.19 ¿Le han aplicado la vacuna contra el Tétanos?,1,C,p9_19,p9_19,"1,2,9"
+Pregunta 9.20  ¿Cuántas veces se le han aplicado la vacuna contra el Tétanos?,1,C,p9_20,,1...9
+"Pregunta 9.21  A partir de septiembre del año pasado y hasta el día de hoy, ¿le han aplicado la vacuna contra la Influenza?",1,C,p9_21,p9_21,"1,2,9"
+"Pregunta 9.22.A1 Neumocócica Polisacárida,Única, A partir de los 65 años",1,C,p9_22_a1,p9_22_a1,"1,2"
+Pregunta 9.22.B1D Día de fecha de aplicación,2,C,p9_22_b1d,,01...31
+Pregunta 9.22.B1M Mes de fecha de aplicación,2,C,p9_22_b1m,,01...12
+Pregunta 9.22.B1A Año de fecha de aplicación,4,C,p9_22_b1a,,1997-2019
+Pregunta 9.22.C1 Institución que aplicó la vacuna,2,C,p9_22_c1,p9_22_c1,"01-12,99"
+"Pregunta 9.22.A2 Neumocócica Polisacárida,Personas con factores de riesgo, Dosis Inicial, 60 a 64 años de edad",1,C,p9_22_a2,p9_22_a2,"1,2"
+Pregunta 9.22.B2D Día de fecha de aplicación,2,C,p9_22_b2d,,01...31
+Pregunta 9.22.B2M Mes de fecha de aplicación,2,C,p9_22_b2m,,01...12
+Pregunta 9.22.B2A Año de fecha de aplicación,4,C,p9_22_b2a,,1992-2019
+Pregunta 9.22.C2 Institución que aplicó la vacuna,2,C,p9_22_c2,p9_22_c2,"01-12,99"
+"Pregunta 9.22.A3 Neumocócica Polisacárida, Personas con factores de riesgo, Revacunación Única, Cinco años después de la dosis inicial",1,C,p9_22_a3,p9_22_a3,"1,2"
+Pregunta 9.22.B3D Día de fecha de aplicación,2,C,p9_22_b3d,,01...31
+Pregunta 9.22.B3M Mes de fecha de aplicación,2,C,p9_22_b3m,,01...12
+Pregunta 9.22.B3A Año de fecha de aplicación,4,C,p9_22_b3a,,1997-2019
+Pregunta 9.22.C3 Institución que aplicó la vacuna,2,C,p9_22_c3,p9_22_c3,"01-12,99"
+"Pregunta 9.23.A1 Td (Tétanos y Difteria), Con esquema completo, Refuerzo, Cada 10 años",1,C,p9_23_a1,p9_23_a1,"1,2"
+Pregunta 9.23.B1D Día de fecha de aplicación,2,C,p9_23_b1d,,01...31
+Pregunta 9.23.B1M Mes de fecha de aplicación,2,C,p9_23_b1m,,01...12
+Pregunta 9.23.B1A Año de fecha de aplicación,4,C,p9_23_b1a,,1994-2019
+Pregunta 9.23.C1 Institución que aplicó la vacuna,2,C,p9_23_c1,p9_23_c1,"01-12,99"
+"Pregunta 9.23.A2 Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Primera, Dosis inicial",1,C,p9_23_a2,p9_23_a2,"1,2"
+Pregunta 9.23.B2D Día de fecha de aplicación,2,C,p9_23_b2d,,01...31
+Pregunta 9.23.B2M Mes de fecha de aplicación,2,C,p9_23_b2m,,01...12
+Pregunta 9.23.B2A Año de fecha de aplicación,4,C,p9_23_b2a,,1992-2019
+Pregunta 9.23.C2 Institución que aplicó la vacuna,2,C,p9_23_c2,p9_23_c2,"01-12,99"
+"Pregunta 9.23.A3 Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Segunda, 1 mes después de la primera dosis",1,C,p9_23_a3,p9_23_a3,"1,2"
+Pregunta 9.23.B3D Día de fecha de aplicación,2,C,p9_23_b3d,,01...31
+Pregunta 9.23.B3M Mes de fecha de aplicación,2,C,p9_23_b3m,,01...12
+Pregunta 9.23.B3A Año de fecha de aplicación,4,C,p9_23_b3a,,1990-2018
+Pregunta 9.23.C3 Institución que aplicó la vacuna,2,C,p9_23_c3,p9_23_c3,"01-08,99"
+"Pregunta 9.23.A4 Td (Tétanos y Difteria), Con esquema incompleto o no documentado, Tercera, 12 meses posteriores a la primera dosis",1,C,p9_23_a4,p9_23_a4,"1,2"
+Pregunta 9.23.B4D Día de fecha de aplicación,2,C,p9_23_b4d,,01...31
+Pregunta 9.23.B4M Mes de fecha de aplicación,2,C,p9_23_b4m,,01...12
+Pregunta 9.23.B4A Año de fecha de aplicación,4,C,p9_23_b4a,,1999-2019
+Pregunta 9.23.C4 Institución que aplicó la vacuna,2,C,p9_23_c4,p9_23_c4,"01,02,07,08,99"
+"Pregunta 9.24.A1  Influenza Estacional ( De septiembre de 2017 a la fecha), Una dosis, Anual",1,C,p9_24_a1,p9_24_a1,"1,2"
+Pregunta 9.24.B1D Día de fecha de aplicación,2,C,p9_24_b1d,,01...31
+Pregunta 9.24.B1M Mes de fecha de aplicación,2,C,p9_24_b1m,,01...12
+Pregunta 9.24.B1A Año de fecha de aplicación,4,C,p9_24_b1a,,2001-2019
+Pregunta 9.24.C1 Institución que aplicó la vacuna,2,C,p9_24_c1,p9_24_c1,"01-12,99"
+Pregunta 9.25 Otras vacunas,1,C,p9_25,p9_25,"1,2"
+"Pregunta 10.1.1 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…prueba de papanicolaou?",1,C,p10_1_1,p10_1_1,"1,2"
+Pregunta 10.2.1 ¿En qué institución le dieron el servicio?  prueba de papanicolaou,2,C,p10_2_1,p10_2_1,"01-12,99"
+Pregunta 10.3.1 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? prueba de papanicolaou,1,C,p10_3_1,p10_3_1,"1,2"
+Pregunta 10.4.1 ¿Le entregaron el resultado del estudio? prueba de papanicolaou,1,C,p10_4_1,p10_4_1,"1,2"
+Pregunta 10.5.1  ¿Qué diagnóstico le dieron? prueba de papanicolaou,1,C,p10_5_1,p10_5_1,"1,2,8,9"
+Pregunta 10.6.1 ¿Recibió tratamiento? prueba de papanicolaou,1,C,p10_6_1,p10_6_1,"1,2"
+Pregunta 10.7.1 ¿Cuál es la causa por la que no recibió tratamiento? prueba de papanicolaou,2,C,p10_7_1,p10_7_1,"03,05,07-09,99"
+"Pregunta 10.1.2 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…prueba del virus del papiloma?",1,C,p10_1_2,p10_1_2,"1,2"
+Pregunta 10.2.2 ¿En qué institución le dieron el servicio?  prueba de virus de papiloma,2,C,p10_2_2,p10_2_2,"01-12,99"
+Pregunta 10.3.2 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? prueba de virus de papiloma,1,C,p10_3_2,p10_3_2,"1,2"
+Pregunta 10.4.2 ¿Le entregaron el resultado del estudio? prueba de virus de papiloma,1,C,p10_4_2,p10_4_2,"1,2"
+Pregunta 10.5.2  ¿Qué diagnóstico le dieron? prueba de virus de papiloma,1,C,p10_5_2,p10_5_2,"1,2,8,9"
+Pregunta 10.6.2 ¿Recibió tratamiento? prueba de virus de papiloma,1,C,p10_6_2,p10_6_2,"1,2"
+Pregunta 10.7.2 ¿Cuál es la causa por la que no recibió tratamiento? prueba de virus de papiloma,2,C,p10_7_2,p10_7_2,"01-09,99"
+"Pregunta 10.1.3 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…exploración clínica de los senos?",1,C,p10_1_3,p10_1_3,"1,2"
+Pregunta 10.2.3 ¿En qué institución le dieron el servicio?  exploración clínica de los senos?,2,C,p10_2_3,p10_2_3,"01-12,99"
+Pregunta 10.3.3 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? exploración clínica de los senos?,1,C,p10_3_3,p10_3_3,"1,2"
+Pregunta 10.4.3 ¿Le entregaron el resultado del estudio? exploración clínica de los senos?,1,C,p10_4_3,p10_4_3,"1,2"
+Pregunta 10.5.3  ¿Qué diagnóstico le dieron? exploración clínica de los senos?,1,C,p10_5_3,p10_5_3,"1,2,8,9"
+Pregunta 10.6.3 ¿Recibió tratamiento? exploración clínica de los senos?,1,C,p10_6_3,p10_6_3,"1,2"
+Pregunta 10.7.3 ¿Cuál es la causa por la que no recibió tratamiento? exploración clínica de los senos?,2,C,p10_7_3,p10_7_3,"01-09,99"
+"Pregunta 10.1.4 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…detección de cáncer de mama?",1,C,p10_1_4,p10_1_4,"1,2"
+Pregunta 10.2.4 ¿En qué institución le dieron el servicio?  detección de cáncer de mama?,2,C,p10_2_4,p10_2_4,"01-12,99"
+Pregunta 10.3.4 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de cáncer de mama?,1,C,p10_3_4,p10_3_4,"1,2"
+Pregunta 10.4.4 ¿Le entregaron el resultado del estudio? detección de cáncer de mama?,1,C,p10_4_4,p10_4_4,"1,2"
+Pregunta 10.5.4  ¿Qué diagnóstico le dieron? detección de cáncer de mama?,1,C,p10_5_4,p10_5_4,"1,2,8,9"
+Pregunta 10.6.4 ¿Recibió tratamiento? detección de cáncer de mama?,1,C,p10_6_4,p10_6_4,"1,2"
+Pregunta 10.7.4 ¿Cuál es la causa por la que no recibió tratamiento? detección de cáncer de mama?,2,C,p10_7_4,p10_7_4,"01-09,99"
+"Pregunta 10.1.5 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran… detección de tuberculosis?",1,C,p10_1_5,p10_1_5,"1,2"
+Pregunta 10.2.5 ¿En qué institución le dieron el servicio?  detección de tuberculosis?,2,C,p10_2_5,p10_2_5,"01-12,99"
+Pregunta 10.3.5 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de tuberculosis?,1,C,p10_3_5,p10_3_5,"1,2"
+Pregunta 10.4.5 ¿Le entregaron el resultado del estudio? detección de tuberculosis?,1,C,p10_4_5,p10_4_5,"1,2"
+Pregunta 10.5.5  ¿Qué diagnóstico le dieron? detección de tuberculosis?,1,C,p10_5_5,p10_5_5,"1,2,8,9"
+Pregunta 10.6.5 ¿Recibió tratamiento? detección de tuberculosis?,1,C,p10_6_5,p10_6_5,"1,2"
+Pregunta 10.7.5 ¿Cuál es la causa por la que no recibió tratamiento? detección de tuberculosis?,2,C,p10_7_5,p10_7_5,"01-19,99"
+"Pregunta 10.1.6 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran… detección de sobrepeso u    obesidad?",1,C,p10_1_6,p10_1_6,"1,2"
+Pregunta 10.2.6 ¿En qué institución le dieron el servicio?  detección de sobrepeso u obesidad?,2,C,p10_2_6,p10_2_6,"01-12,99"
+Pregunta 10.3.6 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de sobrepeso u obesidad?,1,C,p10_3_6,p10_3_6,"1,2"
+Pregunta 10.4.6 ¿Le entregaron el resultado del estudio? detección de sobrepeso u obesidad?,1,C,p10_4_6,p10_4_6,"1,2"
+Pregunta 10.5.6  ¿Qué diagnóstico le dieron? detección de sobrepeso u obesidad?,1,C,p10_5_6,p10_5_6,"1,2,8,9"
+Pregunta 10.6.6 ¿Recibió tratamiento? detección de sobrepeso u obesidad?,1,C,p10_6_6,p10_6_6,"1,2"
+Pregunta 10.7.6 ¿Cuál es la causa por la que no recibió tratamiento? detección de sobrepeso u obesidad?,2,C,p10_7_6,p10_7_6,"01-09,99"
+"Pregunta 10.1.7 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran… detección de diabetes?",1,C,p10_1_7,p10_1_7,"1,2"
+Pregunta 10.2.7 ¿En qué institución le dieron el servicio? detección de diabetes?,2,C,p10_2_7,p10_2_7,"01-12,99"
+Pregunta 10.3.7 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de diabetes?,1,C,p10_3_7,p10_3_7,"1,2"
+Pregunta 10.4.7 ¿Le entregaron el resultado del estudio? detección de diabetes?,1,C,p10_4_7,p10_4_7,"1,2"
+Pregunta 10.5.7  ¿Qué diagnóstico le dieron? detección de diabetes?,1,C,p10_5_7,p10_5_7,"1,2,8,9"
+Pregunta 10.6.7 ¿Recibió tratamiento? detección de diabetes?,1,C,p10_6_7,p10_6_7,"1,2"
+Pregunta 10.7.7 ¿Cuál es la causa por la que no recibió tratamiento? detección de diabetes?,2,C,p10_7_7,p10_7_7,"01-09,99"
+"Pregunta 10.1.8 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran… detección de hipertensión?",1,C,p10_1_8,p10_1_8,"1,2"
+Pregunta 10.2.8 ¿En qué institución le dieron el servicio? detección de hipertensión?,2,C,p10_2_8,p10_2_8,"01-12,99"
+Pregunta 10.3.8 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de hipertensión?,1,C,p10_3_8,p10_3_8,"1,2"
+Pregunta 10.4.8 ¿Le entregaron el resultado del estudio? detección de hipertensión?,1,C,p10_4_8,p10_4_8,"1,2"
+Pregunta 10.5.8  ¿Qué diagnóstico le dieron? detección de hipertensión?,1,C,p10_5_8,p10_5_8,"1,2,8,9"
+Pregunta 10.6.8 ¿Recibió tratamiento? detección de hipertensión?,1,C,p10_6_8,p10_6_8,"1,2"
+Pregunta 10.7.8 ¿Cuál es la causa por la que no recibió tratamiento? detección de hipertensión?,2,C,p10_7_8,p10_7_8,"03,04,07-09,99"
+"Pregunta 10.1.9 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…detección de colesterol o  triglicéridos altos (examen de sangre)?",1,C,p10_1_9,p10_1_9,"1,2"
+Pregunta 10.2.9 ¿En qué institución le dieron el servicio? detección de colesterol o triglicéridos altos (examen de sangre)?,2,C,p10_2_9,p10_2_9,"01-12,99"
+Pregunta 10.3.9 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de colesterol o triglicéridos altos (examen de sangre)?,1,C,p10_3_9,p10_3_9,"1,2"
+Pregunta 10.4.9 ¿Le entregaron el resultado del estudio? detección de colesterol o triglicéridos altos(examen de sangre)?,1,C,p10_4_9,p10_4_9,"1,2"
+Pregunta 10.5.9  ¿Qué diagnóstico le dieron? detección de colesterol o triglicéridos altos (examen de sangre)?,1,C,p10_5_9,p10_5_9,"1,2,8,9"
+Pregunta 10.6.9 ¿Recibió tratamiento? detección de colesterol o triglicéridos altos (examen de sangre)?,1,C,p10_6_9,p10_6_9,"1,2"
+Pregunta 10.7.9 ¿Cuál es la causa por la que no recibió tratamiento? detección de colesterol o triglicéridos altos (examen de sangre)?,2,C,p10_7_9,p10_7_9,"03,06-09,99"
+"Pregunta 10.1.10 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran… detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?",1,C,p10_1_10,p10_1_10,"1,2"
+Pregunta 10.2.10 ¿En qué institución le dieron el servicio?  detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,2,C,p10_2_10,p10_2_10,"01-12,99"
+Pregunta 10.3.10 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,1,C,p10_3_10,p10_3_10,"1,2"
+Pregunta 10.4.10 ¿Le entregaron el resultado del estudio?  detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,1,C,p10_4_10,p10_4_10,"1,2"
+Pregunta 10.5.10  ¿Qué diagnóstico le dieron? detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,1,C,p10_5_10,p10_5_10,"1,2,8,9"
+Pregunta 10.6.10 ¿Recibió tratamiento? detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,1,C,p10_6_10,p10_6_10,"1,2"
+Pregunta 10.7.10 ¿Cuál es la causa por la que no recibió tratamiento? detección de cáncer de próstata (análisis de sangre para detectar antígenos prostáticos)?,2,C,p10_7_10,p10_7_10,"03,04,07-09,99"
+"Pregunta 10.1.11 Durante los últimos 12 meses, ¿acudió al módulo de medicina preventiva para que le realizaran…prueba de tacto rectal para detectar cáncer de próstata?",1,C,p10_1_11,p10_1_11,"1,2"
+Pregunta 10.2.11 ¿En qué institución le dieron el servicio? prueba de tacto rectal para detectar cáncer de próstata?,2,C,p10_2_11,p10_2_11,"01-12,99"
+Pregunta 10.3.11 ¿Presentaba algún síntoma por el que le realizaron la prueba de detección? prueba de tacto rectal para detectar cáncer de próstata?,1,C,p10_3_11,p10_3_11,"1,2"
+Pregunta 10.4.11 ¿Le entregaron el resultado del estudio? prueba de tacto rectal para detectar cáncer de próstata?,1,C,p10_4_11,p10_4_11,"1,2"
+Pregunta 10.5.11  ¿Qué diagnóstico le dieron? prueba de tacto rectal para detectar cáncer de próstata?,1,C,p10_5_11,p10_5_11,"1,2,8,9"
+Pregunta 10.6.11 ¿Recibió tratamiento? prueba de tacto rectal para detectar cáncer de próstata?,1,C,p10_6_11,p10_6_11,"1,2"
+Pregunta 10.7.11 ¿Cuál es la causa por la que no recibió tratamiento? prueba de tacto rectal para detectar cáncer de próstata?,2,C,p10_7_11,p10_7_11,"03,04,07…09,99"
+"Pregunta 11.1  En los últimos 12 meses, ¿sufrió usted algún daño a su salud a causa de un accidente?",1,C,p11_1,p11_1,"1,2"
+Pregunta 11.2 ¿Cómo fue que se accidentó?,2,C,p11_2,p11_2,"01-18,99"
+Pregunta 11.3 ¿Llevaba puesto el cinturón?,1,C,p11_3,p11_3,"1,2"
+Pregunta 11.4 ¿Llevaba puesto el casco?,1,C,p11_4,p11_4,"1,2"
+Pregunta 11.5 ¿En qué lugar se encontraba cuando ocurrió el accidente?,2,C,p11_5,p11_5,"01-10,99"
+Pregunta 11.6 ¿En qué institución lo(a) atendieron cuando ocurrió el accidente?,2,C,p11_6,p11_6,"01-12,99"
+"Pregunta 11.7 Cuando sufrió el accidente, ¿estaba bajo los efectos de…",1,C,p11_7,p11_7,"1-4,8"
+Pregunta 11.8 ¿Qué problema de salud permanente le ocasionó este accidente?,1,C,p11_8,p11_8,"1-7,9"
+"Pregunta 12.1 En los últimos 12 meses, ¿sufrió usted algún daño a su salud por robo, agresión o violencia?",1,C,p12_1,p12_1,"1,2,8"
+Pregunta 12.2.1 ¿Qué fue lo que le pasó?  Agresiones con substancias,1,C,p12_2_1,p12_2_1,"0,1"
+"Pregunta 12.2.2 ¿Qué fue lo que le pasó? Sofocación, estrangulamiento, ahogamiento",1,C,p12_2_2,p12_2_2,"0,1"
+Pregunta 12.2.3 ¿Qué fue lo que le pasó? Herida por arma de fuego,1,C,p12_2_3,p12_2_3,"0,1"
+"Pregunta 12.2.4 ¿Qué fue lo que le pasó? Herida por arma punzocortante  (cuchillos, navajas, etc.)",1,C,p12_2_4,p12_2_4,"0,1"
+Pregunta 12.2.5 ¿Qué fue lo que le pasó? Empujón desde lugar elevado,1,C,p12_2_5,p12_2_5,"0,1"
+"Pregunta 12.2.6 ¿Qué fue lo que le pasó? Golpes, patadas, puñetazos",1,C,p12_2_6,p12_2_6,"0,1"
+Pregunta 12.2.7 ¿Qué fue lo que le pasó? Agresión sexual,1,C,p12_2_7,p12_2_7,"0,1"
+Pregunta 12.2.8 ¿Qué fue lo que le pasó? Envenenamiento u obstrucción de las vías respiratorias por substancias u objetos calientes,1,C,p12_2_8,p12_2_8,"0,1"
+Pregunta 12.2.9 ¿Qué fue lo que le pasó? Agresiones verbales,1,C,p12_2_9,p12_2_9,"0,1"
+Pregunta 12.2.10 ¿Qué fue lo que le pasó? Otro (especifica),1,C,p12_2_10,p12_2_10,"0,1"
+Pregunta 12.2.11 ¿Qué fue lo que le pasó? No responde,1,C,p12_2_11,p12_2_11,"0,1"
+Pregunta 12.3 ¿Cuál fue el principal motivo?,2,C,p12_3,p12_3,"01-10, 88, 99"
+Pregunta 12.4.1  ¿En qué lugar ocurrió el ataque o agresión?,2,C,p12_4_1,p12_4_1,"01-10, 99"
+Pregunta 12.5 ¿En qué institución lo(a) atendieron cuando ocurrió el ataque o agresión?,2,C,p12_5,p12_5,"00-11, 99"
+Pregunta 12.6 Cuando sufrió el ataque o agresión ¿estaba usted bajo los efectos de…,1,C,p12_6,p12_6,"1-4,8"
+Pregunta 12.7 ¿Alguna vez ha pensado en suicidarse?,1,C,p12_7,p12_7,"1,2,8"
+Pregunta 12.7.1  ¿Con qué frecuencia lo ha pensado?,1,C,p12_7_1,p12_7_1,"1-4,8"
+"Pregunta 12.8 ¿Alguna vez a propósito se ha herido, cortado, intoxicado o hecho daño con el fin de quitarse la vida?",1,C,p12_8,p12_8,1...3
+Pregunta 12.8.1  ¿Esto fue en los últimos 12 meses?,1,C,p12_8_1,p12_8_1,"1,2,8"
+Pregunta 13.1 ¿Ha fumado usted por lo menos 100 cigarrillos  (5 cajetillas) de tabaco durante toda su vida?,1,C,p13_1,p13_1,"1,2,9"
+Pregunta 13.2 Actualmente ¿fuma tabaco...,1,C,p13_2,p13_2,"1-3,8"
+"Pregunta 13.3  En el pasado, ¿ha fumado tabaco todos los días?",1,C,p13_3,p13_3,"1,2,8"
+"Pregunta 13.4  En el pasado, ¿ha fumado productos del tabaco…",1,C,p13_4,p13_4,"1-3,8"
+Pregunta 13.5 ¿A qué edad comenzó a fumar productos del tabaco todos los días?,3,C,p13_5,,"005-071,111,119,120,998,999"
+"Pregunta 13.6  En promedio, ¿cuántos cigarros fuma actualmente por día?",3,C,p13_6,,"001-064,099"
+"Pregunta 13.6.1  En promedio, ¿cuántos cigarros fuma    por semana?",3,C,p13_6_1,,"001-100,120,140,888,999"
+Pregunta 13.7.1 ¿Hace cuánto tiempo dejó definitivamente de fumar?,1,C,p13_7_1,p13_7_1,"1-5,9"
+Pregunta 13.7.2 Tiempo,2,C,p13_7_2,,01-75
+"Pregunta 13.8 Algunas marcas de cigarros tienen una cápsula en el filtro que, al romperse, da sabor al humo. ¿Alguna vez fumó un cigarro con cápsula de sabor?",1,C,p13_8,p13_8,"1,2"
+Pregunta 13.8.1 ¿Ha sido en los últimos 30 días?,1,C,p13_8_1,p13_8_1,"1,2"
+"Pregunta 13.9 Los cigarros electrónicos son cualquier producto que utiliza baterías u otros métodos para producir un vapor que puede contener nicotina. Se conocen, como  “e-cigarrette”, “Vape-pen”, “e-shisha” y “e-pipes”.  ¿Actualmente consume cigarros electrónicos…",1,C,p13_9,p13_9,"1-3,8"
+"Pregunta 13.10 ¿Alguna vez, aunque haya sido una vez, usó un cigarro electrónico",1,C,p13_10,p13_10,"1,2,8"
+Pregunta 13.11 ¿Actualmente toma?,1,C,p13_11,p13_11,1...3
+"Pregunta 13.12.1 Aproximadamente, ¿cuántas copas toma (tomaba) y con qué frecuencia?",1,C,p13_12_1,p13_12_1,"1-4,8"
+Pregunta 13.12.2 Número,2,C,p13_12_2,,01-50
+Pregunta 13.13M ¿Durante cuánto tiempo ha bebido (o bebió) usted esa cantidad regularmente? Meses,2,C,p13_13m,,"00-12,88,99"
+Pregunta 13.13A ¿Durante cuánto tiempo ha bebido (o bebió) usted esa cantidad regularmente? Años,2,C,p13_13a,,"00-30,88,99"
+"Pregunta 13.14  Considerando todo tipo de bebidas alcohólicas, ¿cuántas veces durante los últimos 30 días, tomó cinco copas o más en una ocasión?",2,C,p13_14,,"00-50,88,98"
+Pregunta 14.1 ¿Usa anteojos o lentes de contacto? Incluya el uso de anteojos para leer.,1,C,p14_1,p14_1,"1,2"
+Pregunta 14.2 ¿Usa una prótesis auditiva?,1,C,p14_2,p14_2,"1,2"
+"Pregunta 14.3 Cuando usa anteojos o lentes de contacto, ¿tiene dificultad para ver?",1,C,p14_3,p14_3,1...4
+"Pregunta 14.4 Cuando usa su(s) prótesis auditiva(s), ¿Tiene dificultad para oír?",1,C,p14_4,p14_4,1...4
+Pregunta 14.5 ¿Tiene dificultad para caminar o subir escalones?,1,C,p14_5,p14_5,1...4
+Pregunta 14.6 ¿Tiene dificultad para recordar o concentrarse?,1,C,p14_6,p14_6,1...4
+"Pregunta 14.7  ¿Tiene dificultad para el cuidado propio, tal como lavarse todo el cuerpo o vestirse?",1,C,p14_7,p14_7,1...4
+"Pregunta 14.8 Usando su idioma cotidiano, ¿tiene dificultad para comunicar, por ejemplo, entendiendo a otros o hacerse entender?",1,C,p14_8,p14_8,1...3
+Pregunta 14.9 ¿Recibió alguna transfusión sanguínea antes de 1995?,1,C,p14_9,p14_9,"1,2,9"
+Pregunta 14.10 ¿Algún médico le ha diagnosticado Hepatitis C?,1,C,p14_10,p14_10,"1,2,9"
+EDAD,3,C,edad,,020-112
+SEXO,1,C,sexo,sexo,"1,2"
+ENT,2,C,ent,ent,01-32
+DOMINIO,1,C,dominio,dominio,"1,2"
+REGION,1,C,region,region,1…4
+EST_DIS,3,C,est_dis,,001-328
+UPM_DIS,5,C,upm_dis,,0001-06289
+ESTRATO,1,C,estrato,estrato,1…4
+F_20MAS,5,C,f_20mas,,81-39342
+FECHA_NAC,5,C,fecha_nac,,0-99998
+FECHA_ENT,5,C,fecha_ent,,0-99998
+DIFERENCIA,3,C,diferencia,,-493
+HIJ_ULT5AD,1,C,hij_ult5ad,hij_ult5ad,"1,2"
+HIJ_ULT1AD,1,C,hij_ult1ad,hij_ult1ad,"1,2"

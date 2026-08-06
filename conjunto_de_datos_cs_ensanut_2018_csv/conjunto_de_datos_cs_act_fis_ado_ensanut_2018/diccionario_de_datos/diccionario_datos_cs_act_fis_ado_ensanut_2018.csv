@@ -1,0 +1,28 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Número de Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…16
+"Pregunta 1 Durante los últimos siete días, ¿cuántos días realizó usted alguna actividad que requiera de un esfuerzo físico vigoroso?",2,C,p1,p1,"00-07, 55, 88, 99"
+"Pregunta 2  Generalmente, ¿cuánto tiempo en total le tomó realizar actividad(es) física(s) vigorosa(s) en uno de esos días? Horas",5,C,p2,,"00:10-16:00,88:88,99:99"
+Pregunta 3.1H ¿Cuánto tiempo dedicó usted en los últimos siete días a hacer actividad(es) física(s) vigorosa(s)? Horas,3,C,p3_1h,,"000-048,088,099,888,999"
+Pregunta 3.1M ¿Cuánto tiempo dedicó usted en los últimos siete días a hacer actividad(es) física(s) vigorosa(s)? Minutos,2,C,p3_1m,,"00-30,88,99"
+"Pregunta 4  Durante los últimos siete días, ¿cuántos días realizó usted alguna actividad física moderada?",2,C,p4,p4,"00,01-07 , 88, 99"
+"Pregunta 5  Generalmente, ¿cuánto tiempo en total le tomó realizar actividad(es) física(s) moderada(s) en uno de esos días?  Horas",5,C,p5,,"00:10-16:00,88:88,99:99"
+Pregunta 6.1H ¿Cuánto tiempo dedicó usted en los últimos siete días a hacer actividad(es) física(s) moderada(s)?  Horas,3,C,p6_1h,,"000-020,099,888,999"
+Pregunta 6.1M ¿Cuánto tiempo dedicó usted en los últimos siete días a hacer actividad(es) física(s) moderada(s)?  Minutos,2,C,p6_1m,,"00,09,15,20,30,50,88,9"
+"Pregunta 7  Durante los últimos siete días, ¿cuántos días caminó por lo menos 10 minutos continuos?",2,C,p7,p7,"00,01-07 , 88, 99"
+"Pregunta 8 Generalmente, ¿cuánto tiempo caminó usted en uno de esos días?  Horas:Minutos",5,C,p8,,"00:10-16:00,88:88,99:99"
+Pregunta 9.1H ¿Cuál es la cantidad total de tiempo que usted caminó en los últimos siete días?  Horas,3,C,p9_1h,,"000-077,099,888,999"
+Pregunta 9.1M ¿Cuál es la cantidad total de tiempo que usted caminó en los últimos siete días?  Minutos,2,C,p9_1m,,"00-50,88,99"
+"Pregunta 10 Durante los últimos siete días, ¿cuánto tiempo en total estuvo sentado(a) en uno de esos días de la semana? Horas:Minutos",5,C,p10,,"00:01-16:00,88:88,99:99"
+Pregunta 11 ¿Cuál es la cantidad total de tiempo que usted pasó sentado(a) el miércoles pasado?  Horas:Minutos,5,C,p11,,"00:10-12:20,88:00,88:88,99:99"
+Edad,3,C,edad,,015-069
+Sexo,1,C,sexo,sexo,"1,2"
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,004-325
+UPM de diseño,5,C,upm_dis,,00001-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor Actividad Física,5,C,f_acfisado,,72-37198

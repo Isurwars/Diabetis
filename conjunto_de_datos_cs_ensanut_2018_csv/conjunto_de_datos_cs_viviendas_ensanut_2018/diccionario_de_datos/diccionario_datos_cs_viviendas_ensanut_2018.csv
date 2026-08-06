@@ -1,0 +1,46 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Pregunta 1.1 ¿De qué material es la mayor parte del techo de esta vivienda?,2,C,p1_1,p1_1,"01…09,99"
+Pregunta 1.2 ¿De qué material es la mayor parte de las paredes o muros de esta vivienda?,1,C,p1_2,p1_2,1…9
+Pregunta 1.3 ¿De qué material es la mayor parte del piso de esta vivienda?,1,C,p1_3,p1_3,"1-3,9"
+Pregunta 1.4 ¿Cuántos cuartos se usan para dormir sin contar pasillos?,2,C,p1_4,,"01-09,99"
+"Pregunta 1.5 En total, ¿cuántos cuartos tiene esta vivienda (no cuente pasillos ni baños)?",2,C,p1_5,,"01-22,99"
+Pregunta 1.6 ¿Esta vivienda tiene un cuarto (espacio) para cocinar?,1,C,p1_6,p1_6,"1,2"
+"Pregunta 1.7 Entonces, ¿cocinan los alimentos?",1,C,p1_7,p1_7,1…4
+"Pregunta 1.8 ¿En el cuarto donde cocinan, también duermen?",1,C,p1_8,p1_8,"1,2,9"
+Pregunta 1.9 ¿El combustible que más usan para cocinar es?,1,C,p1_9,p1_9,1...7
+Pregunta 1.10 ¿Qué tipo de estufa utilizan para cocinar o calentar alimentos?,1,C,p1_10,p1_10,1...6
+Pregunta 1.11 ¿Hay luz eléctrica en esta vivienda?,1,C,p1_11,p1_11,"1,2"
+Pregunta 1.12 ¿Esta vivienda tiene agua entubada?,1,C,p1_12,p1_12,1...3
+Pregunta 1.13 ¿El agua entubada que llega a su vivienda viene?,1,C,p1_13,p1_13,1...5
+"Pregunta 1.14 Entonces, ¿el agua que usan en esta vivienda?",1,C,p1_14,p1_14,1...6
+Pregunta 1.15 ¿Esta vivienda tiene drenaje o desagüe conectado a:,1,C,p1_15,p1_15,"1-5,9"
+"Pregunta 1.16 ¿Tienen excusado, retrete, sanitario, letrina u hoyo negro?",1,C,p1_16,p1_16,"1,2"
+Pregunta 1.17 ¿El servicio sanitario?,1,C,p1_17,p1_17,"1,3"
+Pregunta 1.18 ¿Este servicio sanitario lo comparten con otra vivienda?,1,C,p1_18,p1_18,"1,2"
+Pregunta 1.19 ¿La basura de esta vivienda:,1,C,p1_19,p1_19,1…9
+"Pregunta 1.20 Cuando hace frío, ¿usan o hacen algo para calentar la vivienda?",1,C,p1_20,p1_20,"1,2"
+Pregunta 1.21 ¿Qué utilizan para calentar la vivienda?,1,C,p1_21,p1_21,1...6
+Pregunta 1.22 ¿Qué combustible usan?,1,C,p1_22,p1_22,01...10
+Pregunta 1.23 ¿En esta vivienda,1,C,p1_23,p1_23,1…6
+Pregunta 1.24.1 ¿Esta vivienda tiene calentador de agua?,1,C,p1_24_1,p1_24_1,"1,2"
+Pregunta 1.24.2 ¿Esta vivienda tiene tinaco?,1,C,p1_24_2,p1_24_2,"1,2"
+Pregunta 1.24.3 ¿Esta vivienda tiene cisterna o aljibe?,1,C,p1_24_3,p1_24_3,"1,2"
+Pregunta 1.24.4 ¿Esta vivienda tiene medidor de luz?,1,C,p1_24_4,p1_24_4,"1,2"
+Pregunta 1.24.5 ¿Esta vivienda tiene aire acondicionado?,1,C,p1_24_5,p1_24_5,"1,2"
+"Pregunta 1.25.1 ¿Usted o alguien de la vivienda tiene otra casa, construcción, inmueble o terreno?",1,C,p1_25_1,p1_25_1,"1,2"
+Pregunta 1.25.2 ¿Usted o alguien de la vivienda tiene automóvil?,1,C,p1_25_2,p1_25_2,"1,2"
+Pregunta 1.25.3 ¿Usted o alguien de la vivienda tiene camioneta?,1,C,p1_25_3,p1_25_3,"1,2"
+Pregunta 1.25.4 ¿Usted o alguien de la vivienda tiene motocicleta o motoneta?,1,C,p1_25_4,p1_25_4,"1,2"
+"Pregunta 1.25.5 ¿Usted o alguien de la vivienda tiene otro vehículo (como lancha, trajinera o canoa)?",1,C,p1_25_5,p1_25_5,"1,2"
+Pregunta 2.1 ¿Todas las personas que viven en esta vivienda comparten un mismo gasto para comer?,1,C,p2_1,p2_1,"1,2"
+"Pregunta 2.2 ¿Cuántos hogares o grupos de personas tienen gasto separado para comer, contando el de usted?",2,C,p2_2,,02…04
+"Pregunta 2.3 ¿Cuántas personas viven normalmente en esta vivienda, contando a los niños chiquitos y a los ancianos?",2,C,p2_3,,02…20
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,001-328
+UPM de diseño,5,C,upm_dis,,00001-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor de la Vivienda,5,C,fac_viv,,72-6048

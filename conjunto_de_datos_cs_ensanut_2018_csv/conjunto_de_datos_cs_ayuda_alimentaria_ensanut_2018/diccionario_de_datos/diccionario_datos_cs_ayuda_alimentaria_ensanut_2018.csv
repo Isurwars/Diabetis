@@ -1,0 +1,45 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…19
+Pregunta P1 ¿(NOMBRE) recibe o recibió despensa de alimentos o apoyos alimentarios del DIF?,1,C,p1,p1,"1,2,9"
+"Pregunta P2.1 ¿(NOMBRE) asiste o asistió a comedores comunitarios A) del DIF?""",1,C,p2_1,p2_1,"1,2,9"
+"Pregunta P2.2 ¿(NOMBRE) asiste o asistió a comedores comunitarios B) de SEDESOL?""",1,C,p2_2,p2_2,"1,2,9"
+Pregunta P3 ¿(NOMBRE) recibe o recibió apoyo de PROSPERA Programa de Inclusión Social (antes Oportunidades)?,1,C,p3,p3,"1,2,9"
+Pregunta P4 ¿(NOMBRE) recibe o recibió leche LICONSA (líquida o en polvo)?,1,C,p4,p4,"1,2,9"
+Pregunta P5 ¿(NOMBRE recibe o recibió apoyo de Organizaciones No Gubernamentales (ONG´s)?,1,C,p5,p5,"1,2,9"
+Pregunta P6.1 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Leche,1,C,p6_1,p6_1,"0,1"
+Pregunta P6.2 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Alimentos preparados,1,C,p6_2,p6_2,"0,1"
+Pregunta P6.3 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Despensas,1,C,p6_3,p6_3,"0,1"
+Pregunta P6.4 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Suplementos alimenticios para niños,1,C,p6_4,p6_4,"0,1"
+Pregunta P6.5 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Pastillas o jarabes de vitaminas / minerales,1,C,p6_5,p6_5,"0,1"
+Pregunta P6.6 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Apoyo económico para la producción de alimentos,1,C,p6_6,p6_6,"0,1"
+Pregunta P6.7 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? Otro (especifica),1,C,p6_7,p6_7,"0,1"
+Pregunta P6.8 ¿Qué apoyo recibe de las Organizaciones No Gubernamentales (ONG´s)? No sabe,1,C,p6_8,p6_8,0
+Pregunta P7 ¿(NOMBRE) recibe o recibió suplementos de vitamina A?,1,C,p7,p7,"1,2,9"
+Pregunta P8 ¿Qué programa o institución se lo entrega o entregó,1,C,p8,p8,"1-7, 9"
+Pregunta P9 ¿(NOMBRE) tiene servicio de estancia infantil de SEDESOL  para madres trabajadoras?,1,C,p9,p9,"1,2,9"
+Pregunta P10 ¿(NOMBRE) recibe o recibió suplementos con hierro?,1,C,p10,p10,"1,2,9"
+Pregunta P11 ¿Qué programa o institución se lo entrega o entregó?,1,C,p11,p11,"1-7,9"
+Pregunta P12 ¿(NOMBRE) recibe o recibió ácido fólico?,1,C,p12,p12,"1,2,9"
+Pregunta P13 ¿Quién se los entregó o entregaba?,1,C,p13,p13,"1-7,9"
+Pregunta P14 ¿(NOMBRE) recibe o recibió desayunos escolares (fríos o calientes) del DIF?,1,C,p14,p14,"1,2,9"
+Pregunta P15 ¿(NOMBRE) tiene servicio de alimentos del programa Escuelas de Tiempo Completo de la SEP?,1,C,p15,p15,"1,2,9"
+Pregunta P16 ¿(NOMBRE) recibe o recibió apoyo alimentario de albergues escolares indígenas?,1,C,p16,p16,"1,2,9"
+Pregunta P17 ¿(NOMBRE) recibe o recibió apoyo por parte del Programa de Atención a Jornaleros Agrícolas?,1,C,p17,p17,"1,2,9"
+Pregunta P18 ¿(NOMBRE) recibe o recibió apoyo del Programa de Empleo Temporal?,1,C,p18,p18,"1,2,9"
+Pregunta P19 ¿(NOMBRE) recibe o recibió capacitación para la implementación de huertos familiares?,1,C,p19,p19,"1,2,9"
+Pregunta P20 ¿(NOMBRE) recibe o recibió capacitación y/o apoyo económico para implementar proyectos productivos?,1,C,p20,p20,"1,2,9"
+Pregunta P21 ¿(NOMBRE) recibe o recibió apoyo monetario destinado a la alimentación/ nutrición de los adultos mayores?,1,C,p21,p21,"1,2,9"
+Pregunta P22.1 ¿Qué programa o institución se lo entrega o entregó?,1,C,p22_1,p22_1,1...7
+Edad,3,C,edad,,000-115
+(NOMBRE) es hombre. (NOMBRE) es mujer,1,C,sexo,sexo,"1,2"
+Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,001-328
+UPM de diseño,5,C,upm_dis,,0001-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor ayuda alimentaria,4,C,f_ayual,,72-6048
+Variable indicadora si la población es un menor de 0 meses a 59 meses de edad,2,C,menores_0_59,,0-59

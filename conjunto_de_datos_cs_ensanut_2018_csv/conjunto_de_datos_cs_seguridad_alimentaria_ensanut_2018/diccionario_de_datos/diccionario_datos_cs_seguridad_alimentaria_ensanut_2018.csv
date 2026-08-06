@@ -1,0 +1,30 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Número de Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…13
+"Pregunta 1 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted se preocupó de que los alimentos se acabaran en su hogar?",1,C,p1,p1,"1,2,8,9"
+"Pregunta 2 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez en su hogar se quedaron sin alimentos?",1,C,p2,p2,"1,2,8,9"
+"Pregunta 3 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez en su hogar dejaron de tener una alimentación saludable, nutritiva, balanceada, equilibrada?",1,C,p3,p3,"1,2,8,9"
+"Pregunta 4 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted o algún adulto en su hogar tuvo una alimentación basada en poca variedad de alimentos?",1,C,p4,p4,"1,2,8,9"
+"Pregunta 5  En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted o algún adulto en su hogar dejó de desayunar, comer, almorzar o cenar?",1,C,p5,p5,"1,2,8,9"
+"Pregunta 6 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted o algún adulto en su hogar comió menos de lo que debía comer?",1,C,p6,p6,"1,2,8,9"
+"Pregunta 7 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted o algún adulto en su hogar sintió hambre pero no comió?",1,C,p7,p7,"1,2,8,9"
+"Pregunta 8  En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez usted o algún adulto en su hogar solo comió una vez al día o dejó de comer todo un día?",1,C,p8,p8,"1,2,8,9"
+Pregunta 9 ¿En su hogar viven personas menores de 18 años?,1,C,p9,p9,"1,2"
+"Pregunta 10 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar dejó de tener una alimentación saludable, nutritiva, balanceada, equilibrada?",1,C,p10,p10,"1,2,8,9"
+"Pregunta 11  En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar tuvo una alimentación basada en poca variedad de alimentos?",1,C,p11,p11,"1,2,8,9"
+"Pregunta 12 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar dejó de desayunar, comer, almorzar o cenar?",1,C,p12,p12,"1,2,8,9"
+"Pregunta 13 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar comió menos de lo que debía?",1,C,p13,p13,"1,2,8,9"
+"Pregunta 14 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez tuvieron que disminuir la cantidad servida en las comidas a algún menor de 18 años en su hogar?",1,C,p14,p14,"1,2,8,9"
+"Pregunta 15 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar sintió hambre pero no comió?",1,C,p15,p15,"1,2,8,9"
+"Pregunta 16 En los últimos tres meses, por falta de dinero u otros recursos, ¿alguna vez algún menor de 18 años en su hogar solo comió una vez al día o dejó de comer todo un día?",1,C,p16,p16,"1,2,8,9"
+Edad,3,C,edad,,011-111
+Sexo,1,C,sexo,sexo,"1,2"
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,001-328
+UPM de diseño,5,C,upm_dis,,00001-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor de seguridad alimentaria,4,C,f_segal,,72-6048

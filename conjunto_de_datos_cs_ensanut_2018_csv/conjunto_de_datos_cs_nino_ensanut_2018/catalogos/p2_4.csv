@@ -1,0 +1,6 @@
+﻿cve,descrip
+"1","Sí muestra cartilla"
+"2","Sí muestra documento probatorio o comprobante"
+"3","Sí tiene cartilla, pero no la mostró"
+"4","Sí mostró cartilla, pero no tiene información"
+"5","No tiene Cartilla"

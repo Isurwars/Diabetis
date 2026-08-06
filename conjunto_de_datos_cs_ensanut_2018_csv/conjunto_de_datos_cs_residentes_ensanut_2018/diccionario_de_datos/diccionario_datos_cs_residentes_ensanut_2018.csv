@@ -1,0 +1,169 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Número de Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…19
+(NOMBRE) es hombre o mujer,1,C,sexo,sexo,"1,2"
+Edad,2,C,edad,,000-115
+Pregunta 3.5 ¿Qué es (NOMBRE) de la (del) jefa(e)?,2,C,p3_5,p3_5,01...09
+Pregunta 3.6 ¿En qué estado de la República Mexicana o país nació (NOMBRE)?,1,C,p3_6,p3_6,1…4
+Pregunta 3.6.1 ¿En cuál?,2,C,p3_6_1,p3_6_1,01-32
+"Pregunta 3.7 En este hogar, ¿vive la madre de (NOMBRE)?",1,C,p3_7,p3_7,"1-3,9"
+Pregunta 3.7.1 ¿Quién es? (Número de renglón de la madre),1,C,p3_7_1,,01…16
+"Pregunta 3.8 En este hogar, ¿vive el padre de (NOMBRE)?",1,C,p3_8,p3_8,"1-3,9"
+Pregunta 3.8.1 ¿Quién es? (Número de renglón del padre),1,C,p3_8_1,,01…15
+"Pregunta 3.9.01 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el Seguro Social (IMSS)?",1,C,p3_9_01,p3_9_01,"0,1"
+"Pregunta 3.9.02 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el ISSSTE?",1,C,p3_9_02,p3_9_02,"0,1"
+"Pregunta 3.9.03 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el ISSSTE Estatal?",1,C,p3_9_03,p3_9_03,"0,1"
+"Pregunta 3.9.04 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el hospital de Pemex?",1,C,p3_9_04,p3_9_04,"0,1"
+"Pregunta 3.9.05 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el hospital de la Defensa?",1,C,p3_9_05,p3_9_05,"0,1"
+"Pregunta 3.9.06 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el hospital de la Marina?",1,C,p3_9_06,p3_9_06,"0,1"
+"Pregunta 3.9.07 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el Centro de Salud u Hospital de la SSA?",1,C,p3_9_07,p3_9_07,"0,1"
+"Pregunta 3.9.08 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en el IMSS PROSPERA (antes Oportunidades)?",1,C,p3_9_08,p3_9_08,"0,1"
+"Pregunta 3.9.09 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en consultorios dependientes de farmacias?",1,C,p3_9_09,p3_9_09,"0,1"
+"Pregunta 3.9.10 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en consultorio, clínica u hospital privado?",1,C,p3_9_10,p3_9_10,"0,1"
+"Pregunta 3.9.11 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se automedica?",1,C,p3_9_11,p3_9_11,"0,1"
+"Pregunta 3.9.77 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente se atiende en Otro lugar (especificar)?",1,C,p3_9_77,p3_9_77,"0,1"
+"Pregunta 3.9.12 Cuando (NOMBRE) tiene problemas de salud, ¿usualmente no se atiende?",1,C,p3_9_12,p3_9_12,"0,1"
+"Pregunta 3.9.99 Cuando (NOMBRE) tiene problemas de salud, no sabe donde se atiende",1,C,p3_9_99,p3_9_99,"0,1"
+Pregunta 3.10.01 ¿(NOMBRE) tiene derecho o acceso a servicios médicos del Seguro Social (IMSS)?,1,C,p3_10_01,p3_10_01,"0,1"
+Pregunta 3.10.02 ¿(NOMBRE) tiene derecho o acceso a servicios médicos del ISSSTE?,1,C,p3_10_02,p3_10_02,"0,1"
+Pregunta 3.10.03 ¿(NOMBRE) tiene derecho o acceso a servicios médicos del ISSSTE Estatal?,1,C,p3_10_03,p3_10_03,"0,1"
+Pregunta 3.10.04 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de Pemex?,1,C,p3_10_04,p3_10_04,"0,1"
+Pregunta 3.10.05 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de la Defensa,1,C,p3_10_05,p3_10_05,"0,1"
+Pregunta 3.10.06 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de la Marina?,1,C,p3_10_06,p3_10_06,"0,1"
+Pregunta 3.10.07 ¿(NOMBRE) tiene derecho o acceso a servicios médicos del Seguro Popular o Seguro Médico Siglo XXI?,1,C,p3_10_07,p3_10_07,"0,1"
+Pregunta 3.10.08 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de IMSS PROSPERA (antes Oportunidades)?,1,C,p3_10_08,p3_10_08,"0,1"
+Pregunta 3.10.09 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de un seguro privado de gastos médicos?,1,C,p3_10_09,p3_10_09,"0,1"
+Pregunta 3.10.10 ¿(NOMBRE) tiene derecho o acceso a servicios médicos de otra institución?,1,C,p3_10_10,p3_10_10,"0,1"
+Pregunta 3.10.11 ¿(NOMBRE) No está afiliado o inscrito a servicios médicos?,1,C,p3_10_11,p3_10_11,"0,1"
+Pregunta 3.10.99 ¿(NOMBRE) No sabe si tiene derecho o acceso a servicios médicos?,1,C,p3_10_99,p3_10_99,"0,1"
+Pregunta 3.10.OPC1  PRIMERA O ÚNICA OPCIÓN,2,C,p3_10_opc1,,"01-11,99"
+Pregunta 3.10.OPC2  SEGUNDA OPCIÓN ELEGIDA,2,C,p3_10_opc2,,02...10
+Pregunta 3.11 ¿(NOMBRE) habla alguna lengua indígena (dialecto)?,1,C,p3_11,p3_11,"1,2"
+Pregunta 3.12 ¿(NOMBRE) habla también español?,1,C,p3_12,p3_12,"1,2"
+Pregunta 3.13 ¿(NOMBRE) asiste actualmente a la escuela?,1,C,p3_13,p3_13,"1,2"
+Pregunta 3.14 ¿La escuela a la que asiste (NOMBRE) es?,1,C,p3_14,p3_14,"1,2"
+Pregunta 3.15 ¿A qué turno asiste (NOMBRE)?,1,C,p3_15,p3_15,1…4
+Pregunta 3.16 ¿Cuál es la razón principal por la que (NOMBRE) no asiste actualmente a la escuela?,2,C,p3_16,p3_16,01…11
+Pregunta NIVEL ¿Cuál es el último año y grado que aprobó (NOMBRE) en la escuela? (Nivel),2,C,nivel,nivel,00-12
+Pregunta GRADO ¿Cuál es el último año y grado que aprobó (NOMBRE) en la escuela? (Grado),1,C,grado,,0-6
+Pregunta 3.18 Actualmente ¿(NOMBRE) sabe leer y escribir un recado?,1,C,p3_18,p3_18,"1,2"
+Pregunta 3.19 Actualmente (NOMBRE)?,1,C,p3_19,p3_19,1…7
+"Pregunta 3.20 En este hogar, ¿vive el cónyuge de (NOMBRE)?",1,C,p3_20,p3_20,"1-3,9"
+Pregunta 3.20.1 ¿Quién es? (Número de renglón del cónyuge),2,C,p3_20_1,,01…17
+"Pregunta 3.21 ¿Durante la semana pasada, (NOMBRE) trabajó (al menos una hora)?",1,C,p3_21,p3_21,"1,2"
+"Pregunta 3.22 Aunque ya me dijo que (NOMBRE) no trabajó, ¿la semana pasada?",1,C,p3_22,p3_22,1…6
+"Pregunta 3.22.1 Entonces, ¿la semana pasada (NOMBRE)?",1,C,p3_22_1,p3_22_1,1…6
+"Pregunta 3.23 ¿En su trabajo o negocio de la semana pasada, (NOMBRE) fue?",1,C,p3_23,p3_23,1…7
+"Pregunta 3.24.01 ¿(NOMBRE) recibe o puede recibir por su trabajo servicio médico (IMSS, ISSSTE u otro)?",1,C,p3_24_01,p3_24_01,1…3
+Pregunta 3.24.02 ¿(NOMBRE) recibe o puede recibir por su trabajo aguinaldo?,1,C,p3_24_02,p3_24_02,1...3
+Pregunta 3.24.03 ¿(NOMBRE) recibe o puede recibir por su trabajo vacaciones con goce de sueldo?,1,C,p3_24_03,p3_24_03,1…3
+Pregunta 3.24.04 ¿(NOMBRE) recibe o puede recibir por su trabajo reparto de utilidades o prima vacacional?,1,C,p3_24_04,p3_24_04,1…3
+Pregunta 3.24.05 ¿(NOMBRE) recibe o puede recibir por su trabajo ahorro para el retiro (SAR o AFORE)?,1,C,p3_24_05,p3_24_05,1…3
+"Pregunta 3.24.06 ¿(NOMBRE) recibe o puede recibir por su trabajo crédito para vivienda (Infonavit, Fovissste)?",1,C,p3_24_06,p3_24_06,1…3
+Pregunta 3.24.07 ¿(NOMBRE) recibe o puede recibir por su trabajo guardería?,1,C,p3_24_07,p3_24_07,1…3
+Pregunta 3.24.08 ¿(NOMBRE) recibe o puede recibir por su trabajo tiempo para cuidados maternos o paternos?,1,C,p3_24_08,p3_24_08,1…3
+Pregunta 3.24.09 ¿(NOMBRE) recibe o puede recibir por su trabajo seguro de vida?,1,C,p3_24_09,p3_24_09,1…3
+Pregunta 3.24.10 ¿(NOMBRE) recibe o puede recibir por su trabajo seguro privado para gastos médicos?,1,C,p3_24_10,p3_24_10,1…3
+Pregunta 3.24.11 ¿(NOMBRE) recibe o puede recibir por su trabajo préstamos personales o caja de ahorro?,1,C,p3_24_11,p3_24_11,1…3
+"Pregunta 3.25 En total durante la semana pasada, ¿cuántas horas trabajó (NOMBRE)?",2,C,p3_25,,01-84
+Pregunta 3.26.1 ¿Cada cuándo obtiene (NOMBRE) sus ingresos o le pagan?,1,C,p3_26_1,p3_26_1,"1-6,9"
+Pregunta 3.26.2 ¿Cuánto ganó o en cuánto calcula sus ingresos?,6,C,p3_26_2,,"000002-999998,999999"
+"Pregunta 4.1.1 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para caminar, subir o bajar usando sus piernas?",1,C,p4_1_1,p4_1_1,1…4
+"Pregunta 4.1.2 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para ver (aunque use lentes)?",1,C,p4_1_2,p4_1_2,1…4
+"Pregunta 4.1.3 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para mover o usar brazos o manos?",1,C,p4_1_3,p4_1_3,1…4
+"Pregunta 4.1.4 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para aprender, recordar o concentrarse?",1,C,p4_1_4,p4_1_4,1…4
+"Pregunta 4.1.5 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para escuchar (aunque use aparato auditivo)?",1,C,p4_1_5,p4_1_5,1…4
+"Pregunta 4.1.6 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para bañarse, vestirse o comer?",1,C,p4_1_6,p4_1_6,1…4
+"Pregunta 4.1.7 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para hablar o comunicarse (por ejemplo, entender o ser entendido por otros)?",1,C,p4_1_7,p4_1_7,1…4
+"Pregunta 4.1.8 Por alguna condición de nacimiento o de salud, ¿cuánta dificultad tiene (NOMBRE), para realizar sus actividades diarias por problemas emocionales o mentales (con autonomía e independencia) Problemas como: autismo, depresión, bipolaridad, esquizofrenia, etcétera?",1,C,p4_1_8,p4_1_8,1…4
+"Pregunta 4.2.1 ¿La dificultad de (NOMBRE) para caminar, subir o bajar usando sus piernas es por?",1,C,p4_2_1,p4_2_1,1…6
+Pregunta 4.2.2 ¿La dificultad de (NOMBRE) para ver (aunque use lentes) es por?,1,C,p4_2_2,p4_2_2,1…6
+Pregunta 4.2.3 ¿La dificultad de (NOMBRE) para mover o usar brazos o manos es por?,1,C,p4_2_3,p4_2_3,1…6
+"Pregunta 4.2.4 ¿La dificultad de (NOMBRE) para aprender, recordar o concentrarse es por?",1,C,p4_2_4,p4_2_4,1…6
+Pregunta 4.2.5 ¿La dificultad de (NOMBRE) para escuchar aunque use aparato auditivo es por?,1,C,p4_2_5,p4_2_5,1…6
+"Pregunta 4.2.6 ¿La dificultad de (NOMBRE) para bañarse, vestirse o comer es por?",1,C,p4_2_6,p4_2_6,1…6
+"Pregunta 4.2.7 ¿La dificultad de (NOMBRE) para hablar o comunicarse (por ejemplo, entender o ser entendido por otros) es por?",1,C,p4_2_7,p4_2_7,1…6
+"Pregunta 4.2.8 ¿La dificultad de (NOMBRE) para realizar sus actividades diarias por problemas emocionales o mentales (con autonomía e independencia) Problemas como: autismo, depresión, bipolaridad, esquizofrenia, etc., es por?",1,C,p4_2_8,p4_2_8,1…6
+"Pregunta 4.3 En el último mes ¿(NOMBRE), ha tenido algún problema de salud, por enfermedad, lesiones físicas, accidentes o Agresiones?",1,C,p4_3,p4_3,"1,2,9"
+Pregunta 4.4 ¿Esto ocurrió en las últimas dos semanas?,1,C,p4_4,p4_4,"1,2,9"
+Pregunta 4.5 ¿Está (NOMBRE) recibiendo o recibió atención por este padecimiento?,1,C,p4_5,p4_5,"1,2,9"
+"Pregunta 4.6 Relacionado con su problema de salud, ¿utilizó o está utilizando algún medicamento con o sin receta?",1,C,p4_6,p4_6,"1,2,9"
+Pregunta 4.7 ¿Cuánto pago por los medicamentos que utilizó?,6,C,p4_7,,"000000-999990,999999"
+Pregunta 4.8.01 ¿(NOMBRE) fue atendido por un familiar?,1,C,p4_8_01,p4_8_01,"0,1"
+Pregunta 4.8.02 ¿(NOMBRE) fue atendido por un amigo(a)/vecino(a)?,1,C,p4_8_02,p4_8_02,"0,1"
+Pregunta 4.8.03 ¿(NOMBRE) fue atendido por el dependiente de la farmacia?,1,C,p4_8_03,p4_8_03,"0,1"
+Pregunta 4.8.04 ¿(NOMBRE) fue atendido por un curandero?,1,C,p4_8_04,p4_8_04,"0,1"
+Pregunta 4.8.05 ¿(NOMBRE) fue atendido por una partera?,1,C,p4_8_05,p4_8_05,"0,1"
+Pregunta 4.8.06 ¿(NOMBRE) fue atendido por un yerbero?,1,C,p4_8_06,p4_8_06,"0,1"
+Pregunta 4.8.07 ¿(NOMBRE) fue atendido por un homeópata?,1,C,p4_8_07,p4_8_07,"0,1"
+Pregunta 4.8.08 ¿(NOMBRE) fue atendido por un naturista?,1,C,p4_8_08,p4_8_08,"0,1"
+Pregunta 4.8.09 ¿(NOMBRE) fue atendido por un acupunturista?,1,C,p4_8_09,p4_8_09,"0,1"
+Pregunta 4.8.10 ¿(NOMBRE) fue atendido por el encargado de la comunidad/ auxiliar de la salud?,1,C,p4_8_10,p4_8_10,"0,1"
+Pregunta 4.8.11 ¿(NOMBRE) fue atendido por un médico general (alópata)?,1,C,p4_8_11,p4_8_11,"0,1"
+Pregunta 4.8.12 ¿(NOMBRE) fue atendido por un médico especialista?,1,C,p4_8_12,p4_8_12,"0,1"
+Pregunta 4.8.13 ¿(NOMBRE) fue atendido por un dentista?,1,C,p4_8_13,p4_8_13,"0,1"
+Pregunta 4.8.14 ¿(NOMBRE) fue atendido por un enfermera?,1,C,p4_8_14,p4_8_14,"0,1"
+Pregunta 4.8.15 ¿(NOMBRE) fue atendido por un nutriólogo?,1,C,p4_8_15,p4_8_15,"0,1"
+Pregunta 4.8.77 ¿(NOMBRE) fue atendido por un Otro (especifica),1,C,p4_8_77,p4_8_77,"0,1"
+Pregunta 4.8.20 Nadie atendió a (NOMBRE),1,C,p4_8_20,p4_8_20,"0,1"
+Pregunta 4.8.99 No sabe por quién fue atendido (NOMBRE),1,C,p4_8_99,p4_8_99,"0,1"
+"Pregunta 4.9.01 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no fue necesario?",1,C,p4_9_01,p4_9_01,"0,1"
+"Pregunta 4.9.02 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud por falta de confianza?",1,C,p4_9_02,p4_9_02,"0,1"
+"Pregunta 4.9.03 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque decidió no atenderse?",1,C,p4_9_03,p4_9_03,"0,1"
+"Pregunta 4.9.04 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque tratan mal?",1,C,p4_9_04,p4_9_04,"0,1"
+"Pregunta 4.9.05 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no lo atendieron?",1,C,p4_9_05,p4_9_05,"0,1"
+"Pregunta 4.9.06 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque le dijeron que su problema no era urgente?",1,C,p4_9_06,p4_9_06,"0,1"
+"Pregunta 4.9.07 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no tuvo tiempo?",1,C,p4_9_07,p4_9_07,"0,1"
+"Pregunta 4.9.08 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no había servicio en el horario en el que lo necesitaba?",1,C,p4_9_08,p4_9_08,"0,1"
+"Pregunta 4.9.09 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque la unidad médica estaba cerrada?",1,C,p4_9_09,p4_9_09,"0,1"
+"Pregunta 4.9.10 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no tuvo quién lo llevara o acompañara?",1,C,p4_9_10,p4_9_10,"0,1"
+"Pregunta 4.9.11 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque está muy lejos?",1,C,p4_9_11,p4_9_11,"0,1"
+"Pregunta 4.9.12 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque es caro?",1,C,p4_9_12,p4_9_12,"0,1"
+"Pregunta 4.9.13 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no tenía dinero?",1,C,p4_9_13,p4_9_13,"0,1"
+"Pregunta 4.9.14 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque le dijeron que tenía que pagar por la atención y los medicamentos?",1,C,p4_9_14,p4_9_14,"0,1"
+"Pregunta 4.9.15 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque le dijeron que el seguro no cubría la enfermedad que tiene?",1,C,p4_9_15,p4_9_15,"0,1"
+"Pregunta 4.9.16 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque en el lugar donde lo enviaron no atendían a las personas del seguro popular?",1,C,p4_9_16,p4_9_16,"0,1"
+"Pregunta 4.9.17 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque le solicitaron un pase de referencia y no lo pudo conseguir?",1,C,p4_9_17,p4_9_17,"0,1"
+"Pregunta 4.9.18 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no hay donde atenderse?",1,C,p4_9_18,p4_9_18,"0,1"
+"Pregunta 4.9.19 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no tenían el equipo necesario para atender su padecimiento?",1,C,p4_9_19,p4_9_19,"0,1"
+"Pregunta 4.9.20 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque los trámites eran muy tardados?",1,C,p4_9_20,p4_9_20,"0,1"
+"Pregunta 4.9.21 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque no alcanzó ficha/había mucha gente?",1,C,p4_9_21,p4_9_21,"0,1"
+"Pregunta 4.9.22 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque el tiempo para pasar a consulta era muy largo?",1,C,p4_9_22,p4_9_22,"0,1"
+"Pregunta 4.9.23 ¿(NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud porque el tiempo para ser hospitalizado era muy largo?",1,C,p4_9_23,p4_9_23,"0,1"
+"Pregunta 4.9.77 ¿Por qué otro motivo (NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud?",1,C,p4_9_77,p4_9_77,"0,1"
+"Pregunta 4.9.99 No sabe por qué motivo (NOMBRE) no se atendió con un médico, enfermera o algún otro personal de salud",1,C,p4_9_99,p4_9_99,"0,1"
+Pregunta 4.10 ¿En qué institución de salud se atendió (NOMBRE)?,2,C,p4_10,p4_10,"01-11, 77, 99"
+"Pregunta 4.11 En las últimas dos semanas, ¿(NOMBRE) solicitó consulta que no haya requerido hospitalización por enfermedad, control de la misma, lesión o accidente? (NO INCLUYA HOSPITALIZACIÓN)",1,C,p4_11,p4_11,"1,2,9"
+"Pregunta 4.12 En los últimos 12 meses, ¿(NOMBRE) estuvo hospitalizado(a) o internado(a)?",1,C,p4_12,p4_12,"1,2,9"
+"Pregunta 4.13 Ahora le preguntaré por la última vez que estuvo hospitalizado(a) (NOMBRE), ¿por qué motivo fue hospitalizado(a) (NOMBRE)?",2,C,p4_13,p4_13,"01-09, 77, 99"
+"Pregunta 4.14 Ahora le preguntaré por la última vez que estuvo internado(a) (NOMBRE), ¿por qué motivo fue internado(a) (NOMBRE)?",2,C,p4_14,p4_14,"01-10, 77, 99"
+"Pregunta 4.15 Si (NOMBRE) tuviera la oportunidad de escoger, ¿regresaría a ese mismo lugar para la hospitalización?",1,C,p4_15,p4_15,"1,2,9"
+Pregunta 4.16 ¿En general la calidad de la atención que recibió fue-,1,C,p4_16,p4_16,"1-5,9"
+"Pregunta 5.1.01 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de apoyo monetario de PROSPERA (Oportunidades)?",1,C,p5_1_01,p5_1_01,1
+"Pregunta 5.1.02 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de becas escolares de PROSPERA (Oportunidades)?",1,C,p5_1_02,p5_1_02,1
+"Pregunta 5.1.03 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de apoyo monetario de los adultos mayores de PROSPERA (Oportunidades)?",1,C,p5_1_03,p5_1_03,1
+"Pregunta 5.1.04 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de atención médica de PROSPERA (Oportunidades)?",1,C,p5_1_04,p5_1_04,1
+"Pregunta 5.1.05 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de papilla de PROSPERA (Oportunidades)?",1,C,p5_1_05,p5_1_05,1
+"Pregunta 5.1.06 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de apoyo monetario del programa de 70 y más?",1,C,p5_1_06,p5_1_06,1
+"Pregunta 5.1.07 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de pensión alimenticia para adultos mayores?",1,C,p5_1_07,p5_1_07,1
+"Pregunta 5.1.08 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de salud y nutrición para pueblos indígenas (suplementos con micro nutrimentos)?",1,C,p5_1_08,p5_1_08,1
+"Pregunta 5.1.09 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de estancias infantiles?",1,C,p5_1_09,p5_1_09,1
+"Pregunta 5.1.10 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de leche Liconsa o Conasupo?",1,C,p5_1_10,p5_1_10,1
+"Pregunta 5.1.11 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de despensas del DIF?",1,C,p5_1_11,p5_1_11,1
+"Pregunta 5.1.12 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de despensas de otras organizaciones?",1,C,p5_1_12,p5_1_12,1
+"Pregunta 5.1.13 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de cocinas o comedores populares?",1,C,p5_1_13,p5_1_13,1
+"Pregunta 5.1.14 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de desayunos escolares?",1,C,p5_1_14,p5_1_14,1
+"Pregunta 5.1.15 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de suplementos de vitaminas y minerales?",1,C,p5_1_15,p5_1_15,1
+"Pregunta 5.1.16 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de becas educativas distintas a las de PROSPERA (Oportunidades)?",1,C,p5_1_16,p5_1_16,1
+"Pregunta 5.1.17 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de organización no gubernamental o civil?",1,C,p5_1_17,p5_1_17,1
+"Pregunta 5.1.18 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo del programa de otros apoyos monetarios para adultos mayores?",1,C,p5_1_18,p5_1_18,1
+"Pregunta 5.1.19 En los últimos 12 meses, ¿alguna persona en este hogar recibió apoyo de algún otro programa (especificar)?",1,C,p5_1_19,p5_1_19,1
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,001-328
+UPM de diseño,5,C,upm_dis,,00001-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor de residentes,5,C,factor,,79-6995

@@ -1,0 +1,29 @@
+﻿Identifier: MEX-INEGI-ESD3.04-ENSANUT-2018
+
+Title: Encuesta Nacional de Salud y Nutrición 2018. Datos oportunos
+
+Description: El Instituto Nacional de Estadística y Geografía (INEGI) levanta la Encuesta Nacional de Salud y Nutrición (ENSANUT) 2018, con el objetivo de actualizar el panorama sobre la frecuencia, distribución y tendencias de indicadores relevantes sobre condiciones de salud y nutrición y sus determinantes sociales en el país.
+
+Estudiar la cobertura, focalización, calidad percibida y satisfacción de los usuarios con los programas y servicios de salud y nutrición.
+
+Modified: 2020-11-27
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: https://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/590/data_dictionary?idPro=
+
+Keyword: "Desnutrición", "Encuesta", "Enfermedad", "Farmacología", "Hogar", "Lactancia", "Medicina", "Necesidades", "Niño", "Nutrición", "Obesidad", "Patología", "Población", "Pobreza", "Salud", "Vacunación"
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 800 111 4634
+
+Temporal: 2018-07-30-2019-06-28
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Sexenalmente
+
+Distribution: https://www.inegi.org.mx/programas/ensanut/2018/

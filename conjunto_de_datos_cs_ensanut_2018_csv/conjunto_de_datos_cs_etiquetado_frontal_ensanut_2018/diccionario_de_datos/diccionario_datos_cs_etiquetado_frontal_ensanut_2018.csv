@@ -1,0 +1,69 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…25
+Número de Hogar,1,C,hogar,,1…4
+Número de Renglón,2,C,numren,,01…14
+"Pregunta 1 En promedio, ¿cuántas calorías considera usted que debe consumir una persona sana, de su misma edad y sexo, en un día?",1,C,p1,p1,"1-7, 9"
+Pregunta 2 ¿Usted sabe leer y escribir un recado?,1,C,p2,p2,"1, 2"
+Pregunta 3 ¿Usted sabe si los alimentos empacados y las bebidas embotelladas tienen información sobre su contenido nutrimental?,1,C,p3,p3,"1, 2, 9"
+Pregunta 4 ¿Usted lee la información nutrimental de los alimentos empacados y las bebidas embotelladas que compra?,1,C,p4,p4,"1, 2, 9"
+Pregunta 5.1 ¿Cuál es la etiqueta que usted lee? Etiqueta 1,1,C,p5_1,p5_1,"0,1"
+Pregunta 5.2 ¿Cuál es la etiqueta que usted lee? Etiqueta 2,1,C,p5_2,p5_2,"0,1"
+Pregunta 5.3 ¿Cuál es la etiqueta que usted lee? Etiqueta 3,1,C,p5_3,p5_3,"0,1"
+Pregunta 5.4 ¿Cuál es la etiqueta que usted lee? Ninguno,1,C,p5_4,p5_4,"0,1"
+Pregunta 5.5 ¿Cuál es la etiqueta que usted lee? No sabe / No responde,1,C,p5_5,p5_5,"0,1"
+Pregunta 6  ¿Qué tan comprensible es la información nutricional en la etiqueta que se encuentra al frente de los empaques?,1,C,p6,p6,"1-4,9"
+"Pregunta 7 Cuando compra alimentos empacados y/o bebidas embotelladas, ¿con qué frecuencia elige un producto por la información de los empaques? (logotipos o leyendas de salud)",1,C,p7,p7,"1-5,9"
+Pregunta 8 ¿Con qué frecuencia utiliza la etiqueta nutrimental que usted lee para saber si un producto es más saludable que otro?,1,C,p8,p8,"1-5,9"
+Pregunta 9.1 ¿Con qué frecuencia piensa que el etiquetado GDA ayuda a las personas a elegir productos más saludables porque se entiende?,1,C,p9_1,p9_1,"1-5,9"
+Pregunta 9.2 ¿Con qué frecuencia piensa que el etiquetado GDA ayuda a las personas a elegir productos más saludables porque es confiable?,1,C,p9_2,p9_2,"1-5,9"
+Pregunta 9.3 ¿Con qué frecuencia piensa que el etiquetado GDA ayuda a las personas a elegir productos más saludables porque es demasiada información?,1,C,p9_3,p9_3,"1-5,9"
+Pregunta 9.4 ¿Con qué frecuencia piensa que el etiquetado GDA ayuda a las personas a elegir productos más saludables porque le ayuda con la elección de compra?,1,C,p9_4,p9_4,"1-5,9"
+"Pregunta 10 En promedio, al momento de la compra, ¿cuánto tiempo destina para observar el etiquetado GDA de un alimento empacado o bebida embotellada?",1,C,p10,p10,"1-4,9"
+"Pregunta 11.1 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Etiqueta 1",1,C,p11_1,p11_1,"0,1"
+"Pregunta 11.2 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Etiqueta 2",1,C,p11_2,p11_2,"0,1"
+"Pregunta 11.3 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Etiqueta 3",1,C,p11_3,p11_3,"0,1"
+"Pregunta 11.4 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Etiqueta 4",1,C,p11_4,p11_4,"0,1"
+"Pregunta 11.5 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Etiqueta 5",1,C,p11_5,p11_5,"0,1"
+"Pregunta 11.6 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra?  Ninguno",1,C,p11_6,p11_6,"0,1"
+"Pregunta 11.7 Señale, ¿cuál de los siguientes componentes del empaque de un producto, usa o le ha servido para elegir los alimentos y bebidas que compra? No sabe / No responde",1,C,p11_7,p11_7,"0,1"
+"Pregunta 12  Tomando en cuenta la información de la etiqueta GDA, ¿podría decirme si para usted el producto es?",1,C,p12,p12,"1-4,9"
+"Pregunta 13 Viendo la etiqueta del producto, ¿considera que el contenido total de sodio es?",1,C,p13,p13,"1-4,9"
+Pregunta 14  Me puede decir ¿cuánta energía proporciona en total el producto de la etiqueta?,1,C,p14,p14,"1-4,9"
+Pregunta 15.1  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Por salud / enfermedad / nutrición,1,C,p15_1,p15_1,"1,2"
+Pregunta 15.2  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Porque lleva una dieta o régimen de alimentación,1,C,p15_2,p15_2,"1,2"
+Pregunta 15.3  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Porque le interesa conocer,1,C,p15_3,p15_3,"1,2"
+"Pregunta 15.4  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas?  Porque están dirigidos a bebés, niños, embarazadas o adultos mayores",1,C,p15_4,p15_4,"1,2"
+Pregunta 15.5  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas?  Para revisar la calidad del producto,1,C,p15_5,p15_5,"1,2"
+"Pregunta 15.6  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Por elegir un producto específico (kosher, vegano, sin gluten, orgánico)",1,C,p15_6,p15_6,"1,2"
+Pregunta 15.7  ¿Por qué cree usted que hay personas que utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Otra (especifica),1,C,p15_7,p15_7,"1,2"
+Pregunta 16.1  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No tiene tiempo,1,C,p16_1,p16_1,"1,2"
+Pregunta 16.2  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No le interesa,1,C,p16_2,p16_2,"1,2"
+Pregunta 16.3  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No le es visible,1,C,p16_3,p16_3,"1,2"
+Pregunta 16.4  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No confía en ellas,1,C,p16_4,p16_4,"1,2"
+Pregunta 16.5  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No le entienda / interpreta,1,C,p16_5,p16_5,"1,2"
+Pregunta 16.6  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? No las considera de utilidad,1,C,p16_6,p16_6,"1,2"
+Pregunta 16.7  ¿Por qué cree usted que hay personas que no utilizan el etiquetado GDA de los alimentos empacados y bebidas embotelladas? Otra (especifica),1,C,p16_7,p16_7,"1,2"
+"Pregunta 17.1 De acuerdo a la información que proporcionan las etiquetas A, B y C, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto A",1,C,p17_1,p17_1,"1-3,9"
+"Pregunta 17.2 De acuerdo a la información que proporcionan las etiquetas A, B y C, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto B",1,C,p17_2,p17_2,"1-3,9"
+"Pregunta 17.3 De acuerdo a la información que proporcionan las etiquetas A, B y C, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto C",1,C,p17_3,p17_3,"1-3,9"
+"Pregunta 18.1 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. Energía (Kcal)",1,C,p18_1,,1...5
+"Pregunta 18.2 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. Sodio",1,C,p18_2,,1...5
+"Pregunta 18.3 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. Azúcares totales",1,C,p18_3,,1...5
+"Pregunta 18.4 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. Otras grasas",1,C,p18_4,,1...5
+"Pregunta 18.5 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. Grasas saturadas",1,C,p18_5,,1...5
+"Pregunta 18.6 ¿A cuál de los elementos del etiquetado nutrimental GDA, le da (o daría) mayor importancia en la decisión de compra de los productos? Ordene del 1 al 5; el 1 es para el de mayor importancia y 5 para el de menor importancia. No sabe / No responde",1,C,p18_6,p18_6,9
+"Pregunta 19.1 De acuerdo a la información que proporcionan las etiquetas A, B, C y D, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto A",1,C,p19_1,p19_1,"1-3,9"
+"Pregunta 19.2 De acuerdo a la información que proporcionan las etiquetas A, B, C y D, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto B",1,C,p19_2,p19_2,"1-3,9"
+"Pregunta 19.3 De acuerdo a la información que proporcionan las etiquetas A, B, C y D, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto C",1,C,p19_3,p19_3,"1-3,9"
+"Pregunta 19.4 De acuerdo a la información que proporcionan las etiquetas A, B, C y D, le pido que me indique si el producto es: saludable, poco saludable o no saludable. Producto D",1,C,p19_4,p19_4,"1-3,9"
+Pregunta 20 ¿Cuál de los siguientes tipos de etiquetado le ayudaría a las mamás y a los papás a elegir un producto más saludable para sus hijos?,1,C,p20,p20,"1,2"
+Edad,3,C,edad,,020-112
+Sexo,1,C,sexo,sexo,"1,2"
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de diseño,3,C,est_dis,,001-328
+UPM de diseño,5,C,upm_dis,,00002-06289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor Etiquetado Frontal,5,C,f_20mas,,81-39342

@@ -1,0 +1,345 @@
+﻿nombre_campo,tipo,longitud,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,C,5,UPM,,00001-06289
+Vivienda seleccionada,C,2,VIV_SEL,,01…24
+Número de Hogar,C,1,HOGAR,,1…3
+Número de Renglón,C,2,NUMREN,,01…16
+Pregunta 1.1 ¿Has fumado por lo menos 100 cigarrillos (5 cajetillas) de tabaco durante toda tu vida?,C,1,P1_1,p1_1,"1,2,8,9"
+Pregunta 1.2 Actualmente ¿fumas tabaco...,C,1,P1_2,p1_2,"1-3,8"
+"Pregunta 1.3 ¿En el pasado, ¿has fumado tabaco todos los días?",C,1,P1_3,p1_3,"1,2,8"
+"Pregunta 1.4 En el pasado, ¿has fumado productos del tabaco...",C,1,P1_4,p1_4,"1-3,8"
+Pregunta 1.5  ¿A qué edad comenzaste a fumar productos del tabaco todos los días?,C,2,P1_5,,"05-19, 97,98"
+"Pregunta 1.6.1 En promedio, ¿cuántos cigarros fumas  actualmente por día?",C,3,P1_6_1,,"001-040,999"
+"Pregunta 1.6.2 En promedio, ¿cuántos cigarros fumas  actualmente por semana?",C,3,P1_6_2,,000-156
+Pregunta 1.7.1 ¿Hace cuánto tiempo dejaste definitivamente de fumar?,C,1,P1_7_1,p1_7_1,"1 -5, 8"
+Pregunta 1.7.2.1 Años,C,2,P1_7_2_1,,01…07
+Pregunta 1.7.2.2 Meses,C,2,P1_7_2_2,,01…11
+Pregunta 1.7.2.3 Semanas,C,2,P1_7_2_3,,01…07
+Pregunta 1.7.2.4 Días,C,2,P1_7_2_4,,01…12
+"Pregunta 1.8  Algunas marcas de cigarros tienen una cápsula en el filtro que, al romperse, da sabor al humo. ¿Alguna vez fumaste un cigarro con cápsula de sabor?",C,1,P1_8,p1_8,"1,2"
+Pregunta 1.8.1 ¿Ha sido en los últimos 30 días?,C,1,P1_8_1,p1_8_1,"1,2"
+"Pregunta 1.9  Los cigarros electrónicos son productos que utilizan baterías u otros métodos para producir un vapor que puede contener nicotina. Se conocen como “e-cigarrette”, “Vape-pen”, “e-shisha” y “e-pipes”. ¿Actualmente consumes cigarros electrónicos...",C,1,P1_9,p1_9,"1-4, 8"
+"Pregunta 1.10 ¿Alguna vez, aunque haya sido una vez, usaste un  cigarro electrónico?",C,1,P1_10,p1_10,"1,2, 8"
+Pregunta 1.11 ¿Qué edad tenías la primera vez que tomaste una bebida alcohólica en tu vida (no incluye probaditas)?,C,2,P1_11,,"00-19, 97, 98, 99, 88"
+"Pregunta 1.12  Piensa en tu consumo de alcohol, ¿con qué frecuencia tomas, ya sea vino, cerveza, whisky o cualquier otra bebida que contenga alcohol?",C,2,P1_12,p1_12,"01-13,99"
+Pregunta 1.13 1.13a ¿Con qué frecuencia tomas o has tomado cinco o más copas de cualquier bebida alcohólica en una sola ocasión? 1.13b ¿Con qué frecuencia tomas o has tomado cuatro o más copas de cualquier bebida alcohólica en una sola ocasión?,C,2,P1_13,p1_13,"01-12, 99"
+Pregunta 2.1 ¿Conoces o has oído hablar de algún método para no embarazarse o no tener hijos?,C,1,P2_1,p2_1,"1,2,8"
+Pregunta 2.2.1 ¿De cuál(es) método(s) has oído hablar? 01 = Condón o preservativo masculino,C,1,P2_2_1,p2_2_1,"0,1"
+Pregunta 2.2.2 ¿De cuál(es) método(s) has oído hablar? 02 = Condón femenino,C,1,P2_2_2,p2_2_2,"0,1"
+Pregunta 2.2.3 ¿De cuál(es) método(s) has oído hablar? 03 = Pastillas de anticoncepción de emergencia  o del día siguiente,C,1,P2_2_3,p2_2_3,"0,1"
+Pregunta 2.2.4 ¿De cuál(es) método(s) has oído hablar? 04 = Pastillas o píldoras,C,1,P2_2_4,p2_2_4,"0,1"
+Pregunta 2.2.5 ¿De cuál(es) método(s) has oído hablar? 05 = Inyecciones,C,1,P2_2_5,p2_2_5,"0,1"
+Pregunta 2.2.6 ¿De cuál(es) método(s) has oído hablar? 06 = Parche anticonceptivo,C,1,P2_2_6,p2_2_6,"0,1"
+"Pregunta 2.2.7 ¿De cuál(es) método(s) has oído hablar? 07 = Dispositivo, DIU o aparato",C,1,P2_2_7,p2_2_7,"0,1"
+"Pregunta 2.2.8 ¿De cuál(es) método(s) has oído hablar? 08 = Implantes, tubos o norplant",C,1,P2_2_8,p2_2_8,"0,1"
+"Pregunta 2.2.9 ¿De cuál(es) método(s) has oído hablar? 09 = Óvulos, jaleas, espuma o diafragma",C,1,P2_2_9,p2_2_9,"0,1"
+"Pregunta 2.2.10 ¿De cuál(es) método(s) has oído hablar? 10 = Operación femenina, OTB  o ligadura de trompa",C,1,P2_2_10,p2_2_10,"0,1"
+Pregunta 2.2.11 ¿De cuál(es) método(s) has oído hablar? 11 = Operación masculina o vasectomía,C,1,P2_2_11,p2_2_11,"0,1"
+"Pregunta 2.2.12 ¿De cuál(es) método(s) has oído hablar? 12 = Ritmo, calendario, abstinencia periódica, termómetro, Billings",C,1,P2_2_12,p2_2_12,"0,1"
+Pregunta 2.2.13 ¿De cuál(es) método(s) has oído hablar? 13 = Retiro o coito interrumpido,C,1,P2_2_13,p2_2_13,"0,1"
+Pregunta 2.2.14 ¿De cuál(es) método(s) has oído hablar? 14 = Otro (especifica),C,1,P2_2_14,p2_2_14,"0,1"
+Pregunta 2.3 ¿Has visto alguna vez un condón o preservativo masculino?,C,1,P2_3,p2_3,"1,2,8"
+Pregunta 2.4 ¿Cuántas veces se puede usar un mismo condón masculino?,C,1,P2_4,p2_4,"1,2, 8, 9"
+Pregunta 2.5 ¿Para qué se utiliza el condón masculino?,C,1,P2_5,p2_5,"1-3,8,9"
+"Pregunta 2.6 Después de tener relaciones sexuales sin protección, ¿cuál es el tiempo máximo para utilizar anticonceptivos de emergencia y tener buenos resultados?",C,2,P2_6,,"00-78, 88, 99"
+Pregunta 2.7.1 ¿Cuáles de los siguientes métodos crees que sirvan para evitar una infección de transmisión sexual o VIH/ SIDA… Condones?,C,1,P2_7_1,p2_7_1,"1,2,9"
+Pregunta 2.7.2 ¿Cuáles de los siguientes métodos crees que sirvan para evitar una infección de transmisión sexual o VIH/ SIDA… Retiro o venirse afuera?,C,1,P2_7_2,p2_7_2,"1,2,9"
+Pregunta 2.7.3 Cuáles de los siguientes métodos crees que sirvan para evitar una infección de transmisión sexual o VIH/SIDA... Pastillas o píldoras?,C,1,P2_7_3,p2_7_3,"1,2,9"
+Pregunta 2.7.4 Cuáles de los siguientes métodos crees que sirvan para evitar una infección de transmisión sexual o VIH/SIDA... Relaciones sólo con tu pareja?,C,1,P2_7_4,p2_7_4,"1,2,9"
+Pregunta 2.7.5 Cuáles de los siguientes métodos crees que sirvan para evitar una infección de transmisión sexual o VIH/SIDA... No tener relaciones sexuales?,C,1,P2_7_5,p2_7_5,"1,2,9"
+Pregunta 2.8 ¿A qué edad tuviste tu primera relación sexual?,C,2,P2_8,,"00-19,88,99"
+Pregunta 2.9 ¿Qué edad tenía tu pareja de esa primera relación sexual?,C,2,P2_9,,"01-71, 88, 99"
+Pregunta 2.10.1  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 01 = Condón o preservativo masculino,C,1,P2_10_1,p2_10_1,"0,1"
+Pregunta 2.10.2  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 02 = Condón femenino,C,1,P2_10_2,p2_10_2,"0,1"
+Pregunta 2.10.3  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 03 = Pastillas de anticoncepción de emergencia  o del día siguiente,C,1,P2_10_3,p2_10_3,"0,1"
+Pregunta 2.10.4  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 04 = Pastillas o píldoras,C,1,P2_10_4,p2_10_4,"0,1"
+Pregunta 2.10.5  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 05 = Inyecciones,C,1,P2_10_5,p2_10_5,"0,1"
+Pregunta 2.10.6  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 06 = Parche anticonceptivo,C,1,P2_10_6,p2_10_6,"0,1"
+"Pregunta 2.10.7  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 07 = Dispositivo, DIU o aparato",C,1,P2_10_7,p2_10_7,"0,1"
+"Pregunta 2.10.8  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 08 = Implantes, tubos o norplant",C,1,P2_10_8,p2_10_8,"0,1"
+"Pregunta 2.10.9  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 09 =Óvulos, jaleas, espuma o diafragma",C,1,P2_10_9,p2_10_9,"0,1"
+"Pregunta 2.10.10  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 10 = Ritmo, calendario, abstinencia periódica, termómetro, Billings",C,1,P2_10_10,p2_10_10,"0,1"
+Pregunta 2.10.11  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 11 =Retiro o coito interrumpido,C,1,P2_10_11,p2_10_11,"0,1"
+Pregunta 2.10.12  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 12 =Otro (especifica),C,1,P2_10_12,p2_10_12,"0,1"
+Pregunta 2.10.13  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 13 = Nada,C,1,P2_10_13,p2_10_13,"0,1"
+Pregunta 2.10.88  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 88 = No responde,C,1,P2_10_88,p2_10_88,"0,1"
+Pregunta 2.10.99  La primera vez que tuviste relaciones sexuales ¿qué hicieron o usaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 99 = No recuerda,C,1,P2_10_99,p2_10_99,"0,1"
+Pregunta 2.11 ¿Cuál fue la razón principal por la que tú o tu pareja no hicieron o usaron algo para protegerse o evitar un embarazo?,C,2,P2_11,p2_11,"01-08, 88"
+Pregunta 2.12  ¿Fuiste presionada(o) o forzada(o) para tener esa primera relación sexual?,C,1,P2_12,p2_12,"1,2,8"
+Pregunta 2.13 ¿Has tenido más de una relación sexual en tu vida?,C,1,P2_13,p2_13,"1,2,8"
+Pregunta 2.14 ¿Has tenido una relación sexual en los últimos tres meses?,C,1,P2_14,p2_14,"1,2,8"
+"Pregunta 2.15.1 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 01 = Condón o preservativo masculino",C,1,P2_15_1,p2_15_1,"0,1"
+"Pregunta 2.15.2 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 02 = Condón femenino",C,1,P2_15_2,p2_15_2,"0,1"
+"Pregunta 2.15.3 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 03 = Pastillas de anticoncepción de emergencia  o del día siguiente",C,1,P2_15_3,p2_15_3,"0,1"
+"Pregunta 2.15.4 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 04 = Pastillas o píldoras",C,1,P2_15_4,p2_15_4,"0,1"
+"Pregunta 2.15.5 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 05 = Inyecciones",C,1,P2_15_5,p2_15_5,"0,1"
+"Pregunta 2.15.6 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 06 = Parche anticonceptivo",C,1,P2_15_6,p2_15_6,"0,1"
+"Pregunta 2.15.7 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 07= Dispositivo, DIU o aparato",C,1,P2_15_7,p2_15_7,"0,1"
+"Pregunta 2.15.8 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 08 = Implantes, tubos o norplant",C,1,P2_15_8,p2_15_8,"0,1"
+"Pregunta 2.15.9 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 09 =Óvulos, jaleas, espuma o diafragma",C,1,P2_15_9,p2_15_9,"0,1"
+"Pregunta 2.15.10 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 10 = Operación femenina, OTB o ligadura de trompas",C,1,P2_15_10,p2_15_10,"0,1"
+"Pregunta 2.15.11 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 11 = Operación masculina o vasectomía",C,1,P2_15_11,p2_15_11,"0,1"
+"Pregunta 2.15.12 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 12 = Ritmo, calendario, abstinencia periódica, termómetro, Billings",C,1,P2_15_12,p2_15_12,"0,1"
+"Pregunta 2.15.13 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 13 = Retiro o coito interrumpido",C,1,P2_15_13,p2_15_13,"0,1"
+"Pregunta 2.15.14 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 14 = Otro (especifica)",C,1,P2_15_14,p2_15_14,"0,1"
+"Pregunta 2.15.15 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 15 = Nada",C,1,P2_15_15,p2_15_15,"0,1"
+"Pregunta 2.15.16 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 88 = No responde",C,1,P2_15_16,p2_15_16,"0,1"
+"Pregunta 2.15.17 En la última relación sexual, ¿qué utilizaron tú o tu pareja para evitar un embarazo o una infección de transmisión sexual? 99 = No recuerda",C,1,P2_15_17,p2_15_17,"0,1"
+Pregunta 2.16 ¿Y además utilizaron condón masculino?,C,1,P2_16,p2_16,"1,2,8"
+Pregunta 2.17.1 ¿Por qué usaron condón? 1 = Para prevenir infección por VIH,C,1,P2_17_1,p2_17_1,"0,1"
+Pregunta 2.17.2 ¿Por qué usaron condón? 2 = Para prevenir una infección de transmisión  sexual diferente a VIH,C,1,P2_17_2,p2_17_2,"0,1"
+Pregunta 2.17.3 ¿Por qué usaron condón? 3 = Para prevenir un embarazo no deseado,C,1,P2_17_3,p2_17_3,"0,1"
+Pregunta 2.17.4 ¿Por qué usaron condón? 4 = Porque se lo pidió su pareja aunque  desconoce el motivo,C,1,P2_17_4,p2_17_4,"0,1"
+Pregunta 2.17.5 ¿Por qué usaron condón? 5 = Otro (especifica),C,1,P2_17_5,p2_17_5,"0,1"
+Pregunta 2.17.8 ¿Por qué usaron condón? 8 = No responde,C,1,P2_17_8,p2_17_8,"0,1"
+Pregunta 2.18  ¿Alguna vez has estado embarazada?,C,1,P2_18,p2_18,"1,2,8"
+Pregunta 2.19 ¿Estás actualmente embarazada?,C,1,P2_19,p2_19,"1,2,8"
+Pregunta 2.20 ¿Cuántos embarazos en total has tenido?,C,2,P2_20,,01…04
+Pregunta 2.21.1 ¿De estos embarazos cuántos han sido…  a. pérdidas o abortos?,C,2,P2_21_1,,00-02
+Pregunta 2.21.2 ¿De estos embarazos cuántos han sido…  b. nacidos muertos?,C,2,P2_21_2,,"00,01"
+Pregunta 2.21.3 ¿De estos embarazos cuántos han sido…  c. nacidos vivos?,C,2,P2_21_3,,00-03
+Pregunta 2.21.4 ¿Cuántos han fallecido…  d. antes de cumplir un año de edad?,C,2,P2_21_4,,"00,01"
+Pregunta 2.21.5 ¿Cuántos han fallecido…  e. después de cumplir un año de edad?,C,2,P2_21_5,,0
+Pregunta 2.22.1 ¿En que día nació tu hijo(a)?,C,2,P2_22_1,,01...31
+Pregunta 2.22.2 ¿En que mes nació tu hijo(a)?,C,2,P2_22_2,,01...12
+Pregunta 2.22.3 ¿En que año nació tu hijo(a)?,C,4,P2_22_3,,"2013-2019, 8888"
+"Pregunta 2.23 En total, ¿cuántas veces te revisaron durante tu último embarazo?",C,2,P2_23,,"00-20,99"
+Pregunta 2.24.1  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 1 = Médico,C,1,P2_24_1,p2_24_1,"0,1"
+Pregunta 2.24.2  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 2 = Enfermera(o),C,1,P2_24_2,p2_24_2,"0,1"
+"Pregunta 2.24.3  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 3 = Promotor(a), auxiliar o asistente de salud",C,1,P2_24_3,p2_24_3,"0,1"
+Pregunta 2.24.4  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 4 = Partera profesional técnica,C,1,P2_24_4,p2_24_4,"0,1"
+Pregunta 2.24.5  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 5 = Partera tradicional o empírica,C,1,P2_24_5,p2_24_5,"0,1"
+Pregunta 2.24.6  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 6 = Otro personal de salud,C,1,P2_24_6,p2_24_6,"0,1"
+Pregunta 2.24.8  ¿Quién te revisó la mayoría de las veces durante tu embarazo? 8 = No responde,C,1,P2_24_8,p2_24_8,"0,1"
+Pregunta 2.24.9  ¿Quién te revisó la mayoría de las veces durante tu embarazo?   9 = No recuerda,C,1,P2_24_9,p2_24_9,"0,1"
+Pregunta 2.25  ¿En qué institución o lugar te revisaron la mayoría de las veces durante este embarazo?,C,2,P2_25,p2_25,01...13
+Pregunta 2.26 ¿Cuántos meses de embarazo tenías cuando te revisaron por primera vez?,C,2,P2_26,,"01-09, 99"
+"Pregunta 2.27.1  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te midieron?",C,1,P2_27_1,p2_27_1,"1,2,9"
+"Pregunta 2.27.2  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te pesaron?",C,1,P2_27_2,p2_27_2,"1,2,9"
+"Pregunta 2.27.3  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te tomaron la presión arterial?",C,1,P2_27_3,p2_27_3,"1,2,9"
+"Pregunta 2.27.4  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te realizaron examen(es) general(es) de orina?",C,1,P2_27_4,p2_27_4,"1,2,9"
+"Pregunta 2.27.5  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te realizaron examen(es) de sangre?",C,1,P2_27_5,p2_27_5,"1,2,9"
+"Pregunta 2.27.6  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te midieron tu nivel de azúcar en sangre?",C,1,P2_27_6,p2_27_6,"1,2,9"
+"Pregunta 2.27.7  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te realizaron la prueba de detección de Sífilis (VDRL)?",C,1,P2_27_7,p2_27_7,"1,2,9"
+"Pregunta 2.27.8  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te realizaron la prueba para detectar Virus de Inmunodeficiencia Humana (VIH)?",C,1,P2_27_8,p2_27_8,"1,2,9"
+"Pregunta 2.27.9  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, te hicieron un ultrasonido?",C,1,P2_27_9,p2_27_9,"1,2,9"
+"Pregunta 2.27.10  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te vacunaron contra el Tétanos?",C,1,P2_27_10,p2_27_10,"1,2,9"
+"Pregunta 2.27.11  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te mandaron ácido fólico?",C,1,P2_27_11,p2_27_11,"1,2,9"
+"Pregunta 2.27.12  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te mandaron vitaminas, hierro, o algún suplemento alimenticio?",C,1,P2_27_12,p2_27_12,"1,2, 9"
+"Pregunta 2.27.13  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te ofrecieron algún servicio de detección o atención para la salud mental (ansiedad, depresión)",C,1,P2_27_13,p2_27_13,"1,2, 9"
+"Pregunta 2.27.14  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te ofrecieron algún método anticonceptivo para cuando terminara tu embarazo?",C,1,P2_27_14,p2_27_14,"1,2, 9"
+"Pregunta 2.27.15  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te enseñaron o explicaron cómo dar a tu bebé leche materna?",C,1,P2_27_15,p2_27_15,"1,2,9"
+"Pregunta 2.27.16  Durante el embarazo, cuando visitaste al médico, enfermera(o) o algún otro personal de salud, ¿al menos una vez... te midieron la panza (fondo uterino)?",C,1,P2_27_16,p2_27_16,"1,2,9"
+Pregunta 2.28 ¿Quién te atendió de tu último parto?,C,2,P2_28,p2_28,"01-05,07,09"
+Pregunta 2.29  ¿En dónde te atendieron durante tu último parto?,C,2,P2_29,p2_29,"01-13,99"
+Pregunta 2.30.1 ¿Tuviste alguna complicación durante... el embarazo?,C,1,P2_30_1,p2_30_1,"1,2"
+Pregunta 2.30.2 ¿Tuviste alguna complicación durante... el parto?,C,1,P2_30_2,p2_30_2,"1,2"
+"Pregunta 2.31.1 Durante tu último embarazo o parto, ¿te dijeron que tenías... la presión alta?",C,1,P2_31_1,p2_31_1,"1,2"
+"Pregunta 2.31.2 Durante tu último embarazo o parto, ¿te dijeron que tenías... amenaza de aborto?",C,1,P2_31_2,p2_31_2,"1,2"
+"Pregunta 2.31.3 Durante tu último embarazo o parto, ¿te dijeron que tenías... azúcar alta en sangre o diabetes?",C,1,P2_31_3,p2_31_3,"1,2"
+"Pregunta 2.31.4 Durante tu último embarazo o parto, ¿te dijeron que tenías... anemia?",C,1,P2_31_4,p2_31_4,"1,2"
+"Pregunta 2.31.5 Durante tu último embarazo o parto, ¿te dijeron que tenías... una infección urinaria?",C,1,P2_31_5,p2_31_5,"1,2"
+"Pregunta 2.31.6 Durante tu último embarazo o parto, ¿te dijeron que tenías... una infección de transmisión sexual?",C,1,P2_31_6,p2_31_6,"1,2"
+"Pregunta 2.31.7 Durante tu último embarazo o parto, ¿te dijeron que tenías... infección por VIH o SIDA ?",C,1,P2_31_7,p2_31_7,"1,2"
+"Pregunta 2.31.8 Durante tu último embarazo o parto, ¿te dijeron que tenías... alguna otra enfermedad o padecimiento?",C,1,P2_31_8,p2_31_8,"1,2"
+"Pregunta 2.31.9 Durante tu último embarazo o parto, ¿te dijeron que tenías... preeclampsia o eclampsia?",C,1,P2_31_9,p2_31_9,"1,2"
+"Pregunta 2.31.10 Durante tu último embarazo o parto, ¿te dijeron que tenías... sangrado vaginal abundante o  hemorragia",C,1,P2_31_10,p2_31_10,"1,2"
+"Pregunta 2.31.11 Durante tu último embarazo o parto, ¿te dijeron que tenías... parto obstruido?",C,1,P2_31_11,p2_31_11,"1,2"
+"Pregunta 2.31.12 Durante tu último embarazo o parto, ¿te dijeron que tenías... mala posición del bebé?",C,1,P2_31_12,p2_31_12,"1,2"
+"Pregunta 2.31.13 Durante tu último embarazo o parto, ¿te dijeron que tenías... parto prematuro?",C,1,P2_31_13,p2_31_13,"1,2"
+"Pregunta 2.31.14 Durante tu último embarazo o parto, ¿te dijeron que tenías... complicaciones debido a una enfermedad que ya tenía (como  diabetes, presión alta, etc.)?",C,1,P2_31_14,p2_31_14,"1,2"
+Pregunta 2.32 ¿Tu último parto fue…,C,1,P2_32,p2_32,1…3
+"Pregunta 2.33  Inmediatamente después del nacimiento, ¿pusieron a tu último(a) hijo(a) directamente sobre la piel desnuda de tu pecho?",C,1,P2_33,p2_33,"1,2,9"
+Pregunta 2.34.1 ¿Cuánto pesó al nacer tu hijo(a)?  Kilos,C,1,P2_34_1,,"0-5, 9"
+Pregunta 2.34.2 ¿Cuánto pesó al nacer tu hijo(a)?  Gramos,C,3,P2_34_2,,"000-995,999"
+Pregunta 2.34ENT Código de la fuente de información,C,1,P2_34ENT,p2_34ent,"1,2"
+"Pregunta 2.35  Cuando nació tu hijo(a), ¿era...",C,1,P2_35,p2_35,1…5
+Pregunta 2.36.1 ¿Cuántos meses amamantaste a tu hijo(a)?   Tiempo,C,2,P2_36_1,,"00-30, 88, 99"
+Pregunta 2.36.2 ¿Cuántos meses amamantaste a tu hijo(a)?   Periodo,C,1,P2_36_2,p2_36_2,"0-2, 8, 9"
+"Pregunta 2.37.1 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  signos y síntomas de hemorragia?",C,1,P2_37_1,p2_37_1,"1,2,9"
+"Pregunta 2.37.2 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  signos y síntomas de la preeclampsia, eclampsia? (es decir, la presión alta durante el embarazo o poco después del parto)?",C,1,P2_37_2,p2_37_2,"1,2, 9"
+"Pregunta 2.37.3 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  signos y síntomas de infecciones?",C,1,P2_37_3,p2_37_3,"1,2,9"
+"Pregunta 2.37.4 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  signos y síntomas de trombosis o coágulos?",C,1,P2_37_4,p2_37_4,"1,2, 9"
+"Pregunta 2.37.5 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  nutrición?",C,1,P2_37_5,p2_37_5,"1,2, 9"
+"Pregunta 2.37.6 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  lactancia materna?",C,1,P2_37_6,p2_37_6,"1,2, 9"
+"Pregunta 2.37.7 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  higiene, sobre todo lavado de manos?",C,1,P2_37_7,p2_37_7,"1,2, 9"
+"Pregunta 2.37.8 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  métodos anticonceptivos (anticoncepción)?",C,1,P2_37_8,p2_37_8,"1,2, 9"
+"Pregunta 2.37.9 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre…  signos y síntomas de la depresión postnatal o postparto?",C,1,P2_37_9,p2_37_9,"1,2, 9"
+"Pregunta 2.37.10 En la primera semana, después del parto de tu último(a) hijo(a), ¿algún profesional de la salud te dio información sobre… la importancia de que el bebé duerma boca arriba?",C,1,P2_37_10,p2_37_10,"1,2, 9"
+"Pregunta 2.38  Después del nacimiento de tu hijo(a), ¿te proporcionaron un método anticonceptivo antes de salir del hospital o del lugar donde te atendieron?",C,1,P2_38,p2_38,"1,2, 9"
+Pregunta 2.39 ¿Qué método anticonceptivo te proporcionaron?,C,2,P2_39,p2_39,01...12
+"Pregunta 2.40.1  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para... Virus del Papiloma Humano (VPH)?",C,1,P2_40_1,p2_40_1,1…3
+"Pregunta 2.40.2  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para... verrugas genitales?",C,1,P2_40_2,p2_40_2,1…3
+"Pregunta 2.40.3  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para... gonorrea?",C,1,P2_40_3,p2_40_3,1…3
+"Pregunta 2.40.4  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para... sífilis?",C,1,P2_40_4,p2_40_4,1…3
+"Pregunta 2.40.5  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para... Virus de Inmunodeficiencia Humana (VIH)?",C,1,P2_40_5,p2_40_5,1…3
+"Pregunta 2.40.6  En los últimos 12 meses, ¿has recibido consulta médica para atenderte o recibir tratamiento para- otra infección de transmisión sexual? (especifica)",C,1,P2_40_6,p2_40_6,1…3
+Pregunta 2.41 ¿Te han realizado alguna vez la prueba para detectar el virus de Inmunodeficiencia Humana (VIH)?,C,1,P2_41,p2_41,"1,2,9"
+Pregunta 2.42  ¿Conoces el resultado de la prueba?,C,1,P2_42,p2_42,"1,2,8"
+"Pregunta 2.43  En los últimos 12 meses, ¿has tomado ácido fólico?",C,1,P2_43,p2_43,"1,2"
+"Pregunta 3.1 ¿Me puedes mostrar tu Cartilla Nacional de Salud Adolescentes de 10-19 años, la Cartilla Nacional de Vacunación, el documento probatorio o comprobante en el que te registran las vacunas que te han aplicado?",C,1,P3_1,p3_1,1…6
+Pregunta 3.2  ¿Te han aplicado la vacuna contra la Hepatitis B?,C,1,P3_2,p3_2,"1,2,9"
+Pregunta 3.3 ¿Cuántas veces te la han aplicado?,C,1,P3_3,,"1-5,9"
+Pregunta 3.4  ¿Te han aplicado la vacuna contra el Tétanos?,C,1,P3_4,p3_4,"1,2,9"
+Pregunta 3.5  ¿Cuántas veces te la han aplicado?,C,1,P3_5,,"1-5, 9"
+Pregunta 3.6 ¿Te han aplicado la vacuna contra el Sarampión y la Rubéola (SR)?,C,1,P3_6,p3_6,"1,2,9"
+Pregunta 3.7 ¿Cuántas veces te la han aplicado?,C,1,P3_7,,"1-5, 9"
+Pregunta 3.8  ¿Te han aplicado la vacuna contra el VPH (infección por el Virus del Papiloma Humano),C,1,P3_8,p3_8,"1,2,9"
+Pregunta 3.9 ¿Cuántas veces te la han aplicado?,C,1,P3_9,,"1-5, 9"
+Pregunta 3.10.A1 1 = HEPATITIS B Primera Apartir de los 11 años ( DOSIS),C,1,P3_10_A1,p3_10_a1,"1,2"
+Pregunta 3.10.B1D Fecha de aplicación… Día,C,2,P3_10_B1D,,01...31
+Pregunta 3.10.B1M Fecha de aplicación… Mes,C,2,P3_10_B1M,,01...12
+Pregunta 3.10.B1A Fecha de aplicación… Año,C,4,P3_10_B1A,,2001-2019
+Pregunta 3.10.C1 Institución que aplicó la vacuna,C,2,P3_10_C1,p3_10_c1,"01-12,99"
+Pregunta 3.10.A2 2 = HEPATITIS B Segunda 4 Semanas posteriores a la primera,C,1,P3_10_A2,p3_10_a2,"1,2"
+Pregunta 3.10.B2D Fecha de aplicación… Día,C,2,P3_10_B2D,,01...31
+Pregunta 3.10.B2M Fecha de aplicación… Mes,C,2,P3_10_B2M,,01...12
+Pregunta 3.10.B2A Fecha de aplicación… Año,C,4,P3_10_B2A,,2001-2019
+Pregunta 3.10.C2 Institución que aplicó la vacuna,C,2,P3_10_C2,p3_10_c2,"01-12,99"
+Pregunta 3.11.A1 3 = Td Con esquema completo Refuerzo 11 años de edad,C,1,P3_11_A1,p3_11_a1,"1,2"
+Pregunta 3.11.B1D Fecha de aplicación… Día,C,2,P3_11_B1D,,01...31
+Pregunta 3.11.B1M Fecha de aplicación… Mes,C,2,P3_11_B1M,,01...12
+Pregunta 3.11.B1A Fecha de aplicación… Año,C,4,P3_11_B1A,,2001-2019
+Pregunta 3.11.C1 Institución que aplicó la vacuna,C,2,P3_11_C1,p3_11_c1,"01-12,99"
+Pregunta 3.11.A2 4 = Td Con esquema completo o no documentado Primera Dosis inicial,C,1,P3_11_A2,p3_11_a2,"1,2"
+Pregunta 3.11.B2D Fecha de aplicación… Día,C,2,P3_11_B2D,,01...31
+Pregunta 3.11.B2M Fecha de aplicación… Mes,C,2,P3_11_B2M,,01...12
+Pregunta 3.11.B2A Fecha de aplicación… Año,C,4,P3_11_B2A,,2001-2019
+Pregunta 3.11.C2 Institución que aplicó la vacuna,C,2,P3_11_C2,p3_11_c2,"01-12,99"
+Pregunta 3.11.A3 5 = Td Con esquema completo o no documentado Segunda 1 mes despues de la primera dosis,C,1,P3_11_A3,p3_11_a3,"1,2"
+Pregunta 3.11.B3D Fecha de aplicación… Día,C,2,P3_11_B3D,,01...31
+Pregunta 3.11.B3M Fecha de aplicación… Mes,C,2,P3_11_B3M,,01...12
+Pregunta 3.11.B3A Fecha de aplicación… Año,C,4,P3_11_B3A,,2000-2019
+Pregunta 3.11.C3 Institución que aplicó la vacuna,C,2,P3_11_C3,p3_11_c3,"01-12,99"
+Pregunta 3.11.A4 6 = Td Con esquema completo o no documentado Tercera 12 meses posteriores a la primera dosis,C,1,P3_11_A4,p3_11_a4,"1,2"
+Pregunta 3.11.B4D Fecha de aplicación… Día,C,2,P3_11_B4D,,01...31
+Pregunta 3.11.B4M Fecha de aplicación… Mes,C,2,P3_11_B4M,,01...12
+Pregunta 3.11.B4A Fecha de aplicación… Año,C,4,P3_11_B4A,,2000-2019
+Pregunta 3.11.C4 Institución que aplicó la vacuna,C,2,P3_11_C4,p3_11_c4,"01-12,99"
+Pregunta 3.12.A 7 = Tdpa Unica A partir de la semana 20 del embarazo,C,1,P3_12_A,p3_12_a,"1,2"
+Pregunta 3.12.BD Fecha de aplicación… Día,C,2,P3_12_BD,,01...31
+Pregunta 3.12.BM Fecha de aplicación… Mes,C,2,P3_12_BM,,01...12
+Pregunta 3.12.BA Fecha de aplicación… Año,C,4,P3_12_BA,,2010-2019
+Pregunta 3.12.C Institución que aplicó la vacuna,C,2,P3_12_C,p3_12_c,01…08
+Pregunta 3.13.A 8 = Influenza Estacional (de septiembre de 2017 a la fecha) Unica Cualquier trimestre del embarazo,C,1,P3_13_A,p3_13_a,"1,2"
+Pregunta 3.13.BD Fecha de aplicación… Día,C,2,P3_13_BD,,01...31
+Pregunta 3.13.BM Fecha de aplicación… Mes,C,2,P3_13_BM,,01...12
+Pregunta 3.13.BA Fecha de aplicación… Año,C,4,P3_13_BA,,2011-2019
+Pregunta 3.13.C Institución que aplicó la vacuna,C,2,P3_13_C,p3_13_c,"01-12,99"
+Pregunta 3.14.A1 9 = SR Sin antecedente vacunal primera En el primer contacto,C,1,P3_14_A1,p3_14_a1,"1,2"
+Pregunta 3.14.B1D Fecha de aplicación… Día,C,2,P3_14_B1D,,01...31
+Pregunta 3.14.B1M Fecha de aplicación… Mes,C,2,P3_14_B1M,,01...12
+Pregunta 3.14.B1A Fecha de aplicación… Año,C,4,P3_14_B1A,,2002-2018
+Pregunta 3.14.C1 Institución que aplicó la vacuna,C,2,P3_14_C1,p3_14_c1,"01-12,99"
+Pregunta 3.14.A2 10 = SR Sin antecedente vacunal Segunda 4 semanas despues de la primera,C,1,P3_14_A2,p3_14_a2,"1,2"
+Pregunta 3.14.B2D Fecha de aplicación… Día,C,2,P3_14_B2D,,01...31
+Pregunta 3.14.B2M Fecha de aplicación… Mes,C,2,P3_14_B2M,,01...12
+Pregunta 3.14.B2A Fecha de aplicación… Año,C,4,P3_14_B2A,,2006-2018
+Pregunta 3.14.C2 Institución que aplicó la vacuna,C,2,P3_14_C2,p3_14_c2,"01-12,99"
+Pregunta 3.14.A3 11 = SR Con esquema incompleto Dosis unica Al primer contacto,C,1,P3_14_A3,p3_14_a3,"1,2"
+Pregunta 3.14.B3D Fecha de aplicación… Día,C,2,P3_14_B3D,,01...31
+Pregunta 3.14.B3M Fecha de aplicación… Mes,C,2,P3_14_B3M,,01...12
+Pregunta 3.14.B3A Fecha de aplicación… Año,C,4,P3_14_B3A,,2000-2018
+Pregunta 3.14.C3 Institución que aplicó la vacuna,C,2,P3_14_C3,p3_14_c3,"01-12,99"
+Pregunta 3.15.A1 12 = VPH Primera Mujeres en el 5to grado de primaria y de 11 años de edad no escolarizadas,C,1,P3_15_A1,p3_15_a1,"1,2"
+Pregunta 3.15.B1D Fecha de aplicación… Día,C,2,P3_15_B1D,,01...31
+Pregunta 3.15.B1M Fecha de aplicación… Mes,C,2,P3_15_B1M,,01...12
+Pregunta 3.15.B1A Fecha de aplicación… Año,C,4,P3_15_B1A,,2009-2019
+Pregunta 3.15.C1 Institución que aplicó la vacuna,C,2,P3_15_C1,p3_15_c1,"01-12,99"
+Pregunta 3.15.A2 13 = VPH Segunda 6 meses despues de la primera dosis,C,1,P3_15_A2,p3_15_a2,"1,2"
+Pregunta 3.15.B2D Fecha de aplicación… Día,C,2,P3_15_B2D,,01...31
+Pregunta 3.15.B2M Fecha de aplicación… Mes,C,2,P3_15_B2M,,01...12
+Pregunta 3.15.B2A Fecha de aplicación… Año,C,4,P3_15_B2A,,2004-2019
+Pregunta 3.15.C2 Institución que aplicó la vacuna,C,2,P3_15_C2,p3_15_c2,"01-12,99"
+Pregunta 3.15.A3 14 = VPH Tercera 60 meses después de la primera dosis,C,1,P3_15_A3,p3_15_a3,"1,2"
+Pregunta 3.15.B3D Fecha de aplicación… Día,C,2,P3_15_B3D,,01…25
+Pregunta 3.15.B3M Fecha de aplicación… Mes,C,2,P3_15_B3M,,03...12
+Pregunta 3.15.B3A Fecha de aplicación… Año,C,4,P3_15_B3A,,2011-2019
+Pregunta 3.15.C3 Institución que aplicó la vacuna,C,2,P3_15_C3,p3_15_c3,07...12
+Pregunta 3.15 Otras Vacunas,C,1,P3_16,p3_16,"1,2"
+"Pregunta 4.1.1  ¿Con qué frecuencia, en los últimos tres meses… te ha preocupado engordar?",C,1,P4_1_1,p4_1_1,1…4
+"Pregunta 4.1.2  ¿Con qué frecuencia, en los últimos tres meses… en ocasiones, has comido demasiado?",C,1,P4_1_2,p4_1_2,1…4
+"Pregunta 4.1.3  ¿Con qué frecuencia, en los últimos tres meses… has perdido el control sobre lo que comes?",C,1,P4_1_3,p4_1_3,1…4
+"Pregunta 4.1.4  ¿Con qué frecuencia, en los últimos tres meses… has vomitado después de comer para bajar de peso?",C,1,P4_1_4,p4_1_4,1…4
+"Pregunta 4.1.5  ¿Con qué frecuencia, en los últimos tres meses… has hecho ayunos (dejar de comer por 12 horas o más) para tratar de bajar de peso?",C,1,P4_1_5,p4_1_5,1…4
+"Pregunta 4.1.6  ¿Con qué frecuencia, en los últimos tres meses… has hecho dietas para tratar de bajar de peso?",C,1,P4_1_6,p4_1_6,1…4
+"Pregunta 4.1.7  ¿Con qué frecuencia, en los últimos tres meses… has hecho ejercicio en exceso para tratar de bajar de peso?",C,1,P4_1_7,p4_1_7,1…4
+"Pregunta 4.1.8  ¿Con qué frecuencia, en los últimos tres meses… has usado pastillas para tratar de bajar de peso?",C,1,P4_1_8,p4_1_8,1…4
+"Pregunta 4.1.9  ¿Con qué frecuencia, en los últimos tres meses… has tomado diuréticos (sustancia para perder agua) para tratar  de bajar de peso?",C,1,P4_1_9,p4_1_9,1…4
+"Pregunta 4.1.10  ¿Con qué frecuencia, en los últimos tres meses… has tomado laxantes (sustancia para facilitar la evacuación) para  tratar de bajar de peso?",C,1,P4_1_10,p4_1_10,1…4
+Pregunta 5.1.1 Durante la última semana…  ¿sentías como si no pudieras quitarte de encima la tristeza?,C,1,P5_1_1,p5_1_1,1…4
+Pregunta 5.1.2 Durante la última semana… ¿te costaba concentrarte en lo que estabas haciendo?,C,1,P5_1_2,p5_1_2,1…4
+Pregunta 5.1.3 Durante la última semana…  ¿te sentiste deprimido(a)?,C,1,P5_1_3,p5_1_3,1…4
+Pregunta 5.1.4 Durante la última semana…   ¿te parecía que todo lo que hacías era un esfuerzo?,C,1,P5_1_4,p5_1_4,1…4
+Pregunta 5.1.5 Durante la última semana…  ¿no dormiste bien?,C,1,P5_1_5,p5_1_5,1…4
+Pregunta 5.1.6 Durante la última semana…  ¿disfrutaste de la vida?,C,1,P5_1_6,p5_1_6,1…4
+Pregunta 5.1.7 Durante la última semana…  ¿te sentiste triste?,C,1,P5_1_7,p5_1_7,1…4
+Pregunta 5.2 ¿Alguna vez te ha dicho un médico u otro personal de salud que padeces o has padecido depresión?,C,1,P5_2,p5_2,"1,2"
+Pregunta 5.3  ¿Te mandaron medicinas o algún otro tipo de tratamiento para la depresión?,C,1,P5_3,p5_3,"1,2,8"
+"Pregunta 5.4  Durante las últimas dos semanas, ¿has tomado algún medicamento o has seguido algún otro tipo de tratamiento para la depresión?",C,1,P5_4,p5_4,"1,2"
+"Pregunta 6.1 En los últimos 12 meses, ¿sufriste algún daño a tu salud a causa de un accidente?",C,1,P6_1,p6_1,"1,2"
+Pregunta 6.2 ¿Cómo fue que te accidentaste?,C,2,P6_2,p6_2,"01-18,99"
+Pregunta 6.3 ¿Llevabas puesto el cinturón?,C,1,P6_3,p6_3,"1,2"
+Pregunta 6.4 ¿Llevabas puesto el casco?,C,1,P6_4,p6_4,"1,2"
+Pregunta 6.5 ¿En qué lugar te encontrabas cuando ocurrió el accidente?,C,2,P6_5,p6_5,01…10
+Pregunta 6.6 ¿Quién te atendió cuando ocurrió el accidente?,C,2,P6_6,p6_6,"01-17, 99"
+Pregunta 6.7 Cuando sufriste el accidente ¿estabas bajo los efectos de-,C,1,P6_7,p6_7,"1-4,8"
+Pregunta 6.8 ¿Qué problema de salud permanente te ocasionó el accidente?,C,1,P6_8,p6_8,"1-7,9"
+"Pregunta 7.1 En los últimos 12 meses, ¿has sido víctima de algún incidente en el que te atacaran o agredieran físicamente?",C,1,P7_1,p7_1,"1,2,8"
+Pregunta 7.2 ¿Qué tipo de ataque o agresión fue?,C,2,P7_2,p7_2,"01-07,88"
+Pregunta 7.3 ¿Cuál fue el principal motivo?,C,2,P7_3,p7_3,"01-08,88"
+"Pregunta 7.4  ¿Qué hiciste o quién te atendió, cuando ocurrió el ataque o la agresión?",C,2,P7_4,p7_4,"01-09, 88"
+Pregunta 7.5  ¿En que lugar ocurrió el ataque o la agresión?,C,2,P7_5,p7_5,"01-09, 88"
+"Pregunta 7.6  Cuando sufriste el ataque o agresión, ¿estabas bajo los efectos de…",C,1,P7_6,p7_6,"1-4,8"
+"Pregunta 7.7 Quien te atacó, ¿estaba bajo los efectos del alcohol o drogas?",C,1,P7_7,p7_7,"1,2,8,9"
+Pregunta 7.8 ¿Quién fue la persona que te atacó?,C,1,P7_8,p7_8,1…8
+"Pregunta 7.9  ¿A lo largo de tu vida, alguien te manoseó, tocó o acarició alguna parte de tu cuerpo o tuvo relaciones sexuales contigo cuando eras muy pequeño(a)?",C,1,P7_9,p7_9,"1-3,8,9"
+Pregunta 7.10 ¿La persona que lo hizo era hombre o mujer?,C,1,P7_10,p7_10,"1,2,8"
+Pregunta 7.11  ¿Qué relación tenías con esa persona?,C,1,P7_11,p7_11,1…8
+"Pregunta 7.12  ¿Quién te atendió después de que sucedió el ataque o agresión? (Aclarar que el ataque se refiere al manoseo, caricias o relaciones sexuales en contra de su voluntad).",C,2,P7_12,p7_12,"01-09,88"
+Pregunta 7.13  ¿Tú o tu familia denunciaron a la persona que te agredió ante las autoridades?,C,1,P7_13,p7_13,"1,2,8"
+Pregunta 7.14 ¿Por qué no denunciaste?,C,1,P7_14,p7_14,"1-5,8,9"
+Pregunta 7.15 ¿Ante qué autoridad denunciaste?,C,1,P7_15,p7_15,1…4
+Pregunta 7.16.1 ¿Alguna vez has pensado en suicidarte?,C,1,P7_16_1,p7_16_1,"1,2,8"
+Pregunta 7.16.2 ¿Con qué frecuencia lo has pensando?,C,1,P7_16_2,p7_16_2,"1-4,8"
+"Pregunta 7.17 ¿Alguna vez a propósito te has herido, cortado, intoxicado o hecho daño con el fin de quitarte la vida?",C,1,P7_17,p7_17,1…3
+Pregunta 7.17A  ¿Esto fue en los últimos 12 meses?,C,1,P7_17A,p7_17a,"1,2,8"
+Pregunta 7.18.1 ¿Cómo lo hiciste?   Envenenamiento con medicamentos,C,1,P7_18_1,p7_18_1,"0,1"
+Pregunta 7.18.2 ¿Cómo lo hiciste?   Envenenamiento con narcóticos,C,1,P7_18_2,p7_18_2,"0,1"
+Pregunta 7.18.3 ¿Cómo lo hiciste?   Envenenamiento con alcohol,C,1,P7_18_3,p7_18_3,"0,1"
+Pregunta 7.18.4 ¿Cómo lo hiciste?   Envenenamiento por inhalación de hidrocarburos,C,1,P7_18_4,p7_18_4,"0,1"
+"Pregunta 7.18.5 ¿Cómo lo hiciste?   Envenenamiento por fumigantes, insecticidas",C,1,P7_18_5,p7_18_5,"0,1"
+"Pregunta 7.18.6 ¿Cómo lo hiciste?   Envenenamiento con productos químicos, ácidos, corrosivos",C,1,P7_18_6,p7_18_6,"0,1"
+Pregunta 7.18.7 ¿Cómo lo hiciste?   Ahorcamiento,C,1,P7_18_7,p7_18_7,"0,1"
+Pregunta 7.18.8 ¿Cómo lo hiciste?   Arma de fuego,C,1,P7_18_8,p7_18_8,"0,1"
+Pregunta 7.18.9 ¿Cómo lo hiciste?   Quemadura,C,1,P7_18_9,p7_18_9,"0,1"
+Pregunta 7.18.10 ¿Cómo lo hiciste? Objetos cortantes,C,1,P7_18_10,p7_18_10,"0,1"
+Pregunta 7.18.11 ¿Cómo lo hiciste?  Arrojarse al vacío o vehículo en movimiento,C,1,P7_18_11,p7_18_11,"0,1"
+Pregunta 7.18.12 ¿Cómo lo hiciste?  Otro (especifica),C,1,P7_18_12,p7_18_12,"0,1"
+Pregunta 7.18.13 ¿Cómo lo hiciste?  No responde,C,1,P7_18_13,p7_18_13,"0,1"
+Pregunta 7.19  ¿Estuviste hospitalizado(a) o bajo tratamiento médico debido a las lesiones que te hiciste?,C,1,P7_19,p7_19,"1,2"
+"Pregunta 8.1.1 En el último mes…  ¿te quitaron permisos, te prohibieron algo que te gusta o no te dejaron salir de la casa?",C,1,P8_1_1,p8_1_1,"1,2,8"
+Pregunta 8.1.2 En el último mes…  ¿te explicaron que tu comportamiento estuvo mal?,C,1,P8_1_2,p8_1_2,"1,2,8"
+Pregunta 8.1.3 En el último mes…  ¿te zarandearon o sacudieron?,C,1,P8_1_3,p8_1_3,"1,2,8"
+Pregunta 8.1.4 En el último mes…  ¿te gritaron?,C,1,P8_1_4,p8_1_4,"1,2,8"
+Pregunta 8.1.5 En el último mes…  ¿te dieron otra cosa que hacer?,C,1,P8_1_5,p8_1_5,"1,2,8"
+Pregunta 8.1.6 En el último mes…  ¿te dieron nalgadas o te pegaron en el trasero solo con la mano?,C,1,P8_1_6,p8_1_6,"1,2,8"
+"Pregunta 8.1.7 En el último mes…   ¿te pegaron en el trasero o en otra parte del cuerpo con algún objeto como un cinturón, un cepillo de pelo, una chancla, un palo u otro objeto duro?",C,1,P8_1_7,p8_1_7,"1,2,8"
+"Pregunta 8.1.8 En el último mes…  ¿te llamaron tonto(a), flojo(a) o alguna otra cosa parecida?",C,1,P8_1_8,p8_1_8,"1,2,8"
+"Pregunta 8.1.9 En el último mes…   ¿te pegaron con la mano en la cara, en la cabeza o en las orejas?",C,1,P8_1_9,p8_1_9,"1,2,8"
+"Pregunta 8.1.10 En el último mes… ¿te pegaron con la mano en el brazo, en la pierna o en la mano?",C,1,P8_1_10,p8_1_10,"1,2,8"
+"Pregunta 8.1.11 En el último mes… ¿te dieron una paliza, es decir, te pegaron una y otra vez lo más fuerte que pudieron?",C,1,P8_1_11,p8_1_11,"1,2,8"
+"Pregunta 8.2  ¿Crees que para criar o educar correctamente a un niño(a) o un adolescente, él o ella debe ser castigado(a) físicamente?",C,1,P8_2,p8_2,"1,2,8,9"
+EDAD,C,2,EDAD,,010-019
+SEXO,C,1,SEXO,sexo,"1,2"
+ENT,C,2,ENT,ent,01-32
+DOMINIO,C,1,DOMINIO,dominio,"1,2"
+REGION,C,1,REGION,region,1…4
+EST_DIS,C,3,EST_DIS,,004-328
+UPM_DIS,C,5,UPM_DIS,,0001-06289
+ESTRATO,C,1,ESTRATO,estrato,1…4
+F_10A19,N,5,F_10A19,,80-17152
+FECHA_NACIMIENTO,C,5,FECHA_NACIMIENTO,,0-99998
+FECHA_ENTREVISTA,C,5,FECHA_ENTREVISTA,,0-99998
+DIFERENCIA,C,4,DIFERENCIA,,0-9998
+HIJO_ULTA,C,1,HIJO_ULTA,hijo_ulta,"1,2"
+HIJO_ULTCA,C,1,HIJO_ULTA,hijo_ultca,"1,2"

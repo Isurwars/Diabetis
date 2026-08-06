@@ -1,0 +1,390 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Unidad Primaria de Muestreo,5,C,UPM,,00001-06289
+Vivienda seleccionada,2,C,VIV_SEL,,01…24
+Número de Hogar,1,C,HOGAR,,1…4
+Número de Renglón,2,C,NUMREN,,02…19
+"Pregunta1.1.1 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Médico",1,C,p1_1_1,p1_1_1,"0,1"
+Pregunta1.1.1V ¿Cuántas veces la revisó durante el embarazo un médico?,2,C,p1_1_1v,,01 ... 25
+"Pregunta1.1.2 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Enfermera",1,C,p1_1_2,p1_1_2,"0,1"
+Pregunta1.1.2V ¿Cuántas veces la revisó durante el embarazo una enfermera?,2,C,p1_1_2v,,00 - 20
+"Pregunta1.1.3 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Promotor(a), auxiliar o asistente de salud",1,C,p1_1_3,p1_1_3,"0,1"
+"Pregunta1.1.3V ¿Cuántas veces la revisó durante el embarazo un promotor(a), auxiliar o asistente de salud?",2,C,p1_1_3v,,03 …18
+"Pregunta1.1.4 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Partera profesional técnica",1,C,p1_1_4,p1_1_4,"0,1"
+Pregunta1.1.4V ¿Cuántas veces la revisó durante el embarazo una partera profesional técnica?,2,C,p1_1_4v,,01 ... 12
+"Pregunta1.1.5 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Partera tradicional o empírica",1,C,p1_1_5,p1_1_5,"0,1"
+Pregunta1.1.5V ¿Cuántas veces la revisó durante el embarazo una partera tradicional o empírica?,2,C,p1_1_5v,,01 ... 12
+"Pregunta1.1.6 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Otra persona",1,C,p1_1_6,p1_1_6,"0,1"
+Pregunta1.1.6V ¿Cuántas veces la revisó durante el embarazo otra persona?,2,C,p1_1_6v,,03 …18
+"Pregunta1.1.7 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? Nadie",1,C,p1_1_7,p1_1_7,"0,1"
+"Pregunta1.1.8 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? No responde",1,C,p1_1_8,p1_1_8,"0,1"
+"Pregunta1.1.9 Cuando usted (la mamá) estaba embarazada de (NOMBRE), ¿quién y cuántas veces la revisó durante el embarazo? No sabe",1,C,p1_1_9,p1_1_9,"0,1"
+Pregunta1.2 ¿Cuántos meses de embarazo tenía cuando la revisaron por primera vez?,2,C,p1_2,,"01 - 09, 88, 99"
+Pregunta1.3 ¿Quién la atendió al momento que nació (NOMBRE)?,1,C,p1_3,p1_3,"1 - 7, 9"
+"Pregunta1.4 En total, ¿cuántas veces ha llevado a (NOMBRE) al médico para checar su desarrollo y crecimiento (sin estar enfermo)?",2,C,p1_4,,"00 - 24, 88, 99"
+Pregunta2.1 ¿En qué lugar o institución nació (NOMBRE)?,2,C,p2_1,p2_1,"01 - 14, 99"
+"Pregunta2.2 Antes de salir del hospital, clínica o centro de salud donde nació (NOMBRE), ¿le entregaron la Cartilla Nacional de Salud (Cartilla Nacional de Vacunación)?",1,C,p2_2,p2_2,"1, 2, 9"
+Pregunta2.3 ¿En qué lugar le entregaron la Cartilla Nacional de Salud (Cartilla Nacional de Vacunación) de (NOMBRE)?,2,C,p2_3,p2_3,"01 - 16, 99"
+Pregunta2.4 ¿Me puede mostrar la Cartilla Nacional de Salud (Cartilla Nacional de Vacunación) o documento probatorio?,1,C,p2_4,p2_4,1 ... 5
+Pregunta2.5 ¿Por qué no tiene la cartilla?,1,C,p2_5,p2_5,"1 - 6, 8, 9"
+Pregunta2.6 ¿Por qué no tiene información registrada en su cartilla?,1,C,p2_6,p2_6,"1, 2, 9"
+"Pregunta2.7 ¿Su cartilla es electrónica (con chip, código de barras, estampa o etiqueta) y permite identificar la información en una tableta?",1,C,p2_7,p2_7,"1,2"
+"Pregunta2.8 Antes de salir del hospital, clínica o centro de salud donde nació (NOMBRE), ¿le aplicaron la vacuna contra la Tuberculosis (BCG)? (se aplica preferentemente en el brazo derecho y deja cicatriz)",1,C,p2_8,p2_8,"1, 2, 9"
+"Pregunta2.9 Antes de salir del hospital, clínica o centro de salud en donde nació (NOMBRE), ¿le aplicaron la vacuna contra la Hepatitis B? (se aplica preferentemente en la pierna izquierda).",1,C,p2_9,p2_9,"1, 2, 9"
+Pregunta2.10.1.1 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Tuberculosis (BCG),1,C,p2_10_1_1,p2_10_1_1,"1,2,9"
+Pregunta2.10.2.1 ¿Cuántas veces le pusieron la vacuna del Tuberculosis (BCG)?,2,C,p2_10_2_1,,"01 - 09, 99"
+Pregunta2.10.1.2 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Hepatitis B,1,C,p2_10_1_2,p2_10_1_2,"1,2,9"
+Pregunta2.10.2.2 ¿Cuántas veces le pusieron la vacuna del Hepatitis B?,2,C,p2_10_2_2,,"01 - 09, 99"
+Pregunta2.10.1.3 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Pentavalente Acelular,1,C,p2_10_1_3,p2_10_1_3,"1,2,9"
+Pregunta2.10.2.3 ¿Cuántas veces le pusieron la vacuna del Pentavalente Acelular?,2,C,p2_10_2_3,,"01 - 09, 99"
+Pregunta2.10.1.4 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Rotavirus,1,C,p2_10_1_4,p2_10_1_4,"1,2,9"
+Pregunta2.10.2.4 ¿Cuántas veces le pusieron la vacuna del Rotavirus?,2,C,p2_10_2_4,,"01 - 09, 99"
+Pregunta2.10.1.5 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Neumocócica conjugada,1,C,p2_10_1_5,p2_10_1_5,"1,2,9"
+Pregunta2.10.2.5 ¿Cuántas veces le pusieron la vacuna del Neumocócica conjugada?,2,C,p2_10_2_5,,"01 - 09, 99"
+Pregunta2.10.1.6 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Influenza,1,C,p2_10_1_6,p2_10_1_6,"1,2,9"
+Pregunta2.10.2.6  ¿Cuántas veces le pusieron la vacuna de la Influenza?,2,C,p2_10_2_6,,"01 - 10, 99"
+"Pregunta2.10.1.7 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Sarampión, Rubéola y Parotiditis",1,C,p2_10_1_7,p2_10_1_7,"1,2,9"
+"Pregunta2.10.2.7 ¿Cuántas veces le pusieron la vacuna del Sarampión, Rubéola y Parotiditis?",2,C,p2_10_2_7,,"01 - 09, 99"
+Pregunta2.10.1.8 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Sabin / Poliomielitis oral,1,C,p2_10_1_8,p2_10_1_8,"1,2,9"
+Pregunta2.10.2.8 ¿Cuántas veces le pusieron la vacuna del Sabin / Poliomielitis oral?,2,C,p2_10_2_8,,"01 - 10, 99"
+"Pregunta2.10.1.9 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Sarampión, Rubéola (SR)",1,C,p2_10_1_9,p2_10_1_9,"1,2,9"
+"Pregunta2.10.2.9 ¿Cuántas veces le pusieron la vacuna del Sarampión, Rubéola (SR)?",2,C,p2_10_2_9,,"01 - 09, 99"
+"Pregunta2.10.1.10 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? DPT (Difteria, Tos ferina y Tétanos)",1,C,p2_10_1_10,p2_10_1_10,"1,2,9"
+"Pregunta2.10.2.10 ¿Cuántas veces le pusieron la vacuna del DPT (Difteria, Tos ferina y Tétanos)?",2,C,p2_10_2_10,,"01 - 09, 99"
+Pregunta2.10.1.11 ¿Me puede decir qué vacunas le ha puesto a (NOMBRE)? Otras,1,C,p2_10_1_11,p2_10_1_11,"1,2,9"
+Pregunta2.10.2.11 ¿Cuántas veces le pusieron otras vacunas?,2,C,p2_10_2_11,,01 …05
+Pregunta2.11.A1 Tuberculosis (BCG),1,C,p2_11_a1,p2_11_a1,"1,2"
+Pregunta2.11.B1D Fecha de aplicación… Día,2,C,p2_11_b1d,,01...31
+Pregunta2.11.B1M Fecha de aplicación… Mes,2,C,p2_11_b1m,,01...12
+Pregunta2.11.B1A Fecha de aplicación… Año,4,C,p2_11_b1a,,2008-2019
+Pregunta2.11.C1 Institución que aplicó la vacuna,2,C,p2_11_c1,p2_11_c1,01…14
+Pregunta2.12.A1 Hepatitis B - Primera al nacer,1,C,p2_12_a1,p2_12_a1,"1,2"
+Pregunta2.12.B1D Fecha de aplicación… Día,2,C,p2_12_b1d,,01...31
+Pregunta2.12.B1M Fecha de aplicación… Mes,2,C,p2_12_b1m,,01...12
+Pregunta2.12.B1A Fecha de aplicación… Año,4,C,p2_12_b1a,,2008-2019
+Pregunta2.12.C1 Institución que aplicó la vacuna,2,C,p2_12_c1,p2_12_c1,01…14
+Pregunta2.12.A2 Hepatitis B - Primera 2 meses,1,C,p2_12_a2,p2_12_a2,"1,2"
+Pregunta2.12.B2D Fecha de aplicación… Día,2,C,p2_12_b2d,,01...31
+Pregunta2.12.B2M Fecha de aplicación… Mes,2,C,p2_12_b2m,,01...12
+Pregunta2.12.B2A Fecha de aplicación… Año,4,C,p2_12_b2a,,2008-2019
+Pregunta2.12.C2 Institución que aplicó la vacuna,2,C,p2_12_c2,p2_12_c2,01…14
+Pregunta2.12.A3 Hepatitis B - Segunda 2 meses,1,C,p2_12_a3,p2_12_a3,"1,2"
+Pregunta2.12.B3D Fecha de aplicación… Día,2,C,p2_12_b3d,,01...31
+Pregunta2.12.B3M Fecha de aplicación… Mes,2,C,p2_12_b3m,,01...12
+Pregunta2.12.B3A Fecha de aplicación… Año,4,C,p2_12_b3a,,2008-2019
+Pregunta2.12.C3 Institución que aplicó la vacuna,2,C,p2_12_c3,p2_12_c3,01…14
+Pregunta2.12.A4 Hepatitis B - Segunda 4 meses,1,C,p2_12_a4,p2_12_a4,"1,2"
+Pregunta2.12.B4D Fecha de aplicación… Día,2,C,p2_12_b4d,,01...31
+Pregunta2.12.B4M Fecha de aplicación… Mes,2,C,p2_12_b4m,,01...12
+Pregunta2.12.B4A Fecha de aplicación… Año,4,C,p2_12_b4a,,2008-2019
+Pregunta2.12.C4 Institución que aplicó la vacuna,2,C,p2_12_c4,p2_12_c4,01…14
+Pregunta2.12.A5 Hepatitis B - Tercera 6 meses,1,C,p2_12_a5,p2_12_a5,"1,2"
+Pregunta2.12.B5D Fecha de aplicación… Día,2,C,p2_12_b5d,,01...31
+Pregunta2.12.B5M Fecha de aplicación… Mes,2,C,p2_12_b5m,,01...12
+Pregunta2.12.B5A Fecha de aplicación… Año,4,C,p2_12_b5a,,2009-2019
+Pregunta2.12.C5 Institución que aplicó la vacuna,2,C,p2_12_c5,p2_12_c5,01…14
+"Pregunta2.13.A1 Pentavalente Acelular DPaT+VPI+Hib (Difteria, Tos ferina, Tétanos, Poliomielitis e Infecciones por H. Influenza b)Primera 2 meses",1,C,p2_13_a1,p2_13_a1,"1,2"
+Pregunta2.13.B1D Fecha de aplicación… Día,2,C,p2_13_b1d,,01...31
+Pregunta2.13.B1M Fecha de aplicación… Mes,2,C,p2_13_b1m,,01...12
+Pregunta2.13.B1A Fecha de aplicación… Año,4,C,p2_13_b1a,,2008-2019
+Pregunta2.13.C1 Institución que aplicó la vacuna,2,C,p2_13_c1,p2_13_c1,01…14
+"Pregunta2.13.A2 Pentavalente Acelular DPaT+VPI+Hib (Difteria, Tos ferina, Tétanos, Poliomielitis e Infecciones por H. Influenza b)Segunda 4 meses",1,C,p2_13_a2,p2_13_a2,"1,2"
+Pregunta2.13.B2D Fecha de aplicación… Día,2,C,p2_13_b2d,,01...31
+Pregunta2.13.B2M Fecha de aplicación… Mes,2,C,p2_13_b2m,,01...12
+Pregunta2.13.B2A Fecha de aplicación… Año,4,C,p2_13_b2a,,2008-2019
+Pregunta2.13.C2 Institución que aplicó la vacuna,2,C,p2_13_c2,p2_13_c2,01…14
+"Pregunta2.13.A3 Pentavalente Acelular DPaT+VPI+Hib (Difteria, Tos ferina, Tétanos, Poliomielitis e Infecciones por H. Influenza b) Tercera 6 meses",1,C,p2_13_a3,p2_13_a3,"1,2"
+Pregunta2.13.B3D Fecha de aplicación… Día,2,C,p2_13_b3d,,01...31
+Pregunta2.13.B3M Fecha de aplicación… Mes,2,C,p2_13_b3m,,01...12
+Pregunta2.13.B3A Fecha de aplicación… Año,4,C,p2_13_b3a,,2009-2019
+Pregunta2.13.C3 Institución que aplicó la vacuna,2,C,p2_13_c3,p2_13_c3,01…14
+"Pregunta2.13.A4 Pentavalente Acelular DPaT+VPI+Hib (Difteria, Tos ferina, Tétanos, Poliomielitis e Infecciones por H. Influenza b)Cuarta 18 meses",1,C,p2_13_a4,p2_13_a4,"1,2"
+Pregunta2.13.B4D Fecha de aplicación… Día,2,C,p2_13_b4d,,01...31
+Pregunta2.13.B4M Fecha de aplicación… Mes,2,C,p2_13_b4m,,01...12
+Pregunta2.13.B4A Fecha de aplicación… Año,4,C,p2_13_b4a,,2009-2019
+Pregunta2.13.C4 Institución que aplicó la vacuna,2,C,p2_13_c4,p2_13_c4,01…14
+"Pregunta2.14.A1 DPT (Difteria, Tosferina y Tétanos) Refuerzo 4 años",1,C,p2_14_a1,p2_14_a1,"1,2"
+Pregunta2.14.B1D Fecha de aplicación… Día,2,C,p2_14_b1d,,01...31
+Pregunta2.14.B1M Fecha de aplicación… Mes,2,C,p2_14_b1m,,01...12
+Pregunta2.14.B1A Fecha de aplicación… Año,4,C,p2_14_b1a,,2009-2019
+Pregunta2.14.C1 Institución que aplicó la vacuna,2,C,p2_14_c1,p2_14_c1,01…14
+Pregunta2.15.A1 Rotavirus (Diarrea por Rotavirus) - Primera 2 meses,1,C,p2_15_a1,p2_15_a1,"1,2"
+Pregunta2.15.B1D Fecha de aplicación… Día,2,C,p2_15_b1d,,01...31
+Pregunta2.15.B1M Fecha de aplicación… Mes,2,C,p2_15_b1m,,01...12
+Pregunta2.15.B1A Fecha de aplicación… Año,4,C,p2_15_b1a,,2008-2019
+Pregunta2.15.C1 Institución que aplicó la vacuna,2,C,p2_15_c1,p2_15_c1,01…14
+Pregunta2.15.A2 Rotavirus (Diarrea por Rotavirus) - Segunda 4 meses,1,C,p2_15_a2,p2_15_a2,"1,2"
+Pregunta2.15.B2D Fecha de aplicación… Día,2,C,p2_15_b2d,,01...31
+Pregunta2.15.B2M Fecha de aplicación… Mes,2,C,p2_15_b2m,,01...12
+Pregunta2.15.B2A Fecha de aplicación… Año,4,C,p2_15_b2a,,2008-2019
+Pregunta2.15.C2 Institución que aplicó la vacuna,2,C,p2_15_c2,p2_15_c2,01…14
+Pregunta2.15.A3 Rotavirus (Diarrea por Rotavirus) - Tercera 6 meses,1,C,p2_15_a3,p2_15_a3,"1,2"
+Pregunta2.15.B3D Fecha de aplicación… Día,2,C,p2_15_b3d,,01...31
+Pregunta2.15.B3M Fecha de aplicación… Mes,2,C,p2_15_b3m,,01...12
+Pregunta2.15.B3A Fecha de aplicación… Año,4,C,p2_15_b3a,,2009-2019
+Pregunta2.15.C3 Institución que aplicó la vacuna,2,C,p2_15_c3,p2_15_c3,01…14
+Pregunta2.16.A1 Neumocócica conjugada (infecciones por Neumococo) - Primera 2 meses,1,C,p2_16_a1,p2_16_a1,"1,2"
+Pregunta2.16.B1D Fecha de aplicación… Día,2,C,p2_16_b1d,,01...31
+Pregunta2.16.B1M Fecha de aplicación… Mes,2,C,p2_16_b1m,,01...12
+Pregunta2.16.B1A Fecha de aplicación… Año,4,C,p2_16_b1a,,2008-2019
+Pregunta2.16.C1 Institución que aplicó la vacuna,2,C,p2_16_c1,p2_16_c1,01…14
+Pregunta2.16.A2 Neumocócica conjugada (infecciones por Neumococo) - Segunda 4 meses,1,C,p2_16_a2,p2_16_a2,"1,2"
+Pregunta2.16.B2D Fecha de aplicación… Día,2,C,p2_16_b2d,,01...31
+Pregunta2.16.B2M Fecha de aplicación… Mes,2,C,p2_16_b2m,,01...12
+Pregunta2.16.B2A Fecha de aplicación… Año,4,C,p2_16_b2a,,2008-2019
+Pregunta2.16.C2 Institución que aplicó la vacuna,2,C,p2_16_c2,p2_16_c2,01…14
+Pregunta2.16.A3 Neumocócica conjugada (infecciones por Neumococo) - Refuerzo 12 meses,1,C,p2_16_a3,p2_16_a3,"1,2"
+Pregunta2.16.B3D Fecha de aplicación… Día,2,C,p2_16_b3d,,01...31
+Pregunta2.16.B3M Fecha de aplicación… Mes,2,C,p2_16_b3m,,01...12
+Pregunta2.16.B3A Fecha de aplicación… Año,4,C,p2_16_b3a,,2008-2019
+Pregunta2.16.C3 Institución que aplicó la vacuna,2,C,p2_16_c3,p2_16_c3,01…14
+Pregunta2.17.A1 Influenza -  Primera 6 a 11 meses,1,C,p2_17_a1,p2_17_a1,"1,2"
+Pregunta2.17.B1D Fecha de aplicación… Día,2,C,p2_17_b1d,,01...31
+Pregunta2.17.B1M Fecha de aplicación… Mes,2,C,p2_17_b1m,,01...12
+Pregunta2.17.B1A Fecha de aplicación… Año,4,C,p2_17_b1a,,2008-2019
+Pregunta2.17.C1 Institución que aplicó la vacuna,2,C,p2_17_c1,p2_17_c1,01…14
+Pregunta2.17.A2 Influenza - Segunda 7 meses (1 mes  posterior a la primera),1,C,p2_17_a2,p2_17_a2,"1,2"
+Pregunta2.17.B2D Fecha de aplicación… Día,2,C,p2_17_b2d,,01...31
+Pregunta2.17.B2M Fecha de aplicación… Mes,2,C,p2_17_b2m,,01...12
+Pregunta2.17.B2A Fecha de aplicación… Año,4,C,p2_17_b2a,,2008-2019
+Pregunta2.17.C2 Institución que aplicó la vacuna,2,C,p2_17_c2,p2_17_c2,01…14
+Pregunta2.17.A3 Influenza - Revacunación Anual hasta los 59 meses,1,C,p2_17_a3,p2_17_a3,"1,2"
+Pregunta2.17.B3D Fecha de aplicación… Día,2,C,p2_17_b3d,,01...31
+Pregunta2.17.B3M Fecha de aplicación… Mes,2,C,p2_17_b3m,,01...12
+Pregunta2.17.B3A Fecha de aplicación… Año,4,C,p2_17_b3a,,2009-2019
+Pregunta2.17.C3 Institución que aplicó la vacuna,2,C,p2_17_c3,p2_17_c3,01…14
+"Pregunta2.18.A1SRP (Sarampión, Rubéola y Parotiditis) Triple Viral - Primera 1 año",1,C,p2_18_a1,p2_18_a1,"1,2"
+Pregunta2.18.B1D Fecha de aplicación… Día,2,C,p2_18_b1d,,01...31
+Pregunta2.18.B1M Fecha de aplicación… Mes,2,C,p2_18_b1m,,01...12
+Pregunta2.18.B1A Fecha de aplicación… Año,4,C,p2_18_b1a,,2009-2019
+Pregunta2.18.C1 Institución que aplicó la vacuna,2,C,p2_18_c1,p2_18_c1,01…14
+"Pregunta2.18.A2SRP (Sarampión, Rubéola y Parotiditis) Triple Viral - Refuerzo 6 años",1,C,p2_18_a2,p2_18_a2,"1,2"
+Pregunta2.18.B2D Fecha de aplicación… Día,2,C,p2_18_b2d,,01...31
+Pregunta2.18.B2M Fecha de aplicación… Mes,2,C,p2_18_b2m,,01...12
+Pregunta2.18.B2A Fecha de aplicación… Año,4,C,p2_18_b2a,,2009-2019
+Pregunta2.18.C2 Institución que aplicó la vacuna,2,C,p2_18_c2,p2_18_c2,01…14
+Pregunta2.19.A1SABIN (Poliomielitis) - Adicionales 1,1,C,p2_19_a1,p2_19_a1,"1,2"
+Pregunta2.19.B1D Fecha de aplicación… Día,2,C,p2_19_b1d,,01...31
+Pregunta2.19.B1M Fecha de aplicación… Mes,2,C,p2_19_b1m,,01...12
+Pregunta2.19.B1A Fecha de aplicación… Año,4,C,p2_19_b1a,,2008-2019
+Pregunta2.19.C1 Institución que aplicó la vacuna,2,C,p2_19_c1,p2_19_c1,01…14
+Pregunta2.19.A2SABIN (Poliomielitis) - Adicionales 2,1,C,p2_19_a2,p2_19_a2,"1,2"
+Pregunta2.19.B2D Fecha de aplicación… Día,2,C,p2_19_b2d,,01...31
+Pregunta2.19.B2M Fecha de aplicación… Mes,2,C,p2_19_b2m,,01...12
+Pregunta2.19.B2A Fecha de aplicación… Año,4,C,p2_19_b2a,,2008-2019
+Pregunta2.19.C2 Institución que aplicó la vacuna,2,C,p2_19_c2,p2_19_c2,01…14
+"Pregunta2.20.A1SR (Sarampión y Rubéola) ""Campaña de seguimiento""",1,C,p2_20_a1,p2_20_a1,"1,2"
+Pregunta2.20.B1D Fecha de aplicación… Día,2,C,p2_20_b1d,,01...31
+Pregunta2.20.B1M Fecha de aplicación… Mes,2,C,p2_20_b1m,,01...12
+Pregunta2.20.B1A Fecha de aplicación… Año,4,C,p2_20_b1a,,2009-2019
+Pregunta2.20.C1 Institución que aplicó la vacuna,2,C,p2_20_c1,p2_20_c1,01…14
+Pregunta2.21 Otras vacunas,1,C,p2_21,p2_21,"1,2"
+"Pregunta2.22 En los últimos 12 meses, ¿cuántas veces (NOMBRE) recibió Vitamina A en alguna Semana Nacional de Salud?",1,C,p2_22,,0 - 9
+Pregunta2.23 ¿A (NOMBRE) le realizaron la prueba del Tamiz Neonatal?,1,C,p2_23,p2_23,"1 - 3, 9"
+Pregunta2.24 ¿Conoce el resultado de la prueba del Tamiz Neonatal?,1,C,p2_24,p2_24,"1, 2, 9"
+"Pregunta2.25 En los primeros 28 días de vida, ¿le realizaron la prueba del Tamiz Neonatal Auditivo a (NOMBRE)?",1,C,p2_25,p2_25,"1, 2, 9"
+Pregunta2.26 ¿Cuál fue el resultado del Tamiz Neonatal Auditivo?,1,C,p2_26,p2_26,"1, 2, 9"
+Pregunta3.1 ¿Ha tenido diarrea (NOMBRE) en las últimas dos semanas?,1,C,p3_1,p3_1,"1,2,9"
+"Pregunta3.2 En total, ¿cuántos días ha tenido / tuvo diarrea (NOMBRE)? Días",2,C,p3_2,,"01- 10,99"
+Pregunta3.3 ¿Durante la diarrea (Nombre) ha tenido / tuvo fiebre o calentura?,1,C,p3_3,p3_3,"1,2,9"
+Pregunta3.4 ¿Durante la diarrea a (NOMBRE)?,1,C,p3_4,p3_4,"1 - 5, 9"
+"Pregunta3.5 Sin considerar la leche, ahora que (NOMBRE) tuvo diarrea…",1,C,p3_5,p3_5,"1 - 5, 9"
+Pregunta3.6.1 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda?  A nadie,1,C,p3_6_1,p3_6_1,"0,1"
+Pregunta3.6.2 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda?  Comadrona o partera,1,C,p3_6_2,p3_6_2,"0,1"
+Pregunta3.6.3 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Curandero(a) o yerbero(a),1,C,p3_6_3,p3_6_3,"0,1"
+Pregunta3.6.4 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda?  Encargado(a) de la farmacia,1,C,p3_6_4,p3_6_4,"0,1"
+Pregunta3.6.5 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda?  Auxiliar o voluntario(a) de salud,1,C,p3_6_5,p3_6_5,"0,1"
+Pregunta3.6.6 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Promotor(a) de salud,1,C,p3_6_6,p3_6_6,"0,1"
+Pregunta3.6.7 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Enfermera (o),1,C,p3_6_7,p3_6_7,"0,1"
+Pregunta3.6.8 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Médico (alópata),1,C,p3_6_8,p3_6_8,"0,1"
+Pregunta3.6.9 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Médico homeópata,1,C,p3_6_9,p3_6_9,"0,1"
+Pregunta3.6.10 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? Otro(especifica),1,C,p3_6_10,p3_6_10,"0,1"
+Pregunta3.6.11 Ahora que (NOMBRE) tuvo diarrea ¿a quién le pidió ayuda? No sabe,1,C,p3_6_11,p3_6_11,"0,1"
+Pregunta3.7.1 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Seguro Social (IMSS),1,C,p3_7_1,p3_7_1,"0,1"
+Pregunta3.7.2 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? ISSSTE,1,C,p3_7_2,p3_7_2,"0,1"
+Pregunta3.7.3 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? ISSSTE Estatal,1,C,p3_7_3,p3_7_3,"0,1"
+Pregunta3.7.4 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Pemex,1,C,p3_7_4,p3_7_4,"0,1"
+Pregunta3.7.5 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Defensa,1,C,p3_7_5,p3_7_5,"0,1"
+Pregunta3.7.6 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Marina,1,C,p3_7_6,p3_7_6,"0,1"
+Pregunta3.7.7 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Centro de Salud u Hospital de la SSA,1,C,p3_7_7,p3_7_7,"0,1"
+Pregunta3.7.8 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? IMSS Prospera,1,C,p3_7_8,p3_7_8,"0,1"
+Pregunta3.7.9 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Consultorios dependientes de farmacias,1,C,p3_7_9,p3_7_9,"0,1"
+"Pregunta3.7.10 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Consultorio, clínica u hospital privado",1,C,p3_7_10,p3_7_10,"0,1"
+Pregunta3.7.11 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? Otro (especifica),1,C,p3_7_11,p3_7_11,"0,1"
+Pregunta3.7.12 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 3.6) que atendió a (NOMBRE)? No sabe,1,C,p3_7_12,p3_7_12,0
+Pregunta3.8 El personal de salud ¿le recomendó que le diera Vida Suero Oral o soluciones rehidratantes a (NOMBRE)?,1,C,p3_8,p3_8,"1,2"
+Pregunta3.9 El personal de salud ¿le explicó cómo preparar el Vida Suero Oral o las soluciones rehidratantes?,1,C,p3_9,p3_9,"1,2"
+Pregunta3.10.1 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Vida Suero Oral,1,C,p3_10_1,p3_10_1,"0,1"
+Pregunta3.10.2 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Suero comercial,1,C,p3_10_2,p3_10_2,"0,1"
+Pregunta3.10.3 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Suero casero,1,C,p3_10_3,p3_10_3,"0,1"
+Pregunta3.10.4 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Agua sola,1,C,p3_10_4,p3_10_4,"0,1"
+Pregunta3.10.5 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Agua de frutas,1,C,p3_10_5,p3_10_5,"0,1"
+Pregunta3.10.6 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Agua de arroz,1,C,p3_10_6,p3_10_6,"0,1"
+Pregunta3.10.7 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Tés,1,C,p3_10_7,p3_10_7,"0,1"
+Pregunta3.10.8 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Atoles,1,C,p3_10_8,p3_10_8,"0,1"
+Pregunta3.10.9 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Pozol,1,C,p3_10_9,p3_10_9,"0,1"
+Pregunta3.10.10 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Leche,1,C,p3_10_10,p3_10_10,"0,1"
+Pregunta3.10.11 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Leche rebajada,1,C,p3_10_11,p3_10_11,"0,1"
+Pregunta3.10.12 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Caldos / sopas,1,C,p3_10_12,p3_10_12,"0,1"
+Pregunta3.10.13 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Refresco,1,C,p3_10_13,p3_10_13,"0,1"
+Pregunta3.10.14 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Café,1,C,p3_10_14,p3_10_14,"0,1"
+Pregunta3.10.15 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Otro (Especifica),1,C,p3_10_15,p3_10_15,"0,1"
+Pregunta3.10.16 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? Ninguno,1,C,p3_10_16,p3_10_16,"0,1"
+Pregunta3.10.17 ¿Qué (otros) líquidos le dio a (NOMBRE) durante la diarrea? No sabe,1,C,p3_10_17,p3_10_17,"0,1"
+Pregunta3.11 ¿Se le dio alguna (otra) cosa para tratar la diarrea?,1,C,p3_11,p3_11,"1,2,9"
+Pregunta3.12.1 ¿Qué otra cosa se le dio para tratar la diarrea? Pastillas o jarabe Antibiótico,1,C,p3_12_1,p3_12_1,"0,1"
+Pregunta3.12.2 ¿Qué otra cosa se le dio para tratar la diarrea? Antiespasmódico,1,C,p3_12_2,p3_12_2,"0,1"
+"Pregunta3.12.3 ¿Qué otra cosa se le dio para tratar la diarrea? Otras pastillas o jarabes (no antibióticos, antiespasmódicos o zinc)",1,C,p3_12_3,p3_12_3,"0,1"
+Pregunta3.12.4 ¿Qué otra cosa se le dio para tratar la diarrea? No sabe tipo de pastilla o jarabe,1,C,p3_12_4,p3_12_4,"0,1"
+Pregunta3.12.5 ¿Qué otra cosa se le dio para tratar la diarrea? Inyección Antibiótica,1,C,p3_12_5,p3_12_5,"0,1"
+Pregunta3.12.6 ¿Qué otra cosa se le dio para tratar la diarrea? No antibiótica,1,C,p3_12_6,p3_12_6,"0,1"
+Pregunta3.12.7 ¿Qué otra cosa se le dio para tratar la diarrea? No sabe tipo de inyección,1,C,p3_12_7,p3_12_7,"0,1"
+Pregunta3.12.8 ¿Qué otra cosa se le dio para tratar la diarrea? Intravenosa,1,C,p3_12_8,p3_12_8,"0,1"
+Pregunta3.12.9 ¿Qué otra cosa se le dio para tratar la diarrea? Remedio casero/ medicina a base de hierbas,1,C,p3_12_9,p3_12_9,"0,1"
+Pregunta3.12.10 ¿Qué otra cosa se le dio para tratar la diarrea? Otro (Especifica),1,C,p3_12_10,p3_12_10,"0,1"
+Pregunta3.12.11 ¿Qué otra cosa se le dio para tratar la diarrea? No sabe,1,C,p3_12_11,p3_12_11,"0,1"
+"Pregunta3.13.1Cuando tuvo diarrea, ¿se le dio a (NOMBRE)...  Tabletas de Zinc?",1,C,p3_13_1,p3_13_1,"1,2,9"
+"Pregunta3.13.2Cuando tuvo diarrea, ¿se le dio a (NOMBRE) Jarabe de Zinc?",1,C,p3_13_2,p3_13_2,"1,2,9"
+Pregunta3.14¿Dónde obtuvo usted el Zinc?,2,C,p3_14,p3_14,01 ... 14
+Pregunta3.15 El personal de salud ¿le explicó los cuidados que tenía que dar a (NOMBRE) en el hogar durante la diarrea?,1,C,p3_15,p3_15,"1,2"
+Pregunta3.16.1 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Mucha sed,1,C,p3_16_1,p3_16_1,"0,1"
+Pregunta3.16.2 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Poca ingesta de líquidos o alimentos,1,C,p3_16_2,p3_16_2,"0,1"
+Pregunta3.16.3 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Estar muy quieto (débil),1,C,p3_16_3,p3_16_3,"0,1"
+Pregunta3.16.4 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Evacuaciones muy frecuentes,1,C,p3_16_4,p3_16_4,"0,1"
+Pregunta3.16.5 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Vómitos,1,C,p3_16_5,p3_16_5,"0,1"
+Pregunta3.16.6 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Fiebre,1,C,p3_16_6,p3_16_6,"0,1"
+Pregunta3.16.7 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Llanto sin lágrimas,1,C,p3_16_7,p3_16_7,"0,1"
+Pregunta3.16.8 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Sangre en las heces,1,C,p3_16_8,p3_16_8,"0,1"
+Pregunta3.16.9 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? Otra molestia (Especifica),1,C,p3_16_9,p3_16_9,"0,1"
+Pregunta3.16.10 ¿Qué molestias debe tener (NOMBRE) cuando tiene diarrea para que usted lo(a) lleve al médico? No sabe,1,C,p3_16_10,p3_16_10,"0,1"
+Pregunta3.17¿Conoce los síntomas de deshidratación?,1,C,p3_17,p3_17,"1,2"
+Pregunta3.17.1¿Cuáles son? Mucha sed,1,C,p3_17_1,p3_17_1,"0,1"
+Pregunta3.17.2 ¿Cuáles son? Irritabilidad,1,C,p3_17_2,p3_17_2,"0,1"
+Pregunta3.17.3 ¿Cuáles son? Llanto sin lágrimas,1,C,p3_17_3,p3_17_3,"0,1"
+Pregunta3.17.4 ¿Cuáles son? Ojos hundidos,1,C,p3_17_4,p3_17_4,"0,1"
+Pregunta3.17.5 ¿Cuáles son? Otro síntoma (Especifica),1,C,p3_17_5,p3_17_5,"0,1"
+"Pregunta4.1 En las últimas dos semanas, ¿(NOMBRE) ha tenido gripa, catarro, anginas, tos, bronquitis o dolor de oídos?",1,C,p4_1,p4_1,"1,2,9"
+"Pregunta4.2 Por esta(s) enfermedad(es), ¿(NOMBRE) tuvo fiebre o calentura?",1,C,p4_2,p4_2,"1,2"
+"Pregunta4.3 Cuando (NOMBRE) estuvo enfermo con tos, ¿respiraba más rápido de lo habitual, con respiros cortos y rápidos,  o tenía dificultad para respirar o jadeaba?",1,C,p4_3,p4_3,"1,2,9"
+Pregunta4.4 ¿Esto se debió a algún problema en el pecho o a tener la nariz tapada o que moqueaba?,1,C,p4_4,p4_4,"1 - 4, 9"
+"Pregunta4.5 ¿Ahora que (NOMBRE) tuvo gripa, tos, catarro, anginas, bronquitis o dolor de oídos…",1,C,p4_5,p4_5,"1 - 3, 9"
+"Pregunta4.6.1 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? A nadie",1,C,p4_6_1,p4_6_1,"0,1"
+"Pregunta4.6.2 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Comadrona o partera",1,C,p4_6_2,p4_6_2,"0,1"
+"Pregunta4.6.3 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Curandero(a) o yerbero(a)",1,C,p4_6_3,p4_6_3,"0,1"
+"Pregunta4.6.4 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Encargado(a) de la farmacia",1,C,p4_6_4,p4_6_4,"0,1"
+"Pregunta4.6.5 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Auxiliar o voluntario(a) de salud",1,C,p4_6_5,p4_6_5,"0,1"
+"Pregunta4.6.6 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Promotor(a) de salud",1,C,p4_6_6,p4_6_6,"0,1"
+"Pregunta4.6.7 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Enfermera(o)",1,C,p4_6_7,p4_6_7,"0,1"
+"Pregunta4.6.8 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Médico (alópata)",1,C,p4_6_8,p4_6_8,"0,1"
+"Pregunta4.6.9 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Médico homeópata",1,C,p4_6_9,p4_6_9,"0,1"
+"Pregunta4.6.10 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? Otro (Especifica)",1,C,p4_6_10,p4_6_10,"0,1"
+"Pregunta4.6.11 Ahora que (NOMBRE) tuvo gripa, catarro, anginas, tos, bronquitis o dolor de oídos, ¿a quién le pidió ayuda? No sabe",1,C,p4_6_11,p4_6_11,"0,1"
+Pregunta4.7.1 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Seguro Social (IMSS),1,C,p4_7_1,p4_7_1,"0,1"
+Pregunta4.7.2 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? ISSSTE,1,C,p4_7_2,p4_7_2,"0,1"
+Pregunta4.7.3 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? ISSSTE Estatal,1,C,p4_7_3,p4_7_3,"0,1"
+Pregunta4.7.4 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Pemex,1,C,p4_7_4,p4_7_4,"0,1"
+Pregunta4.7.5 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Defensa,1,C,p4_7_5,p4_7_5,"0,1"
+Pregunta4.7.6 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Marina,1,C,p4_7_6,p4_7_6,"0,1"
+Pregunta4.7.7 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Centro de Salud u Hospital de la SSA,1,C,p4_7_7,p4_7_7,"0,1"
+Pregunta4.7.8 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? IMSS Prospera,1,C,p4_7_8,p4_7_8,"0,1"
+Pregunta4.7.9 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Consultorios dependientes de farmacias,1,C,p4_7_9,p4_7_9,"0,1"
+"Pregunta4.7.10 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Consultorio, clínica u hospital privado",1,C,p4_7_10,p4_7_10,"0,1"
+Pregunta4.7.11 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? Otro lugar (Especifica),1,C,p4_7_11,p4_7_11,"0,1"
+Pregunta4.7.12 ¿A qué institución de salud pertenece el (la) (MENCIONE AL PERSONAL DE 4.6) que atendió a (NOMBRE)? No sabe,1,C,p4_7_12,p4_7_12,"0,1"
+"Pregunta4.8 ¿Qué le hizo o le dio a (NOMBRE) para la gripa, tos, catarro, anginas, bronquitis o dolor de oídos?",1,C,p4_8,p4_8,"1 - 4, 9"
+Pregunta4.9.1¿Qué medicamentos le dieron a (NOMBRE)? Pastilla/Jarabe (suspensión),1,C,p4_9_1,p4_9_1,"0,1"
+Pregunta4.9.2 ¿Qué medicamentos le dieron a (NOMBRE)? Inyección,1,C,p4_9_2,p4_9_2,"0,1"
+Pregunta4.9.3¿Qué medicamentos le dieron a (NOMBRE)? Paracetamol/Acetaminofen (Tempra),1,C,p4_9_3,p4_9_3,"0,1"
+Pregunta4.9.4 ¿Qué medicamentos le dieron a (NOMBRE)? Aspirina,1,C,p4_9_4,p4_9_4,"0,1"
+Pregunta4.9.5 ¿Qué medicamentos le dieron a (NOMBRE)? Ibuprofeno (Motrin/Neomelufen/Advil),1,C,p4_9_5,p4_9_5,"0,1"
+Pregunta4.9.6 ¿Qué medicamentos le dieron a (NOMBRE)? Desenfriolito,1,C,p4_9_6,p4_9_6,"0,1"
+Pregunta4.9.7 ¿Qué medicamentos le dieron a (NOMBRE)? Neomelubrina,1,C,p4_9_7,p4_9_7,"0,1"
+Pregunta4.9.8 ¿Qué medicamentos le dieron a (NOMBRE)? Febrax,1,C,p4_9_8,p4_9_8,"0,1"
+Pregunta4.9.9 ¿Qué medicamentos le dieron a (NOMBRE)? Otro (especifica),1,C,p4_9_9,p4_9_9,"0,1"
+Pregunta4.9.10 ¿Qué medicamentos le dieron a (NOMBRE)? No sabe,1,C,p4_9_10,p4_9_10,"0,1"
+"Pregunta4.10Cuando fue a la unidad de salud, el personal que le atendió, ¿le explicó los cuidados que tenía que dar a (NOMBRE) en su hogar durante su enfermedad respiratoria?",1,C,p4_10,p4_10,"1, 2, 9"
+Pregunta4.11 El personal de salud ¿le explicó cuáles son los síntomas de alarma que debe observar durante la enfermedad respiratoria de (NOMBRE)?,1,C,p4_11,p4_11,"1, 2, 9"
+"Pregunta4.12.1 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Respira rápido",1,C,p4_12_1,p4_12_1,"0,1"
+"Pregunta4.12.2 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Tiene dificultad para respirar",1,C,p4_12_2,p4_12_2,"0,1"
+"Pregunta4.12.3 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? No come, ni bebe líquidos",1,C,p4_12_3,p4_12_3,"0,1"
+"Pregunta4.12.4 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Se pone frío",1,C,p4_12_4,p4_12_4,"0,1"
+"Pregunta4.12.5 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Se ve más enfermo",1,C,p4_12_5,p4_12_5,"0,1"
+"Pregunta4.12.6 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Más de tres días con calentura",1,C,p4_12_6,p4_12_6,"0,1"
+"Pregunta4.12.7 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Le salga pus del oído",1,C,p4_12_7,p4_12_7,"0,1"
+"Pregunta4.12.8 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Le aparezcan puntos blancos en la garganta",1,C,p4_12_8,p4_12_8,"0,1"
+"Pregunta4.12.9 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? Otras molestias (especifica)",1,C,p4_12_9,p4_12_9,"0,1"
+"Pregunta4.12.10 ¿Qué molestias debe tener (NOMBRE) cuando tiene gripa, catarro, anginas, tos, bronquitis o dolor de oídos, para que usted lo lleve inmediatamente al médico? No sabe",1,C,p4_12_10,p4_12_10,"0,1"
+"Pregunta4.13 En los últimos tres meses, ¿algún médico le ha diagnosticado neumonía a (NOMBRE)?",1,C,p4_13,p4_13,"1, 2, 9"
+Pregunta4.14 ¿(NOMBRE) estuvo hospitalizado debido a la neumonía que presentó?,1,C,p4_14,p4_14,"1, 2"
+Pregunta4.15 ¿Cuántos días estuvo hospitalizado (NOMBRE) por la neumonía que presentó?,2,C,p4_15,,01 ... 30
+"Pregunta5.1 En los últimos 12 meses, ¿sufrió (NOMBRE) algún daño a su salud a causa de un accidente?",1,C,p5_1,p5_1,"1, 2, 9"
+Pregunta5.2 ¿Cómo fue que se accidentó (NOMBRE)?,2,C,p5_2,p5_2,"01 - 18, 99"
+Pregunta5.3 ¿Llevaba puesto el cinturón o iba en su silla porta infante?,1,C,p5_3,p5_3,"1, 2"
+Pregunta5.4 ¿Llevaba puesto el casco?,1,C,p5_4,p5_4,2
+Pregunta5.5 ¿En qué lugar se encontraba cuando ocurrió el accidente?,2,C,p5_5,p5_5,"01 - 10, 99"
+Pregunta5.6 ¿Qué hizo o quién atendió a (NOMBRE) cuando ocurrió el accidente?,2,C,p5_6,p5_6,"01 - 11,  99"
+Pregunta5.7 ¿Qué problema de salud permanente le ocasionó este accidente?,1,C,p5_7,p5_7,"1 - 7, 9"
+Pregunta6.1 Me gustaría hacerle algunas preguntas sobre ciertas dificultades que pueda tener (Nombre). ¿(NOMBRE) usa anteojos?,1,C,p6_1,p6_1,"1,2"
+Pregunta6.2 ¿Usa (NOMBRE) alguna prótesis auditiva?,1,C,p6_2,p6_2,"1,2"
+Pregunta6.3 ¿Usa (NOMBRE) algún aparato o recibe ayuda para caminar?,1,C,p6_3,p6_3,"1,2"
+"Pregunta6.4A Cuando (NOMBRE) usa anteojos, ¿tiene dificultad para ver?",1,C,p6_4a,p6_4a,"1,2"
+Pregunta6.4B ¿Tiene (NOMBRE) dificultad para ver?,1,C,p6_4b,p6_4b,1 ... 4
+"Pregunta6.5A Cuando (NOMBRE) usa la prótesis auditiva,  ¿tiene dificultad para oír sonidos como  voces de otras personas o música?",1,C,p6_5a,p6_5a,"1,2"
+Pregunta6.5B ¿Tiene (NOMBRE) dificultad para oír sonidos  como voces de otras personas o música?,1,C,p6_5b,p6_5b,1 ... 4
+"Pregunta6.6 Cuando (NOMBRE) no usa el aparato ni recibe ayuda, ¿tiene dificultad para caminar?",1,C,p6_6,p6_6,2 ... 4
+"Pregunta6.7 Cuando (NOMBRE) usa el aparato o recibe ayuda,  ¿tiene dificultad para caminar?",1,C,p6_7,p6_7,1 ... 4
+"Pregunta6.8 En comparación con los niños(as) de la misma edad, ¿tiene (NOMBRE) dificultad para caminar?",1,C,p6_8,p6_8,1 ... 4
+"Pregunta6.9 En comparación con los niños(as) de la misma edad,  ¿tiene (NOMBRE) dificultad para agarrar objetos pequeños con la mano?",1,C,p6_9,p6_9,1 ... 4
+Pregunta6.10 ¿Tiene (NOMBRE) dificultad para entenderle?,1,C,p6_10,p6_10,1 ... 4
+"Pregunta6.11 Cuando (Nombre) habla, ¿tiene usted dificultad para entenderle?",1,C,p6_11,p6_11,1 ... 4
+"Pregunta6.12 En comparación con los niños(as) de la misma edad, ¿tiene (NOMBRE) dificultad para aprender cosas?",1,C,p6_12,p6_12,1 ... 4
+"Pregunta6.13 En comparación con los niños(as) de la misma edad,   ¿tiene (NOMBRE) dificultad para jugar?",1,C,p6_13,p6_13,1 ... 4
+"Pregunta6.14 En comparación con los niños(as) de la misma edad, ¿con qué frecuencia (NOMBRE) patea, muerde o golpea a otros niños(as) o adultos?",1,C,p6_14,p6_14,1 ... 5
+Pregunta6.15 Me gustaría hacerle algunas preguntas acerca de dificultades que (NOMBRE) puede tener ¿(NOMBRE) usa/utiliza anteojos o lentes de contacto?,1,C,p6_15,p6_15,"1,2"
+Pregunta6.16 ¿Usa (NOMBRE) alguna prótesis auditiva?,1,C,p6_16,p6_16,"1,2"
+Pregunta6.17 ¿Usa (NOMBRE) algún aparato o recibe ayuda para caminar?,1,C,p6_17,p6_17,"1,2"
+"Pregunta6.18A Cuando (NOMBRE) usa anteojos, o lentes de contacto ¿tiene dificultad para ver?",1,C,p6_18a,p6_18a,"1,3"
+Pregunta6.18B ¿Tiene (NOMBRE) dificultad para ver?,1,C,p6_18b,p6_18b,1...4
+"Pregunta6.19ACuando (NOMBRE) usa la prótesis auditiva,   ¿tiene dificultad para oír sonidos como   voces de otras personas o música?",1,C,p6_19a,p6_19a,1...4
+Pregunta6.19B ¿Tiene (NOMBRE) dificultad para oír sonidos como voces de otras personas o música?,1,C,p6_19b,p6_19b,1...4
+"Pregunta6.20 Cuando (NOMBRE) no usa el aparato ni recibe ayuda, ¿tiene dificultad para caminar 100 metros en terreno plano? (explicar que es aproximadamente el largo de una cancha de fútbol).",1,C,p6_20,p6_20,2...4
+"Pregunta6.21 Cuando (NOMBRE) no usa el aparato ni recibe ayuda, ¿tiene dificultad para caminar 500 metros en terreno plano? (explicar que es aproximadamente el largo de cinco canchas de fútbol).",1,C,p6_21,p6_21,"2,3"
+"Pregunta6.22 Cuando (NOMBRE) usa el aparato o recibe ayuda, ¿tiene dificultad para caminar 100 metros en terreno plano? (explicar que es aproximadamente el largo de una cancha de fútbol)",1,C,p6_22,p6_22,1...4
+"Pregunta6.23 Cuando (NOMBRE) usa el aparato o recibe ayuda, ¿tiene dificultad para caminar 500 metros en terreno plano? (explicar que es aproximadamente el largo de cinco canchas de fútbol)",1,C,p6_23,p6_23,"1,4"
+"Pregunta6.24 En comparación con niños(as) de la misma edad, ¿tiene (Nombre) dificultad para caminar 100 metros en terreno plano? (explicar que es aproximadamente el largo de una cancha de fútbol)",1,C,p6_24,p6_24,1...4
+"Pregunta6.25 En comparación con niños(as) de su misma edad, ¿tiene (Nombre) dificultad para caminar 500 metros en terreno plano? (explicar que es aproximadamente el largo de cinco canchas de fútbol)",1,C,p6_25,p6_25,1...4
+"Pregunta6.26 ¿Tiene (Nombre) dificultad para el cuidado propio, por ejemplo, para comer o vestirse solo(a)?",1,C,p6_26,p6_26,1...4
+"Pregunta6.27 Cuando (Nombre) habla, ¿tiene dificultad para ser entendido(a) por personas de este hogar?",1,C,p6_27,p6_27,1...4
+"Pregunta6.28 Cuando (Nombre) habla, ¿tiene dificultad para ser entendido(a) por personas ajenas a este hogar?",1,C,p6_28,p6_28,1...4
+"Pregunta6.29 En comparación con los niños(as) de la misma edad, ¿tiene (Nombre) dificultad para aprender cosas?",1,C,p6_29,p6_29,1...4
+"Pregunta6.30 En comparación con los niños(as) de la misma edad, ¿tiene (Nombre) dificultad para recordar cosas?",1,C,p6_30,p6_30,1...4
+Pregunta6.31 ¿Tiene (Nombre) dificultad para concentrarse en las actividades que le gustan?,1,C,p6_31,p6_31,1...4
+Pregunta6.32 ¿Tiene (Nombre) dificultad para aceptar cambios en su rutina?,1,C,p6_32,p6_32,1...4
+"Pregunta6.33 En comparación con los niños(as) de la misma edad, ¿tiene (Nombre) dificultad para controlar su comportamiento?",1,C,p6_33,p6_33,1...4
+Pregunta6.34 ¿Tiene (Nombre) dificultad para hacer amigos?,1,C,p6_34,p6_34,1...4
+"Pregunta6.35 Me gustaría saber, con qué frecuencia se muestra (NOMBRE) muy ansioso(a), nervioso(a) o preocupado(a), ¿diría que?",1,C,p6_35,p6_35,1…5
+"Pregunta6.36 Me gustaría saber, con qué frecuencia se muestra (NOMBRE) muy triste o deprimido(a), ¿diría que?",1,C,p6_36,p6_36,1…5
+"Pregunta7.1.1[A] ¿Le quitaron permisos, le prohibieron algo que a (NOMBRE) le gusta o no lo(a) dejaron salir de la casa?",1,C,p7_1_1,p7_1_1,"1, 2, 8"
+Pregunta7.1.2[B] ¿Le explicaron a (NOMBRE) por qué su comportamiento estuvo mal?,1,C,p7_1_2,p7_1_2,"1, 2, 8"
+Pregunta7.1.3[C] ¿Lo(a) zarandearon o sacudieron?,1,C,p7_1_3,p7_1_3,"1, 2, 8"
+Pregunta7.1.4[D]  ¿Le gritaron?,1,C,p7_1_4,p7_1_4,"1, 2, 8"
+Pregunta7.1.5[E] ¿Le dieron otra cosa qué hacer?,1,C,p7_1_5,p7_1_5,"1, 2, 8"
+Pregunta7.1.6[F] ¿Le dieron nalgadas o le pegaron en el trasero solo con la mano?,1,C,p7_1_6,p7_1_6,"1, 2, 8"
+"Pregunta7.1.7[G] ¿Le pegaron en el trasero o en otra parte del cuerpo con algún objeto como: un cinturón, un cepillo de pelo,  una chancla, un palo u otro objeto duro?",1,C,p7_1_7,p7_1_7,"1, 2, 8"
+"Pregunta7.1.8[H] ¿Le llamaron tonto(a), flojo(a) o alguna otra cosa parecida?",1,C,p7_1_8,p7_1_8,"1, 2, 8"
+"Pregunta7.1.9[I]  ¿Le pegaron con la mano en la cara, en la cabeza o en las orejas?",1,C,p7_1_9,p7_1_9,"1, 2, 8"
+"Pregunta7.1.10[J] ¿Le pegaron con la mano en el brazo, en la pierna o en la mano?",1,C,p7_1_10,p7_1_10,"1, 2, 8"
+"Pregunta7.1.11[K]  ¿Le dieron una paliza, es decir, le pegaron una y otra vez lo más fuerte que pudieron?",1,C,p7_1_11,p7_1_11,"1, 2, 8"
+"Pregunta7.2 ¿Cree usted que para criar o educar correctamente a un niño o una niña, él o ella debe ser castigado(a) físicamente?",1,C,p7_2,p7_2,"1, 2, 8, 9"
+Edad,1,C,edad,,0-9
+Edad en meses,4,C,edad_meses,,0-119
+Sexo,1,C,sexo,sexo,"1,2"
+Clave de Entidad Federativa,2,C,ent,ent,01 - 32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de Diseño,3,C,est_dis,,001-328
+UPM de Diseño,4,C,upm_dis,,0001-6289
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor niño,5,C,f_nino,,79-13518
+Número de renglón del informante,1,C,numren_inf,,01…16
+Variable indicadora si el niño tiene desde cero meses hasta 12 meses exactos cumplidos de edad (12 meses y cero días),1,C,menores_0_12,menores_0_12,"1,2"
+Diferencia en días entre la fecha de nacimiento y la fecha de levantamiento del cuestionario,4,C,dias,,0-3794

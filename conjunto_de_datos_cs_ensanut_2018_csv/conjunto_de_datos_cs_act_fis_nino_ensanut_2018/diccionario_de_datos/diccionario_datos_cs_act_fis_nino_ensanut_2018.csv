@@ -1,0 +1,39 @@
+﻿nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Unidad Primaria de Muestreo,5,C,upm,,00001-06289
+Vivienda seleccionada,2,C,viv_sel,,01…23
+Número de Hogar,1,C,hogar,,1…3
+Número de Renglón,2,C,numren,,02…13
+"Pregunta 1 En un día entre semana, ¿cuántas horas de lunes a viernes pasas frente a una pantalla, viendo televisión (películas o DVD) o frente a la computadora? Incluye tiempo de la mañana, tarde y noche",2,C,p1,p1,"00-06, 88, 99"
+"Pregunta 2 En un día de fin de semana, ¿cuántas horas pasas frente a una pantalla, viendo televisión (películas o DVD) o frente a la computadora? Incluye tiempo de la mañana, tarde y noche",2,C,p2,p2,"00-06, 88, 99"
+Pregunta PCTRL ENTREVISTADOR: INDICA SI EL(LA) INFORMANTE TIENE ALGUNA DISCAPACIDAD FÍSICA QUE LE IMPIDA MOVERSE PARA REALIZAR ACTIVIDAD FÍSICA.,1,C,pctrl,pctrl,"1,2"
+"Pregunta 3 Durante los últimos 12 meses, ¿en cuántos equipos, deportes individuales o actividades físicas participaste a un nivel competitivo o con mucha frecuencia, como programas fuera de la escuela o equipos de la escuela?",2,C,p3,p3,"00-04,99"
+"Pregunta 4.1  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Artes marciales (karate, Tae Kwon do, jujitsu, etcétera)",1,C,p4_1,p4_1,"0,1"
+Pregunta 4.2  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Badminton,1,C,p4_2,p4_2,"0,1"
+"Pregunta 4.3  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Bailar (ballet, jazz, etcétera)",1,C,p4_3,p4_3,"0,1"
+Pregunta 4.4  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Básquetbol,1,C,p4_4,p4_4,"0,1"
+Pregunta 4.5  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Béisbol o softbol,1,C,p4_5,p4_5,"0,1"
+Pregunta 4.6  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Bicicleta,1,C,p4_6,p4_6,"0,1"
+Pregunta 4.7  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Boxeo,1,C,p4_7,p4_7,"0,1"
+Pregunta 4.8  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Caminar,1,C,p4_8,p4_8,"0,1"
+Pregunta 4.9  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Correr,1,C,p4_9,p4_9,"0,1"
+Pregunta 4.10  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Frontón,1,C,p4_10,p4_10,"0,1"
+Pregunta 4.11  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Fútbol,1,C,p4_11,p4_11,"0,1"
+Pregunta 4.12  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Gimnasia,1,C,p4_12,p4_12,"0,1"
+Pregunta 4.13  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Natación,1,C,p4_13,p4_13,"0,1"
+Pregunta 4.14  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Patinar o andar en patineta,1,C,p4_14,p4_14,"0,1"
+Pregunta 4.15  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Ping pong,1,C,p4_15,p4_15,"0,1"
+Pregunta 4.16  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Tenis,1,C,p4_16,p4_16,"0,1"
+Pregunta 4.17  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Voleibol,1,C,p4_17,p4_17,"0,1"
+Pregunta 4.18  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? Otra (especifica),1,C,p4_18,p4_18,"0,1"
+Pregunta 4.19  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? No responde,1,C,p4_19,p4_19,"0,1"
+Pregunta 4.20  ¿Cuál(es) fueron la(s) actividad(es) física(s) en las que participaste? No sabe,1,C,p4_20,p4_20,0
+"Pregunta 5  En los últimos siete días, ¿cuántos días estuviste activo(a) durante al menos 60 minutos por día?",2,C,p5,p5,"00-07, 88, 99"
+Edad,3,C,edad,,010-014
+Sexo,1,C,sexo,sexo,"1,2"
+Clave de Entidad Federativa,2,C,ent,ent,01-32
+Dominio,1,C,dominio,dominio,"1,2"
+Región,1,C,region,region,1…4
+Estrato de Diseño,3,C,est_dis,,001-328
+UPM de Diseño,4,C,upm_dis,,0001-02080
+Estrato sociodemográfico,1,C,estrato,estrato,1…4
+Factor Actividad Física,5,C,f_10a14,,80-16834
