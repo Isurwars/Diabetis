@@ -1,0 +1,42 @@
+# ENSANUT 2018 Diabetes GNN Configuration
+data:
+  db_path: "ensanut_2018.db"
+  target_column: "p3_1"
+  exclude_gestational: true
+
+features:
+  use_demographics: true
+  use_anthropometrics: true
+  use_comorbidities: true
+  use_family_history: true
+  use_lifestyle: true
+  use_household_assets: true
+  use_survey_weights: true
+
+graph:
+  k: 10
+  metric: "cosine"
+  algorithm: "brute"
+
+split:
+  strategy: "clustered_upm"
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_state: 42
+
+model:
+  name: "GATv2"
+  hidden_dim: 64
+  heads: 4
+  dropout: 0.3
+
+training:
+  epochs: 50
+  learning_rate: 0.005
+  weight_decay: 0.0001
+  focal_loss_alpha: 0.75
+  focal_loss_gamma: 2.0
+  device: "cpu"
+  save_checkpoint: true
+  checkpoint_path: "checkpoints/best_gatv2.pt"

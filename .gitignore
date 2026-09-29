@@ -1,0 +1,31 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Large database & build artifacts
+*.db
+*.sqlite
+*.sqlite3
+ensanut_2018.db
+
+# Model checkpoints & logs
+checkpoints/
+*.pt
+*.pth
+logs/
+wandb/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
