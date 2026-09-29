@@ -282,6 +282,13 @@ Dependiendo del objetivo clínico en el sistema de salud, el modelo ofrece dos u
                                           [ 250,  439]]
 ```
 
+### 7.3 Estudio de Ablación Topológico: $k$-NN Clínico vs. Aristas Ambientales
+Una de las contribuciones clave de esta tesis es determinar si la incorporación de **458,866 aristas comunitarias (UPM)** mejora la capacidad predictiva sobre un grafo de afinidad fenotípica clínica puro.
+
+* **Conclusión Metodológica**: Agregar aristas comunitarias **no mejoró el rendimiento global** (ROC-AUC `0.8356` $\rightarrow$ `0.8274`; PR-AUC `0.3509` $\rightarrow$ `0.3319`), incrementando la complejidad estructural en un 82%.
+* **Explicación Teórica**: En enfermedades metabólicas crónicas, los vecindarios presentan alta **heterofilia de etiquetas** (jóvenes de 20 años conviviendo con ancianos diabéticos de 75 años), diluyendo la señal biológica mediante sobre-suavizado. Las variables del hogar son altamente efectivas como **atributos de entrada del nodo**, pero contraproducentes como **cliques espaciales densos**.
+* 👉 **Estudio de Caso Completo y Guía de Defensa de Tesis**: Consulte [`docs/ablation_study_environmental_edges.es.md`](docs/ablation_study_environmental_edges.es.md).
+
 ---
 
 ## 8. Explicabilidad Clínica y Razonamiento Basado en Casos

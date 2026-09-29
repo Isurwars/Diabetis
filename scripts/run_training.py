@@ -13,7 +13,7 @@ if repo_root not in sys.path:
 from src.config import load_config
 from src.data.database import load_raw_cohort
 from src.features.preprocessor import FeaturePreprocessor
-from src.graph.builder import build_multirelational_graph, create_clustered_splits
+from src.graph.builder import build_knn_graph, build_multirelational_graph, create_clustered_splits
 from src.models.gatv2 import GATv2DiabetesClassifier, FocalLoss
 from src.evaluation.metrics import evaluate_predictions
 from src.evaluation.explainer import PatientAttentionExplainer
@@ -23,6 +23,7 @@ def main():
     parser.add_argument("--config", type=str, default="configs/default.yaml", help="Path to YAML config")
     parser.add_argument("--epochs", type=int, default=None, help="Override epochs")
     parser.add_argument("--device", type=str, default=None, help="Override device (cpu or cuda)")
+    parser.add_argument("--graph-type", type=str, default="knn", choices=["knn", "multirelational"], help="Graph topology: 'knn' (default, higher AUC) or 'multirelational' (ablation test)")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -36,7 +37,7 @@ def main():
     print("=" * 65)
     print(f"• Config File      : {args.config}")
     print(f"• Database         : {cfg.data.db_path}")
-    print(f"• Graph Neighbors  : k={cfg.graph.k} ({cfg.graph.metric}) + Community UPM edges")
+    print(f"• Graph Topology   : {args.graph_type.upper()} (k={cfg.graph.k} {cfg.graph.metric})")
     print(f"• Epochs           : {cfg.training.epochs}")
     print(f"• Target Device    : {cfg.training.device.upper()}")
 
@@ -53,13 +54,22 @@ def main():
     print(f"      Feature Matrix: {n_nodes:,} nodes x {in_features} features (with household indicators).")
     print(f"      Prevalence: {y.sum():,} diagnosed diabetes ({y.mean()*100:.2f}% positive).")
 
-    # 3. Construct Multi-Relational Graph & Clustered Splits
-    print("\n[3/5] Building Multi-Relational Graph (Clinical k-NN + Community UPM edges)...")
-    edge_index, edge_type = build_multirelational_graph(X, upm_clusters, cfg.graph)
+    # 3. Construct Graph & Clustered Splits
     train_mask, val_mask, test_mask = create_clustered_splits(upm_clusters, n_nodes, cfg.split)
-    print(f"      Multi-Relational Graph: {n_nodes:,} nodes, {edge_index.shape[1]:,} directed edges.")
-    print(f"      Relation 0 (Clinical k-NN): {(edge_type == 0).sum().item():,} edges")
-    print(f"      Relation 1 (Community UPM): {(edge_type == 1).sum().item():,} edges")
+    
+    if args.graph_type == "multirelational":
+        print("\n[3/5] Building Multi-Relational Graph (Clinical k-NN + Community UPM edges)...")
+        edge_index, edge_type = build_multirelational_graph(X, upm_clusters, cfg.graph)
+        edge_dim = 16
+        print(f"      Multi-Relational Graph: {n_nodes:,} nodes, {edge_index.shape[1]:,} directed edges.")
+        print(f"      Relation 0 (Clinical k-NN): {(edge_type == 0).sum().item():,} edges")
+        print(f"      Relation 1 (Community UPM): {(edge_type == 1).sum().item():,} edges")
+    else:
+        print("\n[3/5] Building Simplified Clinical k-NN Patient Graph (Optimal Homophily)...")
+        edge_index = build_knn_graph(X, cfg.graph)
+        edge_type = None
+        edge_dim = None
+        print(f"      Clinical k-NN Graph: {n_nodes:,} nodes, {edge_index.shape[1]:,} directed edges.")
 
     pyg_data = Data(
         x=torch.tensor(X, dtype=torch.float32),
@@ -78,8 +88,9 @@ def main():
     pyg_data = pyg_data.to(device)
 
     # 4. Initialize Model, Loss, Optimizer
-    print(f"\n[4/5] Initializing Multi-Relational GATv2 model on {device.upper()}...")
-    model = GATv2DiabetesClassifier(in_features, cfg.model, edge_dim=16).to(device)
+    model_desc = "Multi-Relational GATv2" if edge_dim else "Simplified GATv2"
+    print(f"\n[4/5] Initializing {model_desc} on {device.upper()}...")
+    model = GATv2DiabetesClassifier(in_features, cfg.model, edge_dim=edge_dim).to(device)
     criterion = FocalLoss(alpha=cfg.training.focal_loss_alpha, gamma=cfg.training.focal_loss_gamma)
     optimizer = torch.optim.AdamW(model.parameters(), lr=cfg.training.learning_rate, weight_decay=cfg.training.weight_decay)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=cfg.training.epochs)
@@ -91,7 +102,7 @@ def main():
     for epoch in range(1, cfg.training.epochs + 1):
         model.train()
         optimizer.zero_grad()
-        logits, _ = model(pyg_data.x, pyg_data.edge_index, pyg_data.edge_type)
+        logits, _ = model(pyg_data.x, pyg_data.edge_index, edge_type)
         
         # Apply survey-weighted focal loss
         train_weights = pyg_data.weights[pyg_data.train_mask] if cfg.features.use_survey_weights else None
@@ -103,7 +114,7 @@ def main():
         if epoch % 10 == 0 or epoch == cfg.training.epochs:
             model.eval()
             with torch.no_grad():
-                val_logits, _ = model(pyg_data.x, pyg_data.edge_index, pyg_data.edge_type)
+                val_logits, _ = model(pyg_data.x, pyg_data.edge_index, edge_type)
                 val_probs = torch.sigmoid(val_logits[pyg_data.val_mask]).cpu().numpy()
                 val_true = pyg_data.y[pyg_data.val_mask].cpu().numpy()
                 val_metrics = evaluate_predictions(val_true, val_probs)
@@ -124,7 +135,7 @@ def main():
 
     model.eval()
     with torch.no_grad():
-        test_logits, _ = model(pyg_data.x, pyg_data.edge_index, pyg_data.edge_type)
+        test_logits, _ = model(pyg_data.x, pyg_data.edge_index, edge_type)
         test_probs = torch.sigmoid(test_logits[pyg_data.test_mask]).cpu().numpy()
         test_true = pyg_data.y[pyg_data.test_mask].cpu().numpy()
         test_metrics = evaluate_predictions(test_true, test_probs)

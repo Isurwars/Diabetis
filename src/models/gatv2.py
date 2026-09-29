@@ -31,7 +31,12 @@ class FocalLoss(nn.Module):
 
 
 class GATv2DiabetesClassifier(nn.Module):
-    def __init__(self, in_features: int, config: ModelConfig = None, edge_dim: int = 16):
+    """
+    Graph Attention Network v2 (GATv2) for diabetes risk prediction.
+    Supports both standard single-relational k-NN graphs (edge_dim=None, simpler & higher performance)
+    and multi-relational graphs with edge embeddings for ablation studies.
+    """
+    def __init__(self, in_features: int, config: ModelConfig = None, edge_dim: Optional[int] = None):
         super().__init__()
         cfg = config or ModelConfig()
         hidden_dim = cfg.hidden_dim
@@ -42,13 +47,16 @@ class GATv2DiabetesClassifier(nn.Module):
         self.input_proj = nn.Linear(in_features, hidden_dim)
         self.norm1 = nn.LayerNorm(hidden_dim)
 
-        # Relation embedding for multi-relational edges (0=Clinical k-NN, 1=Community UPM)
-        self.edge_embedding = nn.Embedding(num_embeddings=2, embedding_dim=edge_dim)
+        if edge_dim is not None and edge_dim > 0:
+            self.edge_embedding = nn.Embedding(num_embeddings=2, embedding_dim=edge_dim)
+            self.gat1 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, edge_dim=edge_dim, dropout=dropout)
+            self.gat2 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, edge_dim=edge_dim, dropout=dropout)
+        else:
+            self.edge_embedding = None
+            self.gat1 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, dropout=dropout)
+            self.gat2 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, dropout=dropout)
 
-        self.gat1 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, edge_dim=edge_dim, dropout=dropout)
         self.norm2 = nn.LayerNorm(hidden_dim)
-
-        self.gat2 = GATv2Conv(hidden_dim, hidden_dim // heads, heads=heads, edge_dim=edge_dim, dropout=dropout)
         self.norm3 = nn.LayerNorm(hidden_dim)
 
         self.classifier = nn.Sequential(
@@ -70,19 +78,32 @@ class GATv2DiabetesClassifier(nn.Module):
         h = F.elu(self.norm1(h))
         h = self.dropout(h)
 
-        edge_attr = self.edge_embedding(edge_type) if edge_type is not None else None
+        if self.edge_embedding is not None and edge_type is not None:
+            edge_attr = self.edge_embedding(edge_type)
+        else:
+            edge_attr = None
 
         if return_attention:
-            h_att1, att_weights1 = self.gat1(h, edge_index, edge_attr=edge_attr, return_attention_weights=True)
+            if edge_attr is not None:
+                h_att1, att_weights1 = self.gat1(h, edge_index, edge_attr=edge_attr, return_attention_weights=True)
+            else:
+                h_att1, att_weights1 = self.gat1(h, edge_index, return_attention_weights=True)
         else:
-            h_att1 = self.gat1(h, edge_index, edge_attr=edge_attr)
+            if edge_attr is not None:
+                h_att1 = self.gat1(h, edge_index, edge_attr=edge_attr)
+            else:
+                h_att1 = self.gat1(h, edge_index)
             att_weights1 = None
 
         h = self.norm2(h + h_att1)
         h = F.elu(h)
         h = self.dropout(h)
 
-        h_att2 = self.gat2(h, edge_index, edge_attr=edge_attr)
+        if edge_attr is not None:
+            h_att2 = self.gat2(h, edge_index, edge_attr=edge_attr)
+        else:
+            h_att2 = self.gat2(h, edge_index)
+            
         h = self.norm3(h + h_att2)
         h = F.elu(h)
 

@@ -282,6 +282,13 @@ Depending on clinical deployment objectives, the model supports calibrated decis
                                           [ 250,  439]]
 ```
 
+### 7.3 Topological Ablation Study: Clinical $k$-NN vs. Environmental Edges
+A critical research inquiry of this thesis is whether adding **458,866 intra-community (UPM) co-habitation edges** improves prediction over a pure clinical phenotype $k$-NN graph.
+
+* **Key Takeaway**: Adding community edges **did not yield a performance gain** (ROC-AUC `0.8356` $\rightarrow$ `0.8274`; PR-AUC `0.3509` $\rightarrow$ `0.3319`) while increasing edge count by 82%.
+* **Scientific Explanation**: In chronic metabolic diseases, geographic neighborhoods exhibit severe **label heterophily** (connecting 20-year-olds with 75-year-olds), causing over-smoothing. Household variables are highly effective as **node feature attributes**, but introduce structural noise as **spatial cliques**.
+* 👉 **Full Thesis Case Study & Defense Guide**: See [`docs/ablation_study_environmental_edges.md`](docs/ablation_study_environmental_edges.md).
+
 ---
 
 ## 8. Clinical Explainability & Case-Based Reasoning
