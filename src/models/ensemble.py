@@ -41,21 +41,54 @@ class TabularGraphEnsemble:
         return best_beta, best_score
 
     @staticmethod
+    def find_optimal_multimodel_blend(
+        val_probs_matrix: np.ndarray,
+        y_val: np.ndarray,
+        metric: str = "roc_auc"
+    ) -> np.ndarray:
+        """
+        Optimizes non-negative blending weights summing to 1 across M models
+        using SLSQP constrained optimization on the validation set.
+        """
+        from scipy.optimize import minimize
+        n_models = val_probs_matrix.shape[1]
+        init_weights = np.ones(n_models) / n_models
+
+        def objective(weights):
+            w = np.maximum(weights, 0)
+            if np.sum(w) == 0:
+                return 0.0
+            w = w / np.sum(w)
+            pred = np.dot(val_probs_matrix, w)
+            if metric == "pr_auc":
+                return -average_precision_score(y_val, pred)
+            return -roc_auc_score(y_val, pred)
+
+        bounds = [(0.0, 1.0) for _ in range(n_models)]
+        constraints = {"type": "eq", "fun": lambda w: np.sum(w) - 1.0}
+        res = minimize(objective, init_weights, method="SLSQP", bounds=bounds, constraints=constraints)
+        best_w = np.maximum(res.x, 0)
+        return best_w / np.sum(best_w)
+
+    @staticmethod
     def train_meta_learner(
         val_features: np.ndarray,
         y_val: np.ndarray,
         test_features: np.ndarray,
-        y_test: np.ndarray
+        y_test: np.ndarray,
+        C: float = 1.0
     ) -> Tuple[LogisticRegression, np.ndarray, float, float]:
         """
-        Trains a Logistic Regression meta-learner on out-of-fold / validation probabilities.
+        Trains an L2-regularized Logistic Regression meta-learner on validation probabilities.
         """
-        meta = LogisticRegression(class_weight="balanced", random_state=42, max_iter=200)
+        meta = LogisticRegression(C=C, class_weight="balanced", random_state=42, max_iter=200)
         meta.fit(val_features, y_val)
         meta_test_probs = meta.predict_proba(test_features)[:, 1]
         roc = roc_auc_score(y_test, meta_test_probs)
         pr = average_precision_score(y_test, meta_test_probs)
         return meta, meta_test_probs, roc, pr
+
+
 
     @staticmethod
     def train_gnn_stacked_lightgbm(

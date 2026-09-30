@@ -59,6 +59,11 @@ class GATv2DiabetesClassifier(nn.Module):
         self.norm2 = nn.LayerNorm(hidden_dim)
         self.norm3 = nn.LayerNorm(hidden_dim)
 
+        # Ego-Skip Residual Projection (prevents clinical feature dilution across noisy neighbors)
+        self.skip_proj = nn.Linear(in_features, hidden_dim)
+        self.norm_final = nn.LayerNorm(hidden_dim)
+        self.drop_edge_p = 0.15
+
         self.classifier = nn.Sequential(
             nn.Linear(hidden_dim, 32),
             nn.ReLU(),
@@ -74,6 +79,12 @@ class GATv2DiabetesClassifier(nn.Module):
         edge_type: Optional[torch.Tensor] = None,
         return_attention: bool = False
     ) -> Tuple[torch.Tensor, Optional[Tuple[torch.Tensor, torch.Tensor]]]:
+        # DropEdge regularization during training
+        if self.training and self.drop_edge_p > 0.0 and edge_type is None:
+            num_edges = edge_index.shape[1]
+            mask = torch.rand(num_edges, device=edge_index.device) > self.drop_edge_p
+            edge_index = edge_index[:, mask]
+
         h = self.input_proj(x)
         h = F.elu(self.norm1(h))
         h = self.dropout(h)
@@ -106,6 +117,10 @@ class GATv2DiabetesClassifier(nn.Module):
             
         h = self.norm3(h + h_att2)
         h = F.elu(h)
+
+        # Merge Ego-Skip projection directly with neighbor-aggregated representation
+        h = self.norm_final(h + self.skip_proj(x))
+        h = self.dropout(h)
 
         logits = self.classifier(h).squeeze(-1)
 
@@ -143,5 +158,7 @@ class GATv2DiabetesClassifier(nn.Module):
 
         h = self.norm3(h + h_att2)
         h = F.elu(h)
+        h = self.norm_final(h + self.skip_proj(x))
         return h
+
 

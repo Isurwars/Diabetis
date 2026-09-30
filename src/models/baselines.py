@@ -67,3 +67,29 @@ class TabularBaselines:
         roc = roc_auc_score(y_test, test_probs)
         pr = average_precision_score(y_test, test_probs)
         return model, roc, pr
+
+    @staticmethod
+    def train_catboost(
+        X_train: np.ndarray,
+        y_train: np.ndarray,
+        X_test: np.ndarray,
+        y_test: np.ndarray,
+        sample_weights: np.ndarray = None
+    ) -> Tuple[Any, float, float]:
+        from catboost import CatBoostClassifier
+        scale_pos_weight = (len(y_train) - y_train.sum()) / y_train.sum()
+        model = CatBoostClassifier(
+            iterations=250,
+            depth=6,
+            learning_rate=0.04,
+            scale_pos_weight=scale_pos_weight,
+            eval_metric="AUC",
+            random_seed=42,
+            verbose=0
+        )
+        model.fit(X_train, y_train, sample_weight=sample_weights)
+        test_probs = model.predict_proba(X_test)[:, 1]
+        roc = roc_auc_score(y_test, test_probs)
+        pr = average_precision_score(y_test, test_probs)
+        return model, roc, pr
+

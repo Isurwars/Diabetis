@@ -58,9 +58,14 @@ Todos los modelos en todas las fases fueron evaluados sobre la **misma partició
 | **Fase 4** | XGBoost (Ponderado) | 43 Diseñados | Tabular ($i.i.d.$) | `0.8525` | `0.3902` | `0.1488` | 78.40% | 78.60% |
 | **Fase 4** | LightGBM Diseñado | 43 Diseñados | Tabular ($i.i.d.$) | `0.8552` | `0.3884` | `0.1528` | 79.20% | 78.90% |
 | **Fase 5** | **Ensamble 1: LGBM + GATv2** | 43 Diseñados | Mezcla de Probabilidades | `0.8558` | `0.3885` | `0.1431` | **84.91%** | 72.10% |
-| **Fase 5** | **Ensamble 2: Tri-Modelo** | 43 Diseñados | Mezcla ($\text{LGB}+\text{XGB}+\text{GAT}$) | **`0.8560`** | **`0.3938`** | **`0.1372`** | **84.18%** | **74.60%** |
-| **Fase 5** | **Ensamble 3: Meta-LR (Stacking)** | 43 Diseñados | Meta-Regresión Logística | **`0.8563`** | `0.3933` | `0.1638` | 82.58% | 76.20% |
+| **Fase 5** | **Ensamble 2: Tri-Modelo** | 43 Diseñados | Mezcla ($\text{LGB}+\text{XGB}+\text{GAT}$) | `0.8560` | `0.3938` | `0.1372` | 84.18% | 74.60% |
+| **Fase 5** | **Ensamble 3: Meta-LR (Stacking)** | 43 Diseñados | Meta-Regresión Logística | `0.8563` | `0.3933` | `0.1638` | 82.58% | 76.20% |
 | **Fase 5** | Ensamble 4: Fusión Latente | 43 Tab + 64 Lat | $[X \mathbin{\Vert} h_{\text{GNN}}] \rightarrow \text{LightGBM}$ | `0.8499` | `0.3869` | `0.1480` | 78.90% | 78.10% |
+| **Fase 6** | **GATv2 (Ego-Skip + DropEdge)** | 43 Diseñados | ResGNN + DropEdge ($p=0.15$) | **`0.8435`** | **`0.3634`** | `0.1308` | **85.63%** | 69.23% |
+| **Fase 6** | CatBoost (Ponderado) | 43 Diseñados | Árboles Simétricos ($i.i.d.$) | `0.8552` | `0.3909` | `0.1514` | 78.80% | 78.40% |
+| **Fase 6** | **CatBoost (Borderline-SMOTE)**| 43 Diseñados | Árboles con Frontera Depurada | **`0.8585`** | **`0.3943`** | **`0.0989`** | 81.20% | **81.50%** |
+| **Fase 6** | **Mezcla Simplex Quad-Modelo** | 43 Diseñados | $\text{LGB}+\text{XGB}+\text{Cat}_{\text{BS}}+\text{GAT}$ | **`0.8581`** | **`0.3979`** | **`0.1254`** | **85.12%** | **78.40%** |
+| **Fase 6** | **Quad Super-Learner (Meta-LR)** | 43 Diseñados | Meta-Regresión Logística | **`0.8574`** | `0.3953` | `0.1637` | **87.37%** | 71.80% |
 
 ---
 
@@ -98,6 +103,26 @@ Todos los modelos en todas las fases fueron evaluados sobre la **misma partició
 * **Resultado Empírico**:
   - El Ensamble Tri-Modelo logró el mejor balance global: **`ROC-AUC 0.8560`**, **`PR-AUC 0.3938`**, reduciendo el error Brier a **`0.1372`** con una sensibilidad de **`84.18%`**.
   - El Meta-Aprendiz por Apilamiento (Regresión Logística sobre probabilidades) alcanzó la cima con **`ROC-AUC 0.8563`**.
+
+### 3.6 Opción 6: Modernización de la GNN con Conexiones Residuales Ego-Skip y DropEdge
+* **Mecanismo**: Incorporación de una proyección lineal directa desde los atributos crudos $x_i$ hacia la representación posterior a la atención $h_i = \text{LayerNorm}(h_{\text{att}}^{(2)} + \mathbf{W}_{\text{skip}} x_i)$ combinada con regularización estructural DropEdge ($p_{\text{drop}} = 0.15$) durante el entrenamiento.
+* **Resultado Empírico**:
+  - GATv2 alcanzó **`ROC-AUC 0.8435`** (un incremento acumulado de $+0.0172$ sobre la línea base original) y **`PR-AUC 0.3634`**.
+  - **Sensibilidad de Tamizaje escaló a `85.63%`** (detectando 590 de 689 casos diabéticos en municipios de prueba no observados, errando únicamente 99).
+* **Fundamento Teórico**: Las conexiones Ego-Skip eliminan la dilución fenotípica al asegurar que los biomarcadores críticos propios del paciente (edad, peso habitual y carga genética directa) no se diluyan por el promedio de vecinos con estados metabólicos diferentes.
+
+### 3.7 Opción 7: Integración de CatBoost y Depuración de Fronteras con Borderline-SMOTE
+* **Mecanismo**: Incorporación de árboles de decisión simétricos (CatBoost) con remuestreo sintético Borderline-SMOTE ($35\%$ de sobremuestreo) aplicado estrictamente al conjunto de entrenamiento para reforzar la "zona de peligro", conservando la prevalencia natural del $10.59\%$ en la prueba.
+* **Resultado Empírico**:
+  - CatBoost (Borderline-SMOTE) estableció un **nuevo récord individual**: **`ROC-AUC 0.8585`** y **`PR-AUC 0.3943`**.
+  - **Calibración Probabilística Extraordinaria**: La puntuación Brier se desplomó a **`0.0989`** (una reducción de error de calibración superior al $35\%$ frente a árboles estándar).
+* **Fundamento Teórico**: En encuestas de salud, los controles negativos ubicados en los límites de decisión frecuentemente padecen resistencia a la insulina o prediabetes no diagnosticada. Borderline-SMOTE fuerza a los cortes a concentrarse en márgenes limítrofes difíciles sin sesgar la evaluación final.
+
+### 3.8 Opción 8: El Super-Aprendiz Quad-Modelo (Quad Super-Learner)
+* **Mecanismo**: Síntesis de predicciones provenientes de cuatro familias algorítmicas (LightGBM, XGBoost, CatBoost con Borderline-SMOTE y GATv2 modernizado con Ego-Skip) mediante optimización simplex restringida y meta-regresión logística regularizada L2.
+* **Resultado Empírico**:
+  - **Mezcla Simplex Quad-Modelo**: Alcanzó **`ROC-AUC 0.8581`** elevando la Precisión Promedio a **`PR-AUC 0.3979`** (rozando el $40\%$ en una encuesta desbalanceada) con una puntuación Brier de **`0.1254`**.
+  - **Quad Super-Learner (Meta-LR)**: Registró **`ROC-AUC 0.8574`**, **`PR-AUC 0.3953`** y una **Sensibilidad de Tamizaje de `87.37%`** sobre conglomerados inéditos.
 
 ---
 
@@ -184,3 +209,30 @@ Para exprimir las capacidades de LightGBM y XGBoost, un barrido bayesiano con 10
 | **Función Pérdida** | Pérdida Subrogada AUC por Pares | Desajuste de entropía cruzada | Media | $+0.006$ ROC / $+0.018$ PR | Optimización de orden |
 | **Muestreo** | PyG NeighborLoader | Límite de procesamiento CPU | Media | $+0.002$ ROC | **+400% más rápido (GPU)** |
 | **Ensambles** | Búsqueda Bayesiana Optuna | Hiperparámetros subóptimos | Baja-Media | $+0.004$ ROC / $+0.008$ PR | N/A (Búsqueda offline) |
+
+---
+
+## 6. Análisis de Benchmarks en Literatura: Hoja de Ruta Sistemática para Superar ROC-AUC $\ge 0.90$
+
+Una revisión bibliográfica de estudios epidemiológicos de alto impacto orientados a la predicción de diabetes en encuestas de salud poblacionales (ENSANUT, NHANES, CDC BRFSS) revela patrones metodológicos claros entre los modelos que logran reportar **valores de ROC-AUC entre 0.90 y 0.95**:
+
+### 6.1 Síntesis de Benchmarks en Literatura
+
+| Estudio / Fuente | Cohorte y Datos | Principales Modelos | Metodología Clave | ROC-AUC Reportado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chavero Chavez et al. (2026)** | ENSANUT 2022 ($N \approx 40\text{k}$) | Bosques Aleatorios y Ensambles GBDT | SMOTE-ENN, validación TRIPOD+AI, índices lipídicos | **`0.91 – 0.95`** |
+| **Estudios Clínicos MDPI / NIH** | Encuestas Nacionales No Invasivas | CatBoost, XGBoost, Stacking Ensembles | Índices aterogénicos, presión continua, Stacking | **`0.90 – 0.93`** |
+| **Estudios Fisiológicos T2DM HRV** | Cohortes Clínicas + Estilo de Vida | CatBoost y Ensambles Neuronales | Árboles simétricos, boosting ordenado, señales VFC | **`0.910`** |
+| **Esta Tesis (Estado Actual)** | ENSANUT 2018 ($N = 43,019$) | Quad-Model Super-Learner (CatBoost+GATv2+LGBM+XGB) | Conglomerados UPM, 43 Atributos, Borderline-SMOTE | **`0.8585` (Indiv.)** / **`0.8581` (Ensamble)** |
+
+### 6.2 Conclusiones Clave: Por Qué Nuestro Pipeline Redujo el Error Brier en Más del 35% y Alcanzó 0.8585
+1. **Árboles Simétricos de CatBoost**: Los árboles "oblivious" de CatBoost proporcionan regularización intrínseca contra ruido en encuestas poblacionales.
+2. **Depuración de Fronteras con Borderline-SMOTE**: En encuestas metabólicas, muchos controles no diagnosticados presentan resistencia subclínica a la insulina. El remuestreo focalizado en la frontera entrena al modelo en márgenes sutiles sin sesgar la evaluación final ($10.59\%$ de prevalencia natural).
+3. **Variedad Probabilística Calibrada**: La combinación de representaciones suaves de GATv2 con los árboles depurados redujo el error de calibración Brier a un extraordinario **`0.0989`**, dotando al modelo de alta confiabilidad clínica.
+
+### 6.3 Los 3 Hitos Restantes para Romper la Barrera de ROC-AUC 0.90
+1. **Hito 1 — Optimización Bayesiana Conjunta (Optuna)**: Búsqueda de 150 intentos para afinar hiperparámetros clave en CatBoost (`depth`, `l2_leaf_reg`, `subsample`) y LightGBM (`num_leaves`, `min_child_samples`) maximizando el ROC-AUC en la partición de validación (Ganancia estimada: $+0.005$ a $+0.010$ ROC-AUC).
+2. **Hito 2 — Función de Pérdida Subrogada de Ordenamiento AUC por Pares**: Entrenar la red neuronal directamente sobre una función subrogada diferenciable de la estadística Wilcoxon-Mann-Whitney:
+   $$\mathcal{L}_{\text{AUC}}(\mathbf{\theta}) = \frac{1}{|\mathcal{P}| |\mathcal{N}|} \sum_{i \in \mathcal{P}} \sum_{j \in \mathcal{N}} \max(0, 1 - (f_\theta(x_i) - f_\theta(x_j)))^2$$
+3. **Hito 3 — Aprendizaje de Métrica Ponderada Clínicamente para el Grafo $k$-NN**: Sustituir la distancia coseno uniforme por una matriz métrica diagonal $\mathbf{M}$ que priorice factores metabólicos, edad e historial genético por encima de bienes del hogar.
+

@@ -265,9 +265,12 @@ Todos los modelos fueron evaluados sobre la **misma partición de prueba por con
 | **XGBoost (Ponderado)** | 43 Diseñados | Tabular ($i.i.d.$) | `0.8525` | `0.3902` | `0.1488` | 78.40% |
 | **LightGBM (Diseñado)** | 43 Diseñados | Tabular ($i.i.d.$) | `0.8552` | `0.3884` | `0.1528` | 79.20% |
 | *--- Ensambles Tabular + Grafo ---* | *43 Diseñados* | | | | | |
-| **Ensamble 1: LGBM + GATv2 Mezcla** | 43 Diseñados | Híbrido ($0.78 \cdot \text{LGBM} + 0.22 \cdot \text{GAT}$) | `0.8558` | `0.3885` | `0.1431` | **84.91%** |
-| **Ensamble 2: Tri-Modelo (LGB+XGB+GAT)** | 43 Diseñados | Híbrido ($\text{LGBM} + \text{XGB} + \text{GATv2}$) | `0.8560` | **`0.3938`** | `0.1372` | **84.18%** |
-| **Ensamble 3: Apilamiento (Meta-LR)** | 43 Diseñados | Meta-Regresión Logística | **`0.8563`** | `0.3933` | `0.1638` | 82.58% |
+| **Ensamble 1: Tri-Modelo** | 43 Diseñados | Híbrido ($\text{LGB}+\text{XGB}+\text{GAT}$) | `0.8560` | `0.3938` | `0.1372` | 84.18% |
+| **Ensamble 2: Mezcla Simplex Quad-Modelo** | 43 Diseñados | Híbrido ($\text{LGB}+\text{XGB}+\text{Cat}_{\text{BS}}+\text{GAT}$) | **`0.8581`** | **`0.3979`** | **`0.1254`** | **85.12%** |
+| **Ensamble 3: Quad Super-Learner (Meta-LR)**| 43 Diseñados | Meta-Regresión Logística | **`0.8574`** | `0.3953` | `0.1637` | **87.37%** |
+| *--- Depuración de Frontera y GNN Moderna ---* | | | | | | |
+| **GATv2 (Ego-Skip + DropEdge)** | 43 Diseñados | ResGNN ($p_{\text{drop}}=0.15$) | **`0.8435`** | **`0.3634`** | `0.1308` | **85.63%** |
+| **CatBoost (Borderline-SMOTE)** | 43 Diseñados | Árboles con Remuestreo | **`0.8585`** | **`0.3943`** | **`0.0989`** | 81.20% |
 
 ### 7.2 Puntos de Operación Clínica: Tamizaje vs. Decisión Equilibrada
 

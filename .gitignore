@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .pytest_cache/
+catboost_info/
 
 # Virtual environments
 .venv/

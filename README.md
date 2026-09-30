@@ -265,9 +265,12 @@ All models were evaluated on the **exact same clustered test split** of 6,584 ci
 | **XGBoost (Weighted)** | 43 Advanced | Tabular ($i.i.d.$) | `0.8525` | `0.3902` | `0.1488` | 78.40% |
 | **LightGBM (Engineered)** | 43 Advanced | Tabular ($i.i.d.$) | `0.8552` | `0.3884` | `0.1528` | 79.20% |
 | *--- Tabular + Graph Ensembles ---* | *43 Engineered* | | | | | |
-| **Ensemble 1: LGBM + GATv2 Blend** | 43 Advanced | Hybrid ($0.78 \cdot \text{LGBM} + 0.22 \cdot \text{GAT}$) | `0.8558` | `0.3885` | `0.1431` | **84.91%** |
-| **Ensemble 2: Tri-Model Blend** | 43 Advanced | Hybrid ($\text{LGBM} + \text{XGB} + \text{GATv2}$) | `0.8560` | **`0.3938`** | `0.1372` | **84.18%** |
-| **Ensemble 3: Stacking Meta-Learner** | 43 Advanced | Meta-Logistic Regression | **`0.8563`** | `0.3933` | `0.1638` | 82.58% |
+| **Ensemble 1: Tri-Model Blend** | 43 Advanced | Hybrid ($\text{LGB}+\text{XGB}+\text{GAT}$) | `0.8560` | `0.3938` | `0.1372` | 84.18% |
+| **Ensemble 2: Quad-Model Simplex Blend** | 43 Advanced | Hybrid ($\text{LGB}+\text{XGB}+\text{Cat}_{\text{BS}}+\text{GAT}$) | **`0.8581`** | **`0.3979`** | **`0.1254`** | **85.12%** |
+| **Ensemble 3: Quad Super-Learner (L2-LR)**| 43 Advanced | Meta-Logistic Regression | **`0.8574`** | `0.3953` | `0.1637` | **87.37%** |
+| *--- Boundary Cleaning & Modernized GNN ---* | | | | | | |
+| **GATv2 (Ego-Skip + DropEdge)** | 43 Advanced | ResGNN ($p_{\text{drop}}=0.15$) | **`0.8435`** | **`0.3634`** | `0.1308` | **85.63%** |
+| **CatBoost (Borderline-SMOTE)** | 43 Advanced | Boundary Resampled Trees | **`0.8585`** | **`0.3943`** | **`0.0989`** | 81.20% |
 
 ### 7.2 Clinical Screening Operating Points (GATv2 & Ensembles)
 
