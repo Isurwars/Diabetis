@@ -112,3 +112,36 @@ class GATv2DiabetesClassifier(nn.Module):
         if return_attention:
             return logits, att_weights1
         return logits, None
+
+    def get_embeddings(
+        self,
+        x: torch.Tensor,
+        edge_index: torch.Tensor,
+        edge_type: Optional[torch.Tensor] = None
+    ) -> torch.Tensor:
+        """Extracts the 64-dimensional latent graph node representation."""
+        h = self.input_proj(x)
+        h = F.elu(self.norm1(h))
+
+        if self.edge_embedding is not None and edge_type is not None:
+            edge_attr = self.edge_embedding(edge_type)
+        else:
+            edge_attr = None
+
+        if edge_attr is not None:
+            h_att1 = self.gat1(h, edge_index, edge_attr=edge_attr)
+        else:
+            h_att1 = self.gat1(h, edge_index)
+
+        h = self.norm2(h + h_att1)
+        h = F.elu(h)
+
+        if edge_attr is not None:
+            h_att2 = self.gat2(h, edge_index, edge_attr=edge_attr)
+        else:
+            h_att2 = self.gat2(h, edge_index)
+
+        h = self.norm3(h + h_att2)
+        h = F.elu(h)
+        return h
+

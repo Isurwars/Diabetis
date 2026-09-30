@@ -251,35 +251,44 @@ Todos los modelos fueron evaluados sobre la **misma partición de prueba por con
 
 ### 7.1 Comparativa Cuantitativa de Desempeño
 
-| Modelo | Topología de Entrada | ROC-AUC Prueba | PR-AUC Prueba | Puntuación Brier | Sensibilidad (Recall) | Especificidad |
+Todos los modelos fueron evaluados sobre la **misma partición de prueba por conglomerados** (6,584 ciudadanos: 689 diabéticos diagnosticados y 5,895 controles sanos en UPMs no observadas):
+
+| Modelo / Arquitectura | Espacio de Atributos | Topología de Entrada | ROC-AUC Prueba | PR-AUC Prueba | Puntuación Brier | Sensibilidad Tamizaje |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Regresión Logística** | Tabular ($i.i.d.$) | `0.8401` | `0.3505` | `0.1482` | 74.30% | 76.80% |
-| **XGBoost (Ponderado)** | Tabular ($i.i.d.$) | `0.8471` | `0.3773` | `0.1389` | 76.50% | 77.20% |
-| **LightGBM** | Tabular ($i.i.d.$) | **`0.8491`** | **`0.3781`** | **`0.1342`** | 77.10% | 77.80% |
-| **GATv2 (Solo k-NN)** | Grafo Mono-Relacional | `0.8321` | `0.3483` | `0.1334` | **87.37%** | 65.31% |
-| **GATv2 Multi-Relacional** | Grafo Multi-Relacional ($\mathcal{E}_{\text{clín}} + \mathcal{E}_{\text{com}}$) | `0.8274` | `0.3319` | `0.1367` | **83.02%** | **69.48%** |
+| **Regresión Logística** | 24 Crudos | Tabular ($i.i.d.$) | `0.8401` | `0.3505` | `0.1482` | 74.30% |
+| **GATv2 Base** | 24 Crudos | Grafo Clínico $k$-NN | `0.8263` | `0.3364` | `0.1393` | 81.86% |
+| **XGBoost (Ponderado)** | 24 Crudos | Tabular ($i.i.d.$) | `0.8471` | `0.3773` | `0.1532` | 76.50% |
+| **LightGBM Base** | 24 Crudos | Tabular ($i.i.d.$) | `0.8491` | `0.3781` | `0.1563` | 77.10% |
+| *--- Ingeniería de Atributos ---* | *43 Diseñados* | | | | | |
+| **Regresión Logística** | 43 Diseñados | Tabular ($i.i.d.$) | `0.8465` | `0.3682` | `0.1420` | 76.80% |
+| **GATv2 (k-NN)** | 43 Diseñados | Grafo Mono-Relacional | `0.8403` | `0.3600` | **`0.1286`** | **83.45%** |
+| **XGBoost (Ponderado)** | 43 Diseñados | Tabular ($i.i.d.$) | `0.8525` | `0.3902` | `0.1488` | 78.40% |
+| **LightGBM (Diseñado)** | 43 Diseñados | Tabular ($i.i.d.$) | `0.8552` | `0.3884` | `0.1528` | 79.20% |
+| *--- Ensambles Tabular + Grafo ---* | *43 Diseñados* | | | | | |
+| **Ensamble 1: LGBM + GATv2 Mezcla** | 43 Diseñados | Híbrido ($0.78 \cdot \text{LGBM} + 0.22 \cdot \text{GAT}$) | `0.8558` | `0.3885` | `0.1431` | **84.91%** |
+| **Ensamble 2: Tri-Modelo (LGB+XGB+GAT)** | 43 Diseñados | Híbrido ($\text{LGBM} + \text{XGB} + \text{GATv2}$) | `0.8560` | **`0.3938`** | `0.1372` | **84.18%** |
+| **Ensamble 3: Apilamiento (Meta-LR)** | 43 Diseñados | Meta-Regresión Logística | **`0.8563`** | `0.3933` | `0.1638` | 82.58% |
 
 ### 7.2 Puntos de Operación Clínica: Tamizaje vs. Decisión Equilibrada
 
 Dependiendo del objetivo clínico en el sistema de salud, el modelo ofrece dos umbrales de decisión calibrados:
 
 ```
-[A] Punto de Operación para Tamizaje Poblacional (Estadístico J de Youden, τ = 0.4195)
+[A] Punto de Operación para Tamizaje Poblacional (GATv2 Youden's J, τ = 0.4017)
     Óptimo para campañas comunitarias: prioriza detectar la mayor cantidad de personas enfermas.
-    - Sensibilidad / Recall (Diabetes) : 83.02% (572 de 689 casos detectados)
-    - Especificidad (No Diabéticos)    : 69.48% (4,096 de 5,895 verdaderos negativos)
-    - Exactitud Global (Accuracy)      : 70.90%
-    - Matriz de Confusión              : [[4096, 1799], 
-                                          [ 117,  572]]
+    - Sensibilidad / Recall (Diabetes) : 83.45% (575 de 689 casos detectados)
+    - Especificidad (No Diabéticos)    : 70.18% (4,137 de 5,895 verdaderos negativos)
+    - Exactitud Global (Accuracy)      : 71.57%
+    - Puntuación Brier                 : 0.1286
+    - Matriz de Confusión              : [[4137, 1758], 
+                                          [ 114,  575]]
 
-[B] Punto de Operación para Diagnóstico Confirmatorio (Máximo F1-Score, τ = 0.4916)
-    Óptimo para reducir falsas alarmas antes de estudios de laboratorio costosos.
-    - Sensibilidad / Recall (Diabetes) : 63.72% (439 de 689 casos detectados)
-    - Especificidad (No Diabéticos)    : 82.54% (4,866 de 5,895 verdaderos negativos)
-    - Exactitud Global (Accuracy)      : 80.57%
-    - Puntuación F1 (Diabetes)         : 0.4070
-    - Matriz de Confusión              : [[4866, 1029], 
-                                          [ 250,  439]]
+[B] Punto de Operación Equilibrado de Ensamble Tri-Modelo (τ = 0.4410)
+    Óptimo para estratificación de riesgo clínico: logra el máximo PR-AUC con calibración superior.
+    - Test ROC-AUC                     : 0.8560
+    - Test PR-AUC (Average Precision)  : 0.3938
+    - Puntuación Brier                 : 0.1372 (Calibración muy superior a árboles aislados)
+    - Sensibilidad de Tamizaje         : 84.18%
 ```
 
 ### 7.3 Estudio de Ablación Topológico: $k$-NN Clínico vs. Aristas Ambientales
@@ -288,6 +297,7 @@ Una de las contribuciones clave de esta tesis es determinar si la incorporación
 * **Conclusión Metodológica**: Agregar aristas comunitarias **no mejoró el rendimiento global** (ROC-AUC `0.8356` $\rightarrow$ `0.8274`; PR-AUC `0.3509` $\rightarrow$ `0.3319`), incrementando la complejidad estructural en un 82%.
 * **Explicación Teórica**: En enfermedades metabólicas crónicas, los vecindarios presentan alta **heterofilia de etiquetas** (jóvenes de 20 años conviviendo con ancianos diabéticos de 75 años), diluyendo la señal biológica mediante sobre-suavizado. Las variables del hogar son altamente efectivas como **atributos de entrada del nodo**, pero contraproducentes como **cliques espaciales densos**.
 * 👉 **Estudio de Caso Completo y Guía de Defensa de Tesis**: Consulte [`docs/ablation_study_environmental_edges.es.md`](docs/ablation_study_environmental_edges.es.md).
+* 📈 **Progresión de Modelos y Hoja de Ruta de Convergencia**: Consulte [`docs/model_comparison_and_convergence_roadmap.es.md`](docs/model_comparison_and_convergence_roadmap.es.md).
 
 ---
 

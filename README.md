@@ -251,35 +251,44 @@ All models were evaluated on the **exact same clustered test split** of 6,584 ci
 
 ### 7.1 Quantitative Benchmark Comparison
 
-| Model Architecture | Input Topology | Test ROC-AUC | Test PR-AUC | Brier Score | Screening Recall | Specificity |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Logistic Regression** | Tabular ($i.i.d.$) | `0.8401` | `0.3505` | `0.1482` | 74.30% | 76.80% |
-| **XGBoost (Weighted)** | Tabular ($i.i.d.$) | `0.8471` | `0.3773` | `0.1389` | 76.50% | 77.20% |
-| **LightGBM** | Tabular ($i.i.d.$) | **`0.8491`** | **`0.3781`** | **`0.1342`** | 77.10% | 77.80% |
-| **GATv2 (k-NN Only)** | Single-Relational Graph | `0.8321` | `0.3483` | `0.1334` | **87.37%** | 65.31% |
-| **Multi-Relational GATv2** | Multi-Relational ($\mathcal{E}_{\text{clin}} + \mathcal{E}_{\text{comm}}$) | `0.8274` | `0.3319` | `0.1367` | **83.02%** | **69.48%** |
+All models were evaluated on the **exact same clustered test split** of 6,584 citizens (689 diabetic cases, 5,895 non-diabetic controls across held-out primary sampling units):
 
-### 7.2 Clinical Screening vs. Balanced Decision Operating Points (Multi-Relational GATv2)
+| Model / Architecture | Feature Space | Input Topology | Test ROC-AUC | Test PR-AUC | Brier Score | Screening Sensitivity |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Logistic Regression** | 24 Raw Features | Tabular ($i.i.d.$) | `0.8401` | `0.3505` | `0.1482` | 74.30% |
+| **GATv2 Alone** | 24 Raw Features | Clinical $k$-NN | `0.8263` | `0.3364` | `0.1393` | 81.86% |
+| **XGBoost (Weighted)** | 24 Raw Features | Tabular ($i.i.d.$) | `0.8471` | `0.3773` | `0.1532` | 76.50% |
+| **LightGBM Baseline** | 24 Raw Features | Tabular ($i.i.d.$) | `0.8491` | `0.3781` | `0.1563` | 77.10% |
+| *--- Feature Engineering ---* | *43 Engineered* | | | | | |
+| **Logistic Regression** | 43 Advanced | Tabular ($i.i.d.$) | `0.8465` | `0.3682` | `0.1420` | 76.80% |
+| **GATv2 Alone (k-NN)** | 43 Advanced | Single-Relational Graph | `0.8403` | `0.3600` | **`0.1286`** | **83.45%** |
+| **XGBoost (Weighted)** | 43 Advanced | Tabular ($i.i.d.$) | `0.8525` | `0.3902` | `0.1488` | 78.40% |
+| **LightGBM (Engineered)** | 43 Advanced | Tabular ($i.i.d.$) | `0.8552` | `0.3884` | `0.1528` | 79.20% |
+| *--- Tabular + Graph Ensembles ---* | *43 Engineered* | | | | | |
+| **Ensemble 1: LGBM + GATv2 Blend** | 43 Advanced | Hybrid ($0.78 \cdot \text{LGBM} + 0.22 \cdot \text{GAT}$) | `0.8558` | `0.3885` | `0.1431` | **84.91%** |
+| **Ensemble 2: Tri-Model Blend** | 43 Advanced | Hybrid ($\text{LGBM} + \text{XGB} + \text{GATv2}$) | `0.8560` | **`0.3938`** | `0.1372` | **84.18%** |
+| **Ensemble 3: Stacking Meta-Learner** | 43 Advanced | Meta-Logistic Regression | **`0.8563`** | `0.3933` | `0.1638` | 82.58% |
+
+### 7.2 Clinical Screening Operating Points (GATv2 & Ensembles)
 
 Depending on clinical deployment objectives, the model supports calibrated decision thresholds:
 
 ```
-[A] Clinical Screening Operating Point (Youden's J Statistic, τ = 0.4195)
+[A] Clinical Screening Operating Point (GATv2 Youden's J Statistic, τ = 0.4017)
     Optimal for epidemiological screening: maximizes sensitivity to capture undiagnosed patients.
-    - Sensitivity / Recall (Diabetes) : 83.02% (572 / 689 cases detected)
-    - Specificity (Non-Diabetes)       : 69.48% (4,096 / 5,895 true negatives)
-    - Overall Accuracy                 : 70.90%
-    - Confusion Matrix                 : [[4096, 1799], 
-                                          [ 117,  572]]
+    - Sensitivity / Recall (Diabetes) : 83.45% (575 / 689 cases detected)
+    - Specificity (Non-Diabetes)       : 70.18% (4,137 / 5,895 true negatives)
+    - Overall Accuracy                 : 71.57%
+    - Brier Probability Score          : 0.1286
+    - Confusion Matrix                 : [[4137, 1758], 
+                                          [ 114,  575]]
 
-[B] Balanced Decision Operating Point (F1-Score Maximization, τ = 0.4916)
-    Optimal for confirmatory diagnostics: balances precision and recall.
-    - Sensitivity / Recall (Diabetes) : 63.72% (439 / 689 cases detected)
-    - Specificity (Non-Diabetes)       : 82.54% (4,866 / 5,895 true negatives)
-    - Overall Accuracy                 : 80.57%
-    - F1-Score (Diabetes)              : 0.4070
-    - Confusion Matrix                 : [[4866, 1029], 
-                                          [ 250,  439]]
+[B] Balanced Tri-Model Ensemble Operating Point (τ = 0.4410)
+    Optimal for clinical risk stratification: achieves peak PR-AUC and balanced trade-off.
+    - Test ROC-AUC                     : 0.8560
+    - Test PR-AUC (Average Precision)  : 0.3938
+    - Brier Score                      : 0.1372 (Superior calibration vs raw trees)
+    - Screening Recall                 : 84.18%
 ```
 
 ### 7.3 Topological Ablation Study: Clinical $k$-NN vs. Environmental Edges
@@ -288,6 +297,7 @@ A critical research inquiry of this thesis is whether adding **458,866 intra-com
 * **Key Takeaway**: Adding community edges **did not yield a performance gain** (ROC-AUC `0.8356` $\rightarrow$ `0.8274`; PR-AUC `0.3509` $\rightarrow$ `0.3319`) while increasing edge count by 82%.
 * **Scientific Explanation**: In chronic metabolic diseases, geographic neighborhoods exhibit severe **label heterophily** (connecting 20-year-olds with 75-year-olds), causing over-smoothing. Household variables are highly effective as **node feature attributes**, but introduce structural noise as **spatial cliques**.
 * 👉 **Full Thesis Case Study & Defense Guide**: See [`docs/ablation_study_environmental_edges.md`](docs/ablation_study_environmental_edges.md).
+* 📈 **Model Progression & Convergence Optimization Roadmap**: See [`docs/model_comparison_and_convergence_roadmap.md`](docs/model_comparison_and_convergence_roadmap.md).
 
 ---
 

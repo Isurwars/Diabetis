@@ -53,6 +53,8 @@ def load_raw_cohort(
         r.sexo,
         r.nivel as nivel_educativo,
         r.estrato as estrato_socioeconomico,
+        a.dominio,
+        a.region,
         -- Anthropometrics & clinical history from adultos
         a.p1_1 as dx_obesidad,
         a.p1_4 as silueta_corporal,
@@ -64,8 +66,12 @@ def load_raw_cohort(
         a.p7_1_1 as ant_padre_diab,
         a.p7_1_2 as ant_madre_diab,
         a.p7_1_3 as ant_hermano_diab,
+        a.p7_2_1 as ant_padre_hta,
+        a.p7_2_2 as ant_madre_hta,
+        a.p7_2_3 as ant_hermano_hta,
         a.p13_1 as fuma_100_cigarros,
         a.p13_2 as fuma_actualmente,
+        a.p14_1 as consume_alcohol,
         -- Household assets & structure from hogares
         h.p2_9_1 as tiene_refri,
         h.p2_9_2 as tiene_lavadora,
